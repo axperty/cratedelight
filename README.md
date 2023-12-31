@@ -9,7 +9,8 @@
 <li>🍒 Berry Crate</li>
 <li>🥚 Egg Crate</li>
 <li>🌟 Glowberry Crate</li>
-<li>🍫 Cocoa Beans Bag</li><br/>
+<li>🍫 Cocoa Beans Bag</li>
+<li>🧺 Sugar Bag</li><br/>
 
 <p><b>Additional Information:</b></p>
 <li>This project is based on the <a href="https://modrinth.com/mod/expanded-delight">Expanded Delight</a> mod by ianm1647.</li>
