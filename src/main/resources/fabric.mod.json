@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "cratedelight",
+  "version": "1.1.2",
+  "name": "Crate Delight",
+  "description": "An addon mod for Farmer's Delight that adds more crates to the base mod.",
+  "authors": [
+    "Axperty"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/"
+  },
+  "license": "MIT",
+  "icon": "assets/cratedelight/logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.axperty.cratedelight.CrateDelight"
+    ],
+    "client": [
+      "com.axperty.cratedelight.CrateDelightClient"
+    ],
+    "fabric-datagen": [
+      "com.axperty.cratedelight.CrateDelightDataGen"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17",
+    "farmersdelight": "*"
+  }
+}
