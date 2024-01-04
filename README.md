@@ -2,7 +2,9 @@
 --
 **Upgrade your Farmer's Delight experience!** Forget chests and say hello to more food storage. Craft beautiful crates for your apples, berries, glowberries, and eggs.
 
-[Download on Modrinth](https://modrinth.com/mod/crate-delight) | [Changelog](https://github.com/axperty/cratedelight/blob/master/CHANGELOG.md)
+[Download on CurseForge](https://curseforge.com/minecraft/mc-mods/crate-delight) | [Download on Modrinth](https://modrinth.com/mod/crate-delight)
+
+[View Changelog](https://github.com/axperty/cratedelight/blob/master/CHANGELOG.md)
 
 **Features:**
 
