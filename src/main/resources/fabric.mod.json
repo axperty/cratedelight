@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cratedelight",
-  "version": "1.2.7",
+  "version": "1.3.8",
   "name": "Crate Delight",
   "description": "An addon mod for Farmer's Delight that adds more crates to the base mod.",
   "authors": [

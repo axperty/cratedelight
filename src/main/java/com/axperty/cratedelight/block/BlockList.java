@@ -20,4 +20,7 @@ public class BlockList {
 
     // Sugar Bag
     public static Block SUGAR_BAG;
+
+    // Salt Bag (for Expanded Delight)
+    public static Block SALT_BAG;
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:salt_bag"
+    }
+  ],
+  "result": {
+    "item": "expandeddelight:ground_salt",
+    "count": 9
+  }
+}

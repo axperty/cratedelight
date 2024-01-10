@@ -5,6 +5,7 @@ import com.axperty.cratedelight.block.BlockList;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -38,6 +39,12 @@ public class BlockRegistry {
         // Sugar Bag Registry
         BlockList.SUGAR_BAG = block("sugar_bag",
                 new Block(blockSettings(.8f, .8f, BlockSoundGroup.WOOL)));
+
+        // Salt Bag Registry (for Expanded Delight)
+        if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
+            BlockList.SALT_BAG = block("salt_bag",
+                    new Block(blockSettings(.8f, .8f, BlockSoundGroup.WOOL)));
+        }
 
     }
     private static FabricBlockSettings blockSettings(float hardness, float resistance, BlockSoundGroup sound) {
