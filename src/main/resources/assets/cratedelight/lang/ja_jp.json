@@ -32,5 +32,11 @@
   "block.cratedelight.potato_crate": "ジャガイモの箱",
   "block.cratedelight.beetroot_crate": "ビートルートの箱",
 
+  "block.cratedelight.black_berry_crate": "ブラックベリーのクレート",
+  "block.cratedelight.green_berry_crate": "グリーンベリーのクレート",
+  "block.cratedelight.orange_berry_crate": "オレンジベリーのクレート",
+  "block.cratedelight.yellow_berry_crate": "イエローベリーのクレート",
+  "block.cratedelight.purple_berry_crate": "パープルベリーのクレート",
+
   "itemGroup.cratedelight": "Crate Delight"
 }

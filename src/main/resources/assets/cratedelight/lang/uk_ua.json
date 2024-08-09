@@ -32,5 +32,11 @@
   "block.cratedelight.potato_crate": "Коробка картоплі",
   "block.cratedelight.beetroot_crate": "Коробка буряка",
 
+  "block.cratedelight.black_berry_crate": "Ящик з чорними ягодами",
+  "block.cratedelight.green_berry_crate": "Ящик з зеленими ягодами",
+  "block.cratedelight.orange_berry_crate": "Ящик з помаранчевими ягодами",
+  "block.cratedelight.yellow_berry_crate": "Ящик з жовтими ягодами",
+  "block.cratedelight.purple_berry_crate": "Ящик з фіолетовими ягодами",
+
   "itemGroup.cratedelight": "Crate Delight"
 }

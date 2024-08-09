@@ -30,9 +30,29 @@ public class BlockRegistry {
     public static final Block BERRY_CRATE = registerBlock("berry_crate",
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
 
-    // Blueberry Crate Registry (nutritious-feast)
+    // Blueberry Crate Registry (nutritious-feast, moreberries)
         public static final Block BLUEBERRY_CRATE = registerBlock("blueberry_crate",
                 new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+
+    // Black Berry Crate Registry (moreberries)
+    public static final Block BLACK_BERRY_CRATE = registerBlock("black_berry_crate",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+
+    // Green Berry Crate Registry (moreberries)
+    public static final Block GREEN_BERRY_CRATE = registerBlock("green_berry_crate",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+
+    // Orange Berry Crate Registry (moreberries)
+    public static final Block ORANGE_BERRY_CRATE = registerBlock("orange_berry_crate",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+
+    // Yellow Berry Crate Registry (moreberries)
+    public static final Block YELLOW_BERRY_CRATE = registerBlock("yellow_berry_crate",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+
+    // Purple Berry Crate Registry (moreberries)
+    public static final Block PURPLE_BERRY_CRATE = registerBlock("purple_berry_crate",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
 
     // Glow Berry Crate Registry
     public static final Block GLOWBERRY_CRATE = registerBlock("glowberry_crate",

@@ -26,6 +26,26 @@
       "required": false
     },
     {
+      "id": "cratedelight:black_berry_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:green_berry_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:orange_berry_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:purple_berry_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:yellow_berry_crate",
+      "required": false
+    },
+    {
       "id": "cratedelight:glowberry_crate",
       "required": false
     },

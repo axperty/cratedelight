@@ -28,8 +28,16 @@ public class ModCreativeTab {
                         entries.add(BlockRegistry.APPLE_CRATE);
                         entries.add(BlockRegistry.BERRY_CRATE);
 
-                        if (FabricLoader.getInstance().isModLoaded("nutritious-feast")) {
+                        if (FabricLoader.getInstance().isModLoaded("nutritious-feast") || FabricLoader.getInstance().isModLoaded("moreberries")) {
                             entries.add(BlockRegistry.BLUEBERRY_CRATE);
+                        }
+
+                        if (FabricLoader.getInstance().isModLoaded("moreberries")) {
+                            entries.add(BlockRegistry.BLACK_BERRY_CRATE);
+                            entries.add(BlockRegistry.GREEN_BERRY_CRATE);
+                            entries.add(BlockRegistry.ORANGE_BERRY_CRATE);
+                            entries.add(BlockRegistry.YELLOW_BERRY_CRATE);
+                            entries.add(BlockRegistry.PURPLE_BERRY_CRATE);
                         }
 
                         entries.add(BlockRegistry.GLOWBERRY_CRATE);

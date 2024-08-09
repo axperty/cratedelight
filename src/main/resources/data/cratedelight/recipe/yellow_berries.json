@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "moreberries"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:yellow_berry_crate"
+    }
+  ],
+  "result": {
+    "id": "moreberries:yellow_berries",
+    "count": 9
+  }
+}
