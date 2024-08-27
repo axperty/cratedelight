@@ -1,10 +1,13 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:all_mods_not_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "farmersdelight"
+        ]
+      }
     }
   ],
   "type": "minecraft:crafting_shapeless",
