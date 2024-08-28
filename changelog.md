@@ -2,7 +2,7 @@
 
 ### Minor Update
 
-**Summary:** This minor update adds recipe book entries, and fixes some important bugs.
+**Summary:** This minor update adds recipe book entries, and fixes an important bug.
 
 ***
 
@@ -13,7 +13,6 @@
 ### 🛠️ Bug Fixes:
 
 - Fixed a bug where Crate Delight was spamming the console with errors when certain mods weren't loaded into the game [#10.](https://github.com/axperty/cratedelight/issues/10)
-- Fixed a bug where breaking the blueberry crate while using Nutritious Feast didn't drop the crate itself.
 
 ### 📝 Translations:
 
