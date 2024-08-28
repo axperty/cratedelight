@@ -3,6 +3,7 @@
     {
       "condition": "fabric:any_mod_loaded",
       "values": [
+        "moreberries",
         "nutritious-feast"
       ]
     }

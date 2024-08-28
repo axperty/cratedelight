@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "expandeddelight"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:peanut_crate"
+    }
+  ],
+  "result": {
+    "item": "expandeddelight:peanut",
+    "count": 9
+  }
+}

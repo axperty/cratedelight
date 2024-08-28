@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "expandeddelight"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:salt_bag"
+    }
+  ],
+  "result": {
+    "item": "expandeddelight:ground_salt",
+    "count": 9
+  }
+}

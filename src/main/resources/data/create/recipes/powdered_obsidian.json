@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:powdered_obsidian_bag"
+    }
+  ],
+  "result": {
+    "item": "create:powdered_obsidian",
+    "count": 9
+  }
+}
