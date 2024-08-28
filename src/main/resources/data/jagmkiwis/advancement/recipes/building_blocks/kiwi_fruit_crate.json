@@ -1,12 +1,20 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "jagmkiwis"
+      ]
+    }
+  ],
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cocoa_beans": {
+    "has_kiwi_fruit": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cocoa_beans"
+              "jagmkiwis:kiwi_fruit"
             ]
           }
         ]
@@ -15,20 +23,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelight:cocoa_beans_crate"
+        "recipe": "jagmkiwis:kiwi_fruit_crate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_cocoa_beans",
+      "has_kiwi_fruit",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "cratedelight:cocoa_beans_crate"
+      "jagmkiwis:kiwi_fruit_crate"
     ]
   },
   "sends_telemetry_event": false

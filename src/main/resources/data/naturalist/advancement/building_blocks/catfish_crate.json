@@ -1,12 +1,20 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "naturalist"
+      ]
+    }
+  ],
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cod": {
+    "has_catfish": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cod"
+              "naturalist:catfish"
             ]
           }
         ]
@@ -15,20 +23,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelight:cod_crate"
+        "recipe": "naturalist:catfish_crate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_cod",
+      "has_catfish",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "cratedelight:cod_crate"
+      "naturalist:catfish_crate"
     ]
   },
   "sends_telemetry_event": false

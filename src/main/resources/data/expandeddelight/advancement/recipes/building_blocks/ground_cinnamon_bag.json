@@ -1,12 +1,20 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "expandeddelight"
+      ]
+    }
+  ],
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cod": {
+    "has_ground_cinnamon": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cod"
+              "expandeddelight:ground_cinnamon"
             ]
           }
         ]
@@ -15,20 +23,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelight:cod_crate"
+        "recipe": "expandeddelight:ground_cinnamon_bag"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_cod",
+      "has_ground_cinnamon",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "cratedelight:cod_crate"
+      "expandeddelight:ground_cinnamon_bag"
     ]
   },
   "sends_telemetry_event": false

@@ -1,12 +1,20 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "jagmkiwis"
+      ]
+    }
+  ],
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cod": {
+    "has_kiwi_egg": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cod"
+              "jagmkiwis:kiwi_egg"
             ]
           }
         ]
@@ -15,20 +23,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelight:cod_crate"
+        "recipe": "jagmkiwis:kiwi_egg_crate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_cod",
+      "has_kiwi_egg",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "cratedelight:cod_crate"
+      "jagmkiwis:kiwi_egg_crate"
     ]
   },
   "sends_telemetry_event": false

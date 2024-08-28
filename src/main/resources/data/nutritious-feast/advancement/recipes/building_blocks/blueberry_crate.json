@@ -1,12 +1,20 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "nutritious-feast"
+      ]
+    }
+  ],
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cod": {
+    "has_blueberries": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cod"
+              "nutritious-feast:blueberries"
             ]
           }
         ]
@@ -15,20 +23,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelight:cod_crate"
+        "recipe": "nutritious-feast:blueberry_crate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_cod",
+      "has_blueberries",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "cratedelight:cod_crate"
+      "nutritious-feast:blueberry_crate"
     ]
   },
   "sends_telemetry_event": false
