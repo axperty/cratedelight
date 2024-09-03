@@ -45,6 +45,10 @@ public class ModCreativeModTabs {
                             pOutput.accept(ModBlocks.BASS_CRATE.get());
                         }
 
+                        if (ModList.get().isLoaded("betterend")) {
+                            pOutput.accept(ModBlocks.END_FISH_CRATE.get());
+                        }
+
                         if (ModList.get().isLoaded("jagmkiwis")) {
                             pOutput.accept(ModBlocks.KIWI_EGG_CRATE.get());
                             pOutput.accept(ModBlocks.KIWIFRUIT_CRATE.get());
@@ -71,6 +75,10 @@ public class ModCreativeModTabs {
                             pOutput.accept(ModBlocks.WHEAT_FLOUR_BAG.get());
                             pOutput.accept(ModBlocks.POWDERED_OBSIDIAN_BAG.get());
                             pOutput.accept(ModBlocks.CINDER_FLOUR_BAG.get());
+                        }
+
+                        if (ModList.get().isLoaded("betterend")) {
+                            pOutput.accept(ModBlocks.ENDER_DUST_BAG.get());
                         }
                     })
                     .build());

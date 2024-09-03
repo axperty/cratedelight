@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "betterend"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:end_fish_crate"
+    }
+  ],
+  "result": {
+    "id": "betterend:end_fish_raw",
+    "count": 9
+  }
+}

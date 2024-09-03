@@ -1,0 +1,48 @@
+{
+  "type": "forge:conditional",
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "alexsmobs"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "criteria": {
+          "has_crocodile_egg": {
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "alexsmobs:crocodile_egg"
+                  ]
+                }
+              ]
+            },
+            "trigger": "minecraft:inventory_changed"
+          },
+          "has_the_recipe": {
+            "conditions": {
+              "recipe": "alexsmobs:crocodile_egg_crate"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+          }
+        },
+        "requirements": [
+          [
+            "has_crocodile_egg",
+            "has_the_recipe"
+          ]
+        ],
+        "rewards": {
+          "recipes": [
+            "alexsmobs:crocodile_egg_crate"
+          ]
+        },
+        "sends_telemetry_event": false
+      }
+    }
+  ]
+}

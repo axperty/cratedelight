@@ -103,6 +103,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> BASS_CRATE = registerBlock("bass_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
+    // End Fish Crate (BetterEnd & Sinytra Connector)
+    public static final RegistryObject<Block> END_FISH_CRATE = registerBlock("end_fish_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
     // Red Mushroom Crate
     public static final RegistryObject<Block> RED_MUSHROOM_CRATE = registerBlock("red_mushroom_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
@@ -141,6 +145,10 @@ public class ModBlocks {
 
     // Cinder Flour Bag (Create)
     public static final RegistryObject<Block> CINDER_FLOUR_BAG = registerBlock("cinder_flour_bag",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
+
+    // Ender Dust Bag (BetterEnd & Sinytra Connector)
+    public static final RegistryObject<Block> ENDER_DUST_BAG = registerBlock("ender_dust_bag",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

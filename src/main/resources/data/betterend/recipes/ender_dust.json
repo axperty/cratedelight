@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "betterend"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:ender_dust_bag"
+    }
+  ],
+  "result": {
+    "id": "betterend:ender_dust",
+    "count": 9
+  }
+}
