@@ -9,12 +9,12 @@
 ### 🛠️ Minor Changes:
 
 - All item recipes can now be unlocked by obtaining specific items, allowing players to discover new crafting options as they gather resources.
+- The End Fish Crate and Ender Dust Bag from BetterEnd are now loaded when using the Sinytra Connector [#5.](https://github.com/axperty/cratedelight/issues/5)
 
 ### 📝 Translations:
 
 - Added translations for Traditional Chinese (Taiwan), special thanks to [Lobster0228.](https://github.com/Lobster0228)
 ***
-
 
 Your feedback is important to make improvements to this mod, submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub.](https://github.com/axperty/cratedelight)
 You can also support modding development by donating through [PayPal.](https://paypal.me/kevgelhorn)
