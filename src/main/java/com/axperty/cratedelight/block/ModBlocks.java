@@ -38,11 +38,6 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(2.0f, 3.0f).sound(SoundType.WOOD)));
 
-    // Blueberry Crate
-    public static final RegistryObject<Block> BLUEBERRY_CRATE = BLOCKS.register("blueberry_crate",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(2.0f, 3.0f).sound(SoundType.WOOD)));
-
     // Glow Berry Crate
     public static final RegistryObject<Block> GLOWBERRY_CRATE = BLOCKS.register("glowberry_crate",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
@@ -53,27 +48,6 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(2.0f, 3.0f).sound(SoundType.WOOD)));
 
-    // Duck Egg Crate (Naturalist)
-    public static final RegistryObject<Block> DUCK_EGG_CRATE = BLOCKS.register("duck_egg_crate",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(2.0f, 3.0f).sound(SoundType.WOOD)));
-
-    // Emu Egg Crate (Alex's Mobs)
-    public static final RegistryObject<Block> EMU_EGG_CRATE = BLOCKS.register("emu_egg_crate",
-            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
-
-    // Terrapin Egg Crate (Alex's Mobs)
-    public static final RegistryObject<Block> TERRAPIN_EGG_CRATE = BLOCKS.register("terrapin_egg_crate",
-            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
-
-    // Crocodile Egg Crate (Alex's Mobs)
-    public static final RegistryObject<Block> CROCODILE_EGG_CRATE = BLOCKS.register("crocodile_egg_crate",
-            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
-
-    // Banana Crate (Alex's Mobs)
-    public static final RegistryObject<Block> BANANA_CRATE = BLOCKS.register("banana_crate",
-            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
-
     // Salmon Crate
     public static final RegistryObject<Block> SALMON_CRATE = BLOCKS.register("salmon_crate",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
@@ -81,16 +55,6 @@ public class ModBlocks {
 
     // Cod Crate
     public static final RegistryObject<Block> COD_CRATE = BLOCKS.register("cod_crate",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(2.0f, 3.0f).sound(SoundType.WOOD)));
-
-    // Bass Crate (Naturalist)
-    public static final RegistryObject<Block> BASS_CRATE = BLOCKS.register("bass_crate",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(2.0f, 3.0f).sound(SoundType.WOOD)));
-
-    // Catfish Crate (Naturalist)
-    public static final RegistryObject<Block> CATFISH_CRATE = BLOCKS.register("catfish_crate",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(2.0f, 3.0f).sound(SoundType.WOOD)));
 
@@ -118,7 +82,6 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOL)
                     .strength(.8f, .8f).sound(SoundType.WOOL)));
 
-
     // Sugar Bag
     public static final RegistryObject<Block> SUGAR_BAG = BLOCKS.register("sugar_bag",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOL)
@@ -126,21 +89,6 @@ public class ModBlocks {
 
     // Gunpowder Bag
     public static final RegistryObject<Block> GUNPOWDER_BAG = BLOCKS.register("gunpowder_bag",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOL)
-                    .strength(.8f, .8f).sound(SoundType.WOOL)));
-
-    // Wheat Flour Bag (Create)
-    public static final RegistryObject<Block> WHEAT_FLOUR_BAG = BLOCKS.register("wheat_flour_bag",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOL)
-                    .strength(.8f, .8f).sound(SoundType.WOOL)));
-
-    // Powdered Obsidian Bag (Create)
-    public static final RegistryObject<Block> POWDERED_OBSIDIAN_BAG = BLOCKS.register("powdered_obsidian_bag",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOL)
-                    .strength(.8f, .8f).sound(SoundType.WOOL)));
-
-    // Cinder Flour Bag (Create)
-    public static final RegistryObject<Block> CINDER_FLOUR_BAG = BLOCKS.register("cinder_flour_bag",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOL)
                     .strength(.8f, .8f).sound(SoundType.WOOL)));
 }

@@ -18,14 +18,10 @@ public class CrateDelight {
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public CrateDelight() {
-        LOGGER.debug("[Crate Delight]: Registering blocks...");
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
-
         MinecraftForge.EVENT_BUS.register(this);
-        LOGGER.debug("[Crate Delight]: Blocks registered successfully!");
     }
 
     public static class VCItemGroup extends CreativeModeTab {
@@ -35,7 +31,7 @@ public class CrateDelight {
 
         @Override
         public ItemStack makeIcon() {
-            return ModItems.SALMON_CRATE.get().getDefaultInstance();
+            return ModItems.BERRY_CRATE.get().getDefaultInstance();
         }
     }
 }

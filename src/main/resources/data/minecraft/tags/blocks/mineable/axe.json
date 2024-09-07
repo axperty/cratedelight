@@ -22,10 +22,6 @@
       "required": false
     },
     {
-      "id": "cratedelight:blueberry_crate",
-      "required": false
-    },
-    {
       "id": "cratedelight:glowberry_crate",
       "required": false
     },
@@ -34,23 +30,11 @@
       "required": false
     },
     {
-      "id": "cratedelight:duck_egg_crate",
-      "required": false
-    },
-    {
       "id": "cratedelight:salmon_crate",
       "required": false
     },
     {
       "id": "cratedelight:cod_crate",
-      "required": false
-    },
-    {
-      "id": "cratedelight:catfish_crate",
-      "required": false
-    },
-    {
-      "id": "cratedelight:bass_crate",
       "required": false
     },
     {
@@ -63,22 +47,6 @@
     },
     {
       "id": "cratedelight:brown_mushroom_crate",
-      "required": false
-    },
-    {
-      "id": "cratedelight:emu_egg_crate",
-      "required": false
-    },
-    {
-      "id": "cratedelight:terrapin_egg_crate",
-      "required": false
-    },
-    {
-      "id": "cratedelight:crocodile_egg_crate",
-      "required": false
-    },
-    {
-      "id": "cratedelight:banana_crate",
       "required": false
     },
     {
