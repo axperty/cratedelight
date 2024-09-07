@@ -11,8 +11,6 @@ public class CrateDelight implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.debug("[Crate Delight]: Registering blocks...");
 		ModBlocks.registerModBlocks();
-		LOGGER.debug("[Crate Delight]: Blocks registered successfully!");
 	}
 }

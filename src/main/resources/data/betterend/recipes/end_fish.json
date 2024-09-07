@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
@@ -8,11 +16,5 @@
   "result": {
     "item": "betterend:end_fish_raw",
     "count": 9
-  },
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:any_mod_loaded",
-      "values": ["betterend"]
-    }
-  ]
+  }
 }
