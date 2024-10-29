@@ -39,5 +39,9 @@
   "block.cratedelight.potato_crate": "Коробка картофеля",
   "block.cratedelight.beetroot_crate": "Коробка свёклы",
 
+  "block.cratedelight.stacked_melons": "Сложенные Арбузы",
+  "block.cratedelight.stacked_pumpkins": "Сложенные Тыквы",
+  "block.cratedelight.cookie_bag": "Пакет с Печеньем",
+
   "itemGroup.cratedelight": "Crate Delight"
 }

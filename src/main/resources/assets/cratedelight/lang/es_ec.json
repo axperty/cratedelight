@@ -39,5 +39,9 @@
   "block.cratedelight.potato_crate": "Cajón de patatas",
   "block.cratedelight.beetroot_crate": "Cajón de remolacha",
 
+  "block.cratedelight.stacked_melons": "Melones Apilados",
+  "block.cratedelight.stacked_pumpkins": "Calabazas Apiladas",
+  "block.cratedelight.cookie_bag": "Bolsa de Galletas",
+
   "itemGroup.cratedelight": "Crate Delight"
 }

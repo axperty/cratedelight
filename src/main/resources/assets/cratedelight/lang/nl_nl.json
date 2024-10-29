@@ -39,5 +39,9 @@
   "block.cratedelight.potato_crate": "Aardappelkist",
   "block.cratedelight.beetroot_crate": "Bietenkist",
 
+  "block.cratedelight.stacked_melons": "Gestapelde Meloenen",
+  "block.cratedelight.stacked_pumpkins": "Gestapelde Pompoenen",
+  "block.cratedelight.cookie_bag": "Koekjestas",
+
   "itemGroup.cratedelight": "Crate Delight"
 }
