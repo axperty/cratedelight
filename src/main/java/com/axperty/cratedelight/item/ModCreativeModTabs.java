@@ -70,6 +70,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.COCOABEANS_BAG.get());
                         pOutput.accept(ModBlocks.SUGAR_BAG.get());
                         pOutput.accept(ModBlocks.GUNPOWDER_BAG.get());
+                        pOutput.accept(ModBlocks.COOKIE_BAG.get());
 
                         if (ModList.get().isLoaded("create")) {
                             pOutput.accept(ModBlocks.WHEAT_FLOUR_BAG.get());
@@ -80,6 +81,9 @@ public class ModCreativeModTabs {
                         if (ModList.get().isLoaded("betterend")) {
                             pOutput.accept(ModBlocks.ENDER_DUST_BAG.get());
                         }
+
+                        pOutput.accept(ModBlocks.STACKED_MELONS.get());
+                        pOutput.accept(ModBlocks.STACKED_PUMPKINS.get());
                     })
                     .build());
 

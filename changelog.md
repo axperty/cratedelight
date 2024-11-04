@@ -1,20 +1,18 @@
 ![Crate Delight](https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png)
 
-### Minor Update
-
-**Summary:** This minor update adds recipe book entries.
-
 ***
 
-### 🛠️ Minor Changes:
+### ✨ What's New:
 
-- All item recipes can now be unlocked by obtaining specific items, allowing players to discover new crafting options as they gather resources.
-- The End Fish Crate and Ender Dust Bag from BetterEnd are now loaded when using the Sinytra Connector [#5.](https://github.com/axperty/cratedelight/issues/5)
+- Added Cookie Bag.
+- Added Stacked Melons.
+- Added Stacked Pumpkins.
 
 ### 📝 Translations:
 
-- Added translations for Traditional Chinese (Taiwan), special thanks to [Lobster0228.](https://github.com/Lobster0228)
+- Added translations for Turkish. These translations might contain typos or grammatical mistakes,
+  you can make changes and improvements [here](https://github.com/axperty/cratedelight/blob/1.21-neoforge/src/main/resources/assets/cratedelight/lang/tr_tr.json).
+
 ***
 
-Your feedback is important to make improvements to this mod, submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub.](https://github.com/axperty/cratedelight)
-You can also support modding development by donating through [PayPal.](https://paypal.me/kevgelhorn)
+Send your suggestions or report any issues on [GitHub](https://github.com/axperty/cratedelight/issues/new). Support Crate Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn). 
