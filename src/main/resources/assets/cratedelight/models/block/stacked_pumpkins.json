@@ -2,7 +2,7 @@
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "side": "cratedelight:block/stacked_pumpkins_side",
-    "bottom": "cratedelight:block/stacked_pumpkins_top",
+    "bottom": "cratedelight:block/stacked_pumpkins_side",
     "top": "cratedelight:block/stacked_pumpkins_top"
   }
 }
