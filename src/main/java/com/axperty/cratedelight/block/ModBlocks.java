@@ -104,6 +104,10 @@ public class ModBlocks {
     public static final Block GUNPOWDER_BAG = registerBlock("gunpowder_bag",
             new Block(FabricBlockSettings.of(Material.WOOL).strength(.9F, 3.0F).sounds(BlockSoundGroup.WOOL)), ModItemGroup.CREATIVE_MODE_TAB);
 
+    // Cookie Bag Registry
+    public static final Block COOKIE_BAG = registerBlock("cookie_bag",
+            new Block(FabricBlockSettings.of(Material.WOOL).strength(.9F, 3.0F).sounds(BlockSoundGroup.WOOL)), ModItemGroup.CREATIVE_MODE_TAB);
+
     // Salt Bag Registry (Expanded Delight)
     public static final Block SALT_BAG = FabricLoader.getInstance().isModLoaded("expandeddelight") ?
             registerBlock("salt_bag", new Block(FabricBlockSettings.of(Material.WOOL).strength(.9F, 3.0F).sounds(BlockSoundGroup.WOOL)), ModItemGroup.CREATIVE_MODE_TAB) : null;
@@ -127,6 +131,14 @@ public class ModBlocks {
     // Ender Dust Bag Registry (BetterEnd)
     public static final Block ENDER_DUST_BAG = FabricLoader.getInstance().isModLoaded("betterend") ?
             registerBlock("ender_dust_bag", new Block(FabricBlockSettings.of(Material.WOOL).strength(.9F, 3.0F).sounds(BlockSoundGroup.WOOL)), ModItemGroup.CREATIVE_MODE_TAB) : null;
+
+    // Stacked Melons Registry
+    public static final Block STACKED_MELONS = registerBlock("stacked_melons",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB);
+
+    // Stacked Melons Registry
+    public static final Block STACKED_PUMPKINS = registerBlock("stacked_pumpkins",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);

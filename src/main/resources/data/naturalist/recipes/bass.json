@@ -8,13 +8,14 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:bass_crate"
     }
   ],
   "result": {
-    "item": "naturalist:bass",
-    "count": 9
+    "count": 9,
+    "item": "naturalist:bass"
   }
 }

@@ -1,16 +1,15 @@
 {
-  "fabric:load_conditions": [
+  "conditions": [
     {
-      "condition": "fabric:not",
+      "type": "forge:not",
       "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "farmersdelight"
-        ]
+        "type": "forge:mod_loaded",
+        "modid": "farmersdelight"
       }
     }
   ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
@@ -22,6 +21,7 @@
     }
   },
   "result": {
+    "count": 1,
     "item": "cratedelight:carrot_crate"
   }
 }
