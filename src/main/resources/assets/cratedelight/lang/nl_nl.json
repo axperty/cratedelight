@@ -39,5 +39,15 @@
   "block.cratedelight.potato_crate": "Aardappelkist",
   "block.cratedelight.beetroot_crate": "Bietenkist",
 
+  "block.cratedelight.black_berry_crate": "Zwarte bessen krat",
+  "block.cratedelight.green_berry_crate": "Groene bessen krat",
+  "block.cratedelight.orange_berry_crate": "Oranje bessen krat",
+  "block.cratedelight.yellow_berry_crate": "Gele bessen krat",
+  "block.cratedelight.purple_berry_crate": "Paarse bessen krat",
+
+  "block.cratedelight.stacked_melons": "Gestapelde Meloenen",
+  "block.cratedelight.stacked_pumpkins": "Gestapelde Pompoenen",
+  "block.cratedelight.cookie_bag": "Koekjestas",
+
   "itemGroup.cratedelight": "Crate Delight"
 }

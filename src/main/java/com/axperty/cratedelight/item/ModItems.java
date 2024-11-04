@@ -76,6 +76,18 @@ public class ModItems {
     public static final RegistryObject<Item> GUNPOWDER_BAG = ITEMS.register("gunpowder_bag",
             () -> (new BlockItem(ModBlocks.GUNPOWDER_BAG.get(), (new Item.Properties()).tab(CrateDelight.ITEM_GROUP))));
 
+    // Cookie Bag
+    public static final RegistryObject<Item> COOKIE_BAG = ITEMS.register("cookie_bag",
+            () -> (new BlockItem(ModBlocks.COOKIE_BAG.get(), (new Item.Properties()).tab(CrateDelight.ITEM_GROUP))));
+
+    // Stacked Melons
+    public static final RegistryObject<Item> STACKED_MELONS = ITEMS.register("stacked_melons",
+            () -> (new BlockItem(ModBlocks.STACKED_MELONS.get(), (new Item.Properties()).tab(CrateDelight.ITEM_GROUP))));
+
+    // Stacked Pumpkins
+    public static final RegistryObject<Item> STACKED_PUMPKINS = ITEMS.register("stacked_pumpkins",
+            () -> (new BlockItem(ModBlocks.STACKED_PUMPKINS.get(), (new Item.Properties()).tab(CrateDelight.ITEM_GROUP))));
+
     private static boolean modLoaded(String modName) {
         return ModList.get().isLoaded(modName);
     }

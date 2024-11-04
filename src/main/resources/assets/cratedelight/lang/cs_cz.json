@@ -39,5 +39,15 @@
   "block.cratedelight.potato_crate": "Bramborová bedna",
   "block.cratedelight.beetroot_crate": "Řepková bedna",
 
+  "block.cratedelight.black_berry_crate": "Bedna s černými bobulemi",
+  "block.cratedelight.green_berry_crate": "Bedna se zelenými bobulemi",
+  "block.cratedelight.orange_berry_crate": "Bedna s oranžovými bobulemi",
+  "block.cratedelight.yellow_berry_crate": "Bedna se žlutými bobulemi",
+  "block.cratedelight.purple_berry_crate": "Bedna s fialovými bobulemi",
+
+  "block.cratedelight.stacked_melons": "Naskládané melouny",
+  "block.cratedelight.stacked_pumpkins": "Naskládané dýně",
+  "block.cratedelight.cookie_bag": "Sáček sušenek",
+
   "itemGroup.cratedelight": "Crate Delight"
 }

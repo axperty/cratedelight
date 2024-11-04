@@ -39,5 +39,15 @@
   "block.cratedelight.potato_crate": "Potato Crate",
   "block.cratedelight.beetroot_crate": "Beetroot Crate",
 
+  "block.cratedelight.black_berry_crate": "Black Berry Crate",
+  "block.cratedelight.green_berry_crate": "Green Berry Crate",
+  "block.cratedelight.orange_berry_crate": "Orange Berry Crate",
+  "block.cratedelight.yellow_berry_crate": "Yellow Berry Crate",
+  "block.cratedelight.purple_berry_crate": "Purple Berry Crate",
+
+  "block.cratedelight.stacked_melons": "Stacked Melons",
+  "block.cratedelight.stacked_pumpkins": "Stacked Pumpkins",
+  "block.cratedelight.cookie_bag": "Cookie Bag",
+
   "itemGroup.cratedelight": "Crate Delight"
 }

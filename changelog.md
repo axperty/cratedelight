@@ -1,22 +1,18 @@
-<p align="left"><img src="https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png" alt="Crate Delight">
-
-## Minor Update
-
-**Summary:** This minor update adds recipe book entries.
+![Crate Delight](https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png)
 
 ***
 
-### 🛠️ Minor Changes:
+### ✨ What's New:
 
-- All item recipes can now be unlocked by obtaining specific items, allowing players to discover new crafting options as they gather resources.
-
-### 🛠️ Bug Fixes:
-
-- Fixed a bug where Crate Delight was spamming the console with errors when certain mods weren't loaded into the game [#10.](https://github.com/axperty/cratedelight/issues/10)
+- Added Cookie Bag.
+- Added Stacked Melons.
+- Added Stacked Pumpkins.
 
 ### 📝 Translations:
 
-- Added translations for Traditional Chinese (Taiwan), special thanks to [Lobster0228.](https://github.com/Lobster0228)
+- Added translations for Turkish. These translations might contain typos or grammatical mistakes,
+  you can make changes and improvements [here](https://github.com/axperty/cratedelight/blob/1.21-neoforge/src/main/resources/assets/cratedelight/lang/tr_tr.json).
+
 ***
 
-<p>Your feedback is important to make improvements to this mod, submit your ideas <a href="https://forms.gle/1rHcPN5v4k8nE9fr5">on this form</a> or report bugs on <a href="https://github.com/axperty/cratedelight-forge">GitHub.</a></p>
+Send your suggestions or report any issues on [GitHub](https://github.com/axperty/cratedelight/issues/new). Support Crate Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn). 

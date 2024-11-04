@@ -91,4 +91,19 @@ public class ModBlocks {
     public static final RegistryObject<Block> GUNPOWDER_BAG = BLOCKS.register("gunpowder_bag",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOL)
                     .strength(.8f, .8f).sound(SoundType.WOOL)));
+
+    // Cookie Bag
+    public static final RegistryObject<Block> COOKIE_BAG = BLOCKS.register("cookie_bag",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOL)
+                    .strength(.8f, .8f).sound(SoundType.WOOL)));
+
+    // Stacked Melons
+    public static final RegistryObject<Block> STACKED_MELONS = BLOCKS.register("stacked_melons",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+
+    // Stacked Pumpkins
+    public static final RegistryObject<Block> STACKED_PUMPKINS = BLOCKS.register("stacked_pumpkins",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(2.0f, 3.0f).sound(SoundType.WOOD)));
 }

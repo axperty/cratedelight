@@ -39,5 +39,15 @@
   "block.cratedelight.potato_crate": "Коробка картофеля",
   "block.cratedelight.beetroot_crate": "Коробка свёклы",
 
+  "block.cratedelight.black_berry_crate": "Ящик с чёрными ягодами",
+  "block.cratedelight.green_berry_crate": "Ящик с зелёными ягодами",
+  "block.cratedelight.orange_berry_crate": "Ящик с оранжевыми ягодами",
+  "block.cratedelight.yellow_berry_crate": "Ящик с жёлтыми ягодами",
+  "block.cratedelight.purple_berry_crate": "Ящик с фиолетовыми ягодами",
+
+  "block.cratedelight.stacked_melons": "Сложенные Арбузы",
+  "block.cratedelight.stacked_pumpkins": "Сложенные Тыквы",
+  "block.cratedelight.cookie_bag": "Пакет с Печеньем",
+
   "itemGroup.cratedelight": "Crate Delight"
 }

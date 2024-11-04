@@ -39,5 +39,15 @@
   "block.cratedelight.potato_crate": "Caixa de batata",
   "block.cratedelight.beetroot_crate": "Caixa de beterraba",
 
+  "block.cratedelight.black_berry_crate": "Caixa de Amoras Pretas",
+  "block.cratedelight.green_berry_crate": "Caixa de Amoras Verdes",
+  "block.cratedelight.orange_berry_crate": "Caixa de Amoras Laranjas",
+  "block.cratedelight.yellow_berry_crate": "Caixa de Amoras Amarelas",
+  "block.cratedelight.purple_berry_crate": "Caixa de Amoras Roxas",
+
+  "block.cratedelight.stacked_melons": "Melões Empilhados",
+  "block.cratedelight.stacked_pumpkins": "Abóboras Empilhadas",
+  "block.cratedelight.cookie_bag": "Saco de Biscoitos",
+
   "itemGroup.cratedelight": "Crate Delight"
 }

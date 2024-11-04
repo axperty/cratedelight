@@ -39,5 +39,15 @@
   "block.cratedelight.potato_crate": "Potetkasse",
   "block.cratedelight.beetroot_crate": "Rødbetkasse",
 
+  "block.cratedelight.black_berry_crate": "Svart bærkasse",
+  "block.cratedelight.green_berry_crate": "Grønn bærkasse",
+  "block.cratedelight.orange_berry_crate": "Oransje bærkasse",
+  "block.cratedelight.yellow_berry_crate": "Gul bærkasse",
+  "block.cratedelight.purple_berry_crate": "Lilla bærkasse",
+
+  "block.cratedelight.stacked_melons": "Stablede Meloner",
+  "block.cratedelight.stacked_pumpkins": "Stablede Gresskar",
+  "block.cratedelight.cookie_bag": "Kjeks Pose",
+
   "itemGroup.cratedelight": "Crate Delight"
 }
