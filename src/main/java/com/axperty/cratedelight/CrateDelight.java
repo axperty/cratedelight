@@ -15,9 +15,9 @@ public class CrateDelight {
     public static final String MOD_ID = "cratedelight";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public CrateDelight() {
+    public CrateDelight(FMLJavaModLoadingContext context) {
         LOGGER.debug("[Crate Delight]: Registering blocks...");
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        IEventBus modEventBus = context.getModEventBus();
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
         ModCreativeModTabs.register(modEventBus);
