@@ -9,6 +9,7 @@
     }
   ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
@@ -20,6 +21,7 @@
     }
   },
   "result": {
+    "count": 1,
     "item": "cratedelight:potato_crate"
   }
 }
