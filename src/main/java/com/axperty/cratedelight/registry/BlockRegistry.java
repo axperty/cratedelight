@@ -126,6 +126,10 @@ public class BlockRegistry {
     public static final Block GUNPOWDER_BAG = registerBlock("gunpowder_bag",
             new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
 
+    // Cookie Bag Registry
+    public static final Block COOKIE_BAG = registerBlock("cookie_bag",
+            new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+
     // Salt Bag Registry
     public static final Block SALT_BAG = registerBlock("salt_bag",
             new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
@@ -148,6 +152,14 @@ public class BlockRegistry {
     // End Dust Bag Registry
     public static final Block ENDER_DUST_BAG = registerBlock("ender_dust_bag",
             new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+
+    // Stacked Melons Registry
+    public static final Block STACKED_MELONS = registerBlock("stacked_melons",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+
+    // Stacked Pumpkins Registry
+    public static final Block STACKED_PUMPKINS = registerBlock("stacked_pumpkins",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

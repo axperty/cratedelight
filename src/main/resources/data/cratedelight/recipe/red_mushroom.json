@@ -1,12 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:red_mushroom_crate"
     }
   ],
   "result": {
-    "id": "minecraft:red_mushroom",
-    "count": 9
+    "count": 9,
+    "id": "minecraft:red_mushroom"
   }
 }

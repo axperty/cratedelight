@@ -8,13 +8,14 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:peanut_crate"
     }
   ],
   "result": {
-    "id": "expandeddelight:peanut",
-    "count": 9
+    "count": 9,
+    "id": "expandeddelight:peanut"
   }
 }

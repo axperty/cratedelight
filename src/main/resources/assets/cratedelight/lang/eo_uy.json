@@ -24,6 +24,13 @@
   "block.cratedelight.blueberry_crate": "Blua Berujo",
   "block.cratedelight.red_mushroom_crate": "Ruĝa Fungo-Kaŝujo",
   "block.cratedelight.brown_mushroom_crate": "Bruna Fungo-Kaŝujo",
+
+  "block.cratedelight.emu_egg_crate": "Kesto kun emuaj ovoj",
+  "block.cratedelight.terrapin_egg_crate": "Kesto kun testudaj ovoj",
+  "block.cratedelight.crocodile_egg_crate": "Kesto kun krokodilaj ovoj",
+  "block.cratedelight.caiman_egg_crate": "Kesto kun kajmanaj ovoj",
+  "block.cratedelight.platypus_egg_crate": "Kesto kun ornitorinkaj ovoj",
+  "block.cratedelight.banana_crate": "Kesto kun bananoj",
   "block.cratedelight.golden_carrot_crate": "Kesto kun oraj karotoj",
   "block.cratedelight.kiwi_egg_crate": "Kesto de Kiwi-ovoj",
   "block.cratedelight.kiwifruit_crate": "Kesto de Kivifruktoj",
@@ -37,6 +44,10 @@
   "block.cratedelight.orange_berry_crate": "Oranĝa Berujo",
   "block.cratedelight.yellow_berry_crate": "Flava Berujo",
   "block.cratedelight.purple_berry_crate": "Purpura Berujo",
+
+  "block.cratedelight.stacked_melons": "Staplitaj Melonoj",
+  "block.cratedelight.stacked_pumpkins": "Staplitaj Kukurboj",
+  "block.cratedelight.cookie_bag": "Biskvita Sako",
 
   "itemGroup.cratedelight": "Crate Delight"
 }

@@ -8,13 +8,14 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:cinder_flour_bag"
     }
   ],
   "result": {
-    "id": "create:cinder_flour",
-    "count": 9
+    "count": 9,
+    "id": "create:cinder_flour"
   }
 }

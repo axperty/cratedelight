@@ -8,6 +8,7 @@
     }
   ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
@@ -19,6 +20,7 @@
     }
   },
   "result": {
+    "count": 1,
     "id": "cratedelight:yellow_berry_crate"
   }
 }

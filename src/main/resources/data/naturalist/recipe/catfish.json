@@ -8,13 +8,14 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:catfish_crate"
     }
   ],
   "result": {
-    "id": "naturalist:catfish",
-    "count": 9
+    "count": 9,
+    "id": "naturalist:catfish"
   }
 }

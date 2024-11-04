@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "cratedelight",
-  "version": "24.09.03-1.21-fabric",
+  "version": "24.11.03-1.21-fabric",
   "name": "Crate Delight",
-  "description": "A mod that adds more crates and bags to the game.",
+  "description": "A mod that adds crates, bags, and stacked blocks to the game.",
   "authors": [
     "Axperty"
   ],

@@ -75,6 +75,7 @@ public class ModCreativeTab {
                         entries.add(BlockRegistry.COCOABEANS_BAG);
                         entries.add(BlockRegistry.SUGAR_BAG);
                         entries.add(BlockRegistry.GUNPOWDER_BAG);
+                        entries.add(BlockRegistry.COOKIE_BAG);
 
                         if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
                             entries.add(BlockRegistry.SALT_BAG);
@@ -90,6 +91,9 @@ public class ModCreativeTab {
                         if (FabricLoader.getInstance().isModLoaded("betterend")) {
                             entries.add(BlockRegistry.ENDER_DUST_BAG);
                         }
+
+                        entries.add(BlockRegistry.STACKED_MELONS);
+                        entries.add(BlockRegistry.STACKED_PUMPKINS);
                     })
                     .build());
 

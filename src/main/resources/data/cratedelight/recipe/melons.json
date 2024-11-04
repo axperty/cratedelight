@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cratedelight:stacked_melons"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:melon"
+  }
+}

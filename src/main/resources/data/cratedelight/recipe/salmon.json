@@ -1,12 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:salmon_crate"
     }
   ],
   "result": {
-    "id": "minecraft:salmon",
-    "count": 9
+    "count": 9,
+    "id": "minecraft:salmon"
   }
 }

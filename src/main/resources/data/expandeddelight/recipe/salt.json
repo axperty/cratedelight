@@ -8,13 +8,14 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:salt_bag"
     }
   ],
   "result": {
-    "id": "expandeddelight:ground_salt",
-    "count": 9
+    "count": 9,
+    "id": "expandeddelight:ground_salt"
   }
 }
