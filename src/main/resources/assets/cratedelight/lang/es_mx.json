@@ -24,6 +24,13 @@
   "block.cratedelight.blueberry_crate": "Cajón de arándanos",
   "block.cratedelight.red_mushroom_crate": "Cajón de hongos rojos",
   "block.cratedelight.brown_mushroom_crate": "Cajón de hongos marrones",
+
+  "block.cratedelight.emu_egg_crate": "Cajón de huevos de emú",
+  "block.cratedelight.terrapin_egg_crate": "Cajón de huevos de tortuga de agua dulce",
+  "block.cratedelight.crocodile_egg_crate": "Cajón de huevos de cocodrilo",
+  "block.cratedelight.caiman_egg_crate": "Cajón de huevos de caimán",
+  "block.cratedelight.platypus_egg_crate": "Cajón de huevos de ornitorrinco",
+  "block.cratedelight.banana_crate": "Cajón de bananas",
   "block.cratedelight.golden_carrot_crate": "Cajón de zanahorias doradas",
   "block.cratedelight.kiwi_egg_crate": "Cajón de huevos de Kiwi",
   "block.cratedelight.kiwifruit_crate": "Cajón de fruta de Kiwi",
@@ -36,5 +43,11 @@
   "block.cratedelight.green_berry_crate": "Cajón de bayas verdes",
   "block.cratedelight.orange_berry_crate": "Cajón de bayas naranjas",
   "block.cratedelight.yellow_berry_crate": "Cajón de bayas amarillas",
-  "block.cratedelight.purple_berry_crate": "Cajón de bayas moradas"
+  "block.cratedelight.purple_berry_crate": "Cajón de bayas moradas",
+
+  "block.cratedelight.stacked_melons": "Melones apilados",
+  "block.cratedelight.stacked_pumpkins": "Calabazas apiladas",
+  "block.cratedelight.cookie_bag": "Bolsa de galletas",
+
+  "itemGroup.cratedelight": "Crate Delight"
 }

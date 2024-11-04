@@ -90,6 +90,9 @@ public class BlockList {
     // Gunpowder Bag
     public static Block GUNPOWDER_BAG;
 
+    // Cookie Bag
+    public static Block COOKIE_BAG;
+
     // Salt Bag (for Expanded Delight)
     public static Block SALT_BAG;
 
@@ -107,4 +110,10 @@ public class BlockList {
 
     // Ender Dust Bag (for BetterEnd)
     public static Block ENDER_DUST_BAG;
+
+    // Stacked Melons
+    public static Block STACKED_MELONS;
+
+    // Stacked Pumpkins
+    public static Block STACKED_PUMPKINS;
 }

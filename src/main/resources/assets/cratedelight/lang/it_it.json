@@ -23,6 +23,13 @@
   "block.cratedelight.blueberry_crate": "Cassa di mirtilli",
   "block.cratedelight.red_mushroom_crate": "Cassa di funghi rossi",
   "block.cratedelight.brown_mushroom_crate": "Cassa di funghi marroni",
+
+  "block.cratedelight.emu_egg_crate": "Cassa di uova di emù",
+  "block.cratedelight.terrapin_egg_crate": "Cassa di uova di tartaruga",
+  "block.cratedelight.crocodile_egg_crate": "Cassa di uova di coccodrillo",
+  "block.cratedelight.caiman_egg_crate": "Cassa di uova di caimano",
+  "block.cratedelight.platypus_egg_crate": "Cassa di uova di ornitorinco",
+  "block.cratedelight.banana_crate": "Cassa di banane",
   "block.cratedelight.golden_carrot_crate": "Cassa di carote d'oro",
   "block.cratedelight.kiwi_egg_crate": "Cassa di uova di kiwi",
   "block.cratedelight.kiwifruit_crate": "Cassa di kiwi",
@@ -35,5 +42,11 @@
   "block.cratedelight.green_berry_crate": "Cassa di bacche verdi",
   "block.cratedelight.orange_berry_crate": "Cassa di bacche arancioni",
   "block.cratedelight.yellow_berry_crate": "Cassa di bacche gialle",
-  "block.cratedelight.purple_berry_crate": "Cassa di bacche viola"
+  "block.cratedelight.purple_berry_crate": "Cassa di bacche viola",
+
+  "block.cratedelight.stacked_melons": "Meloni Impilati",
+  "block.cratedelight.stacked_pumpkins": "Zucche Impilate",
+  "block.cratedelight.cookie_bag": "Sacchetto di Biscotti",
+
+  "itemGroup.cratedelight": "Delizia della cassa"
 }

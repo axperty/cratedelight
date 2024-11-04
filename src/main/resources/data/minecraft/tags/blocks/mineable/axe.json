@@ -104,6 +104,14 @@
     {
       "id": "cratedelight:kiwifruit_crate",
       "required": false
+    },
+    {
+      "id": "cratedelight:stacked_melons",
+      "required": false
+    },
+    {
+      "id": "cratedelight:stacked_pumpkins",
+      "required": false
     }
   ]
 }

@@ -8,13 +8,14 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:orange_berry_crate"
     }
   ],
   "result": {
-    "item": "moreberries:orange_berries",
-    "count": 9
+    "count": 9,
+    "item": "moreberries:orange_berries"
   }
 }

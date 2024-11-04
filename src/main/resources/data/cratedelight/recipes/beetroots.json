@@ -1,23 +1,22 @@
 {
-  "fabric:load_conditions": [
+  "conditions": [
     {
-      "condition": "fabric:not",
+      "type": "forge:not",
       "value": {
-        "condition": "fabric:all_mods_loaded",
-        "values": [
-          "farmersdelight"
-        ]
+        "type": "forge:mod_loaded",
+        "modid": "farmersdelight"
       }
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:beetroot_crate"
     }
   ],
   "result": {
-    "item": "minecraft:beetroot",
-    "count": 9
+    "count": 9,
+    "item": "minecraft:beetroot"
   }
 }

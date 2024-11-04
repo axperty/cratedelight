@@ -8,13 +8,14 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:end_fish_crate"
     }
   ],
   "result": {
-    "item": "betterend:end_fish_raw",
-    "count": 9
+    "count": 9,
+    "item": "betterend:end_fish_raw"
   }
 }

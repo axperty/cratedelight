@@ -8,13 +8,14 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:duck_egg_crate"
     }
   ],
   "result": {
-    "item": "naturalist:duck_egg",
-    "count": 9
+    "count": 9,
+    "item": "naturalist:duck_egg"
   }
 }

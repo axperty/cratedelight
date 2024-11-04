@@ -147,6 +147,10 @@ public class BlockRegistry {
         BlockList.GUNPOWDER_BAG = block("gunpowder_bag",
                 new Block(blockSettings(.7f, .8f, BlockSoundGroup.WOOL)));
 
+        // Cookie Bag Registry
+        BlockList.COOKIE_BAG = block("cookie_bag",
+                new Block(blockSettings(.7f, .8f, BlockSoundGroup.WOOL)));
+
         // Expanded Delight Compatibility:
         if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
             // Salt Bag Registry
@@ -178,6 +182,14 @@ public class BlockRegistry {
             BlockList.ENDER_DUST_BAG = block("ender_dust_bag",
                     new Block(blockSettings(.7f, .8f, BlockSoundGroup.WOOL)));
         }
+
+        // Stacked Melons Registry
+        BlockList.STACKED_MELONS = block("stacked_melons",
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+        // Stacked Pumpkins Registry
+        BlockList.STACKED_PUMPKINS = block("stacked_pumpkins",
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
 
     }
     private static FabricBlockSettings blockSettings(float hardness, float resistance, BlockSoundGroup sound) {
