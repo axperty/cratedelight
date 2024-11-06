@@ -112,6 +112,10 @@
     {
       "id": "cratedelight:stacked_pumpkins",
       "required": false
+    },
+    {
+      "id": "cratedelight:diamond_apple_crate",
+      "required": false
     }
   ]
 }

@@ -34,6 +34,12 @@ public class BlockRegistry {
         BlockList.APPLE_CRATE = block("apple_crate",
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
 
+        // Diamond Apples Crate Registry
+        if (FabricLoader.getInstance().isModLoaded("diamond_apples")) {
+            BlockList.DIAMOND_APPLE_CRATE = block("diamond_apple_crate",
+                    new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+        }
+
         // Berry Crate Registry
         BlockList.BERRY_CRATE = block("berry_crate",
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));

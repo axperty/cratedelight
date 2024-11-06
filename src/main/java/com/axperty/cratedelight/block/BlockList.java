@@ -15,6 +15,9 @@ public class BlockList {
     // Apple Crate
     public static Block APPLE_CRATE;
 
+    // Diamond Apple Crate (ya017zan's Diamond Apples)
+    public static Block DIAMOND_APPLE_CRATE;
+
     // Berry Crate
     public static Block BERRY_CRATE;
 
