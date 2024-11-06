@@ -26,6 +26,10 @@ public class BlockRegistry {
     public static final Block APPLE_CRATE = registerBlock("apple_crate",
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
 
+    // Diamond Apple Crate Registry (ya017zan's Diamond Apples)
+    public static final Block DIAMOND_APPLE_CRATE = registerBlock("diamond_apple_crate",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+
     // Berry Crate Registry
     public static final Block BERRY_CRATE = registerBlock("berry_crate",
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));

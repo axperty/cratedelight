@@ -12,18 +12,18 @@
   "block.cratedelight.ground_cinnamon_bag": "Мешок с молотой корицей",
   "block.cratedelight.golden_apple_crate": "Ящик с золотыми яблоками",
 
-  "block.cratedelight.end_fish_crate": "Ящик с сырой Эндер-рыбой",
+  "block.cratedelight.end_fish_crate": "Ящик с сырой эндер-рыбой",
   "block.cratedelight.duck_egg_crate": "Ящик с утинными яйцами",
   "block.cratedelight.catfish_crate": "Ящик с сырым сомом",
   "block.cratedelight.bass_crate": "Ящик с сырым окунем",
   "block.cratedelight.peanut_crate": "Ящик с арахисом",
   "block.cratedelight.wheat_flour_bag": "Мешок с пшеничной мукой",
-  "block.cratedelight.ender_dust_bag": "Мешок с Эндер-пылью",
+  "block.cratedelight.ender_dust_bag": "Мешок с эндер-пылью",
   "block.cratedelight.powdered_obsidian_bag": "Мешок с порошковым обсидианом",
   "block.cratedelight.cinder_flour_bag": "Мешок с шлаковой мукой",
   "block.cratedelight.blueberry_crate": "Ящик с черникой",
-  "block.cratedelight.red_mushroom_crate": "Красные коробки с грибами",
-  "block.cratedelight.brown_mushroom_crate": "Коричневые коробки с грибами",
+  "block.cratedelight.red_mushroom_crate": "Ящик с красными грибами",
+  "block.cratedelight.brown_mushroom_crate": "Ящик с коричневыми грибами",
 
   "block.cratedelight.emu_egg_crate": "Ящик с яйцами эму",
   "block.cratedelight.terrapin_egg_crate": "Ящик с черепашьими яйцами",
@@ -31,23 +31,19 @@
   "block.cratedelight.caiman_egg_crate": "Ящик с каймановыми яйцами",
   "block.cratedelight.platypus_egg_crate": "Ящик с яйцами утконоса",
   "block.cratedelight.banana_crate": "Ящик с бананами",
-  "block.cratedelight.golden_carrot_crate": "Ящик с золотыми морковками",
+  "block.cratedelight.golden_carrot_crate": "Ящик с золотой морковью",
   "block.cratedelight.kiwi_egg_crate": "Ящик с яйцами киви",
   "block.cratedelight.kiwifruit_crate": "Ящик с киви",
 
-  "block.cratedelight.carrot_crate": "Коробка моркови",
-  "block.cratedelight.potato_crate": "Коробка картофеля",
-  "block.cratedelight.beetroot_crate": "Коробка свёклы",
+  "block.cratedelight.carrot_crate": "Ящик с морковью",
+  "block.cratedelight.potato_crate": "Ящик с картофелем",
+  "block.cratedelight.beetroot_crate": "Ящик со свёклой",
 
-  "block.cratedelight.black_berry_crate": "Ящик с чёрными ягодами",
-  "block.cratedelight.green_berry_crate": "Ящик с зелёными ягодами",
-  "block.cratedelight.orange_berry_crate": "Ящик с оранжевыми ягодами",
-  "block.cratedelight.yellow_berry_crate": "Ящик с жёлтыми ягодами",
-  "block.cratedelight.purple_berry_crate": "Ящик с фиолетовыми ягодами",
+  "block.cratedelight.stacked_melons": "Сложенные арбузы",
+  "block.cratedelight.stacked_pumpkins": "Сложенные тыквы",
+  "block.cratedelight.cookie_bag": "Мешок с печеньем",
 
-  "block.cratedelight.stacked_melons": "Сложенные Арбузы",
-  "block.cratedelight.stacked_pumpkins": "Сложенные Тыквы",
-  "block.cratedelight.cookie_bag": "Пакет с Печеньем",
+  "block.cratedelight.diamond_apple_crate": "Ящик с Алмазными Яблоками",
 
-  "itemGroup.cratedelight": "Crate Delight"
+  "itemGroup.cratedelight": "Ящичный Восторг"
 }

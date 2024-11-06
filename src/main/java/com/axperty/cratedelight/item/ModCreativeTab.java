@@ -26,6 +26,11 @@ public class ModCreativeTab {
                         }
 
                         entries.add(BlockRegistry.APPLE_CRATE);
+
+                        if (FabricLoader.getInstance().isModLoaded("diamond_apples")) {
+                            entries.add(BlockRegistry.DIAMOND_APPLE_CRATE);
+                        }
+
                         entries.add(BlockRegistry.BERRY_CRATE);
 
                         if (FabricLoader.getInstance().isModLoaded("nutritious-feast") || FabricLoader.getInstance().isModLoaded("moreberries")) {
