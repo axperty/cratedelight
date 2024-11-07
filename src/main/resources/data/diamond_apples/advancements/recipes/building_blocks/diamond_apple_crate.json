@@ -4,22 +4,19 @@
     {
       "conditions": [
         {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:mod_loaded",
-            "modid": "farmersdelight"
-          }
+          "type": "forge:mod_loaded",
+          "modid": "diamond_apples"
         }
       ],
       "advancement": {
         "parent": "minecraft:recipes/root",
         "criteria": {
-          "has_beetroot": {
+          "has_diamond_apple": {
             "conditions": {
               "items": [
                 {
                   "items": [
-                    "minecraft:beetroot"
+                    "diamond_apples:diamond_apple"
                   ]
                 }
               ]
@@ -28,20 +25,20 @@
           },
           "has_the_recipe": {
             "conditions": {
-              "recipe": "cratedelight:beetroot_crate"
+              "recipe": "diamond_apples:diamond_apple_crate"
             },
             "trigger": "minecraft:recipe_unlocked"
           }
         },
         "requirements": [
           [
-            "has_beetroot",
+            "has_diamond_apple",
             "has_the_recipe"
           ]
         ],
         "rewards": {
           "recipes": [
-            "cratedelight:beetroot_crate"
+            "diamond_apples:diamond_apple_crate"
           ]
         },
         "sends_telemetry_event": false

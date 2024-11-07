@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cratedelight:beetroot_crate"
+          "name": "cratedelight:diamond_apple_crate"
         }
       ],
       "conditions": [

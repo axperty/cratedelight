@@ -12,21 +12,28 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, CrateDelight.MOD_ID);
 
+    private static final Item.Properties DEFAULT_PROPS = new Item.Properties();
+
     // Carrot Crate
-    public static final RegistryObject<Item> CARROT_CRATE = !modLoaded("farmersdelight") ? ITEMS.register("carrot_crate",
-            () -> (new BlockItem(ModBlocks.CARROT_CRATE.get(), (new Item.Properties()).tab(CrateDelight.ITEM_GROUP)))) : null;
+    public static final RegistryObject<Item> CARROT_CRATE = ITEMS.register("carrot_crate",
+            () -> new BlockItem(ModBlocks.CARROT_CRATE.get(), addToTabIfNotLoaded(DEFAULT_PROPS, "farmersdelight")));
 
     // Potato Crate
-    public static final RegistryObject<Item> POTATO_CRATE = !modLoaded("farmersdelight") ? ITEMS.register("potato_crate",
-            () -> (new BlockItem(ModBlocks.POTATO_CRATE.get(), (new Item.Properties()).tab(CrateDelight.ITEM_GROUP)))) : null;
+    public static final RegistryObject<Item> POTATO_CRATE = ITEMS.register("potato_crate",
+            () -> new BlockItem(ModBlocks.POTATO_CRATE.get(), addToTabIfNotLoaded(DEFAULT_PROPS, "farmersdelight")));
 
     // Beetroot Crate
-    public static final RegistryObject<Item> BEETROOT_CRATE = !modLoaded("farmersdelight") ? ITEMS.register("beetroot_crate",
-            () -> (new BlockItem(ModBlocks.BEETROOT_CRATE.get(), (new Item.Properties()).tab(CrateDelight.ITEM_GROUP)))) : null;
+    public static final RegistryObject<Item> BEETROOT_CRATE = ITEMS.register("beetroot_crate",
+            () -> new BlockItem(ModBlocks.BEETROOT_CRATE.get(), addToTabIfNotLoaded(DEFAULT_PROPS, "farmersdelight")));
+
 
     // Apple Crate
     public static final RegistryObject<Item> APPLE_CRATE = ITEMS.register("apple_crate",
             () -> (new BlockItem(ModBlocks.APPLE_CRATE.get(), (new Item.Properties()).tab(CrateDelight.ITEM_GROUP))));
+
+    // Diamond Apple Crate
+    public static final RegistryObject<Item> DIAMOND_APPLE_CRATE = ITEMS.register("diamond_apple_crate",
+            () -> new BlockItem(ModBlocks.DIAMOND_APPLE_CRATE.get(), addToTabIfNotLoaded(DEFAULT_PROPS, "diamond_apples")));
 
     // Berry Crate
     public static final RegistryObject<Item> BERRY_CRATE = ITEMS.register("berry_crate",
@@ -88,7 +95,7 @@ public class ModItems {
     public static final RegistryObject<Item> STACKED_PUMPKINS = ITEMS.register("stacked_pumpkins",
             () -> (new BlockItem(ModBlocks.STACKED_PUMPKINS.get(), (new Item.Properties()).tab(CrateDelight.ITEM_GROUP))));
 
-    private static boolean modLoaded(String modName) {
-        return ModList.get().isLoaded(modName);
+    private static Item.Properties addToTabIfNotLoaded(Item.Properties properties, String modId) {
+        return ModList.get().isLoaded(modId) ? properties : properties.tab(CrateDelight.ITEM_GROUP);
     }
 }

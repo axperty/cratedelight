@@ -33,6 +33,11 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(2.0f, 3.0f).sound(SoundType.WOOD)));
 
+    // Diamond Apple Crate (for ya017zan's Diamond Apples)
+    public static final RegistryObject<Block> DIAMOND_APPLE_CRATE = BLOCKS.register("diamond_apple_crate",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+
     // Berry Crate
     public static final RegistryObject<Block> BERRY_CRATE = BLOCKS.register("berry_crate",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)

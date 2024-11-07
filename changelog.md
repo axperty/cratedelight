@@ -4,15 +4,17 @@
 
 ### ✨ What's New:
 
-- Added Cookie Bag.
-- Added Stacked Melons.
-- Added Stacked Pumpkins.
+- Added Diamond Apple Crate (for ya017zan's Diamond Apples).
+
+### 🛠️ Bug Fixes:
+
+- Fixed multiple console errors when Farmer's Delight wasn't loaded.
+- Fixed a bug where the stacked pumpkins couldn't be made using rope from Farmer's Delight.
 
 ### 📝 Translations:
 
-- Added translations for Turkish. These translations might contain typos or grammatical mistakes,
-  you can make changes and improvements [here](https://github.com/axperty/cratedelight/blob/1.21-neoforge/src/main/resources/assets/cratedelight/lang/tr_tr.json).
+- Improved translations for Russian, special thanks to Korben.
 
 ***
 
-Send your suggestions or report any issues on [GitHub](https://github.com/axperty/cratedelight/issues/new). Support Crate Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn). 
+Send your suggestions or report any issues on [GitHub](https://github.com/axperty/cratedelight/issues/new). Support Crate Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn).
