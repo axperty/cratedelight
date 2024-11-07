@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#R#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:melon"
+    },
+    "R": {
+      "item": "farmersdelight:rope"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "cratedelight:stacked_melons"
+  }
+}
