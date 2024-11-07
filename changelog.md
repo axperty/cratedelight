@@ -9,7 +9,7 @@
 ### 🛠️ Bug Fixes:
 
 - Fixed multiple console errors when Farmer's Delight wasn't loaded.
-- Fixed a bug where the stacked pumpkins couldn't be made using rope from Farmer's Delight.
+- Fixed a bug where the stacked melons and stacked pumpkins couldn't be made using rope from Farmer's Delight.
 
 ### 📝 Translations:
 
