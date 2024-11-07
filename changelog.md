@@ -8,8 +8,6 @@
 
 ### 🛠️ Bug Fixes:
 
-- Fixed a bug where recipes for the beetroot crate, carrot crate, and potato crate were displayed twice when Farmer's Delight was loaded,
-  special thanks to Aruman-Zen.
 - Fixed a bug where the stacked pumpkins couldn't be made using rope from Farmer's Delight.
 
 ### 📝 Translations:
