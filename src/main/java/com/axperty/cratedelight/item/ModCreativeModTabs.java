@@ -28,6 +28,11 @@ public class ModCreativeModTabs {
                         }
 
                         pOutput.accept(ModBlocks.APPLE_CRATE.get());
+
+                        if (ModList.get().isLoaded("diamond_apples")) {
+                            pOutput.accept(ModBlocks.DIAMOND_APPLE_CRATE.get());
+                        }
+
                         pOutput.accept(ModBlocks.BERRY_CRATE.get());
 
                         if (ModList.get().isLoaded("nutritious_feast")) {

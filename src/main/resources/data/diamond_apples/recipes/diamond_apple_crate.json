@@ -2,26 +2,23 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
+      "modid": "diamond_apples"
     }
   ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
     "###",
-    "#R#",
+    "###",
     "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:pumpkin"
-    },
-    "R": {
-      "item": "farmersdelight:rope"
+      "item": "diamond_apples:diamond_apple"
     }
   },
   "result": {
     "count": 1,
-    "item": "cratedelight:stacked_pumpkin"
+    "item": "cratedelight:diamond_apple_crate"
   }
 }

@@ -35,6 +35,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> APPLE_CRATE = registerBlock("apple_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
+    // Diamond Apple Crate
+    public static final RegistryObject<Block> DIAMOND_APPLE_CRATE = registerBlock("diamond_apple_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
     // Berry Crate
     public static final RegistryObject<Block> BERRY_CRATE = registerBlock("berry_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
