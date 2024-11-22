@@ -8,7 +8,7 @@
 
 ### 🛠️ Bug Fixes:
 
-- Fixed a bug where placing the beetroot crate on the crafting table gave the player only one beetroot item.
+- Fixed a bug where placing the beetroot crate on a crafting table gave the player only one beetroot item.
 
 ***
 
