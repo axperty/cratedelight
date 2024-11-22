@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "side": "cratedelight:block/stacked_melons_side",
-    "bottom": "cratedelight:block/stacked_melons_side",
-    "top": "cratedelight:block/stacked_melons_top"
-  }
-}

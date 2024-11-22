@@ -86,9 +86,6 @@ public class ModCreativeModTabs {
                         if (ModList.get().isLoaded("betterend")) {
                             pOutput.accept(ModBlocks.ENDER_DUST_BAG.get());
                         }
-
-                        pOutput.accept(ModBlocks.STACKED_MELONS.get());
-                        pOutput.accept(ModBlocks.STACKED_PUMPKINS.get());
                     })
                     .build());
 
