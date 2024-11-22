@@ -1,12 +1,15 @@
 package com.axperty.cratedelight.registry;
 
-import com.axperty.cratedelight.CrateDelight;
+import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.minecraft.world.item.BlockItem;
+
+import static com.axperty.cratedelight.CrateDelight.MODID;
 
 public class ItemRegistry {
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CrateDelight.MOD_ID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
 
     // Carrot Crate Item
     public static final DeferredItem<BlockItem> CARROT_CRATE_ITEM = ITEMS.registerSimpleBlockItem("carrot_crate", BlockRegistry.CARROT_CRATE);
@@ -112,10 +115,4 @@ public class ItemRegistry {
 
     // Cookie Bag Item
     public static final DeferredItem<BlockItem> COOKIE_BAG_ITEM = ITEMS.registerSimpleBlockItem("cookie_bag", BlockRegistry.COOKIE_BAG);
-
-    // Stacked Melons Item
-    public static final DeferredItem<BlockItem> STACKED_MELONS_ITEM = ITEMS.registerSimpleBlockItem("stacked_melons", BlockRegistry.STACKED_MELONS);
-
-    // Stacked Pumpkins Item
-    public static final DeferredItem<BlockItem> STACKED_PUMPKINS_ITEM = ITEMS.registerSimpleBlockItem("stacked_pumpkins", BlockRegistry.STACKED_PUMPKINS);
 }

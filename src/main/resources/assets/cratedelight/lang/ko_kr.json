@@ -39,8 +39,6 @@
   "block.cratedelight.potato_crate": "감자 상자",
   "block.cratedelight.beetroot_crate": "비트 상자",
 
-  "block.cratedelight.stacked_melons": "쌓인 멜론",
-  "block.cratedelight.stacked_pumpkins": "쌓인 호박",
   "block.cratedelight.cookie_bag": "쿠키 가방",
 
   "itemGroup.cratedelight": "Crate Delight"

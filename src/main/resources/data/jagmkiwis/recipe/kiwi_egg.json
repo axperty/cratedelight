@@ -6,13 +6,12 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:kiwi_egg_crate"
-    }
+    "cratedelight:kiwi_egg_crate"
   ],
   "result": {
-    "id": "jagmkiwis:kiwi_egg",
-    "count": 9
+    "count": 9,
+    "id": "jagmkiwis:kiwi_egg"
   }
 }

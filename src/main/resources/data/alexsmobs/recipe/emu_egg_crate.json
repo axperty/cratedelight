@@ -6,17 +6,17 @@
     }
   ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
     "###"
   ],
   "key": {
-    "#": {
-      "item": "alexsmobs:emu_egg"
-    }
+    "#": "alexsmobs:emu_egg"
   },
   "result": {
+    "count": 1,
     "id": "cratedelight:emu_egg_crate"
   }
 }

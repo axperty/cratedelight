@@ -6,17 +6,17 @@
     }
   ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
     "###"
   ],
   "key": {
-    "#": {
-      "item": "naturalist:duck_egg"
-    }
+    "#": "naturalist:duck_egg"
   },
   "result": {
+    "count": 1,
     "id": "cratedelight:duck_egg_crate"
   }
 }

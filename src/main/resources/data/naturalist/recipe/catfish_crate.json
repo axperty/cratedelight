@@ -6,17 +6,17 @@
     }
   ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
     "###"
   ],
   "key": {
-    "#": {
-      "item": "naturalist:catfish"
-    }
+    "#": "naturalist:catfish"
   },
   "result": {
+    "count": 1,
     "id": "cratedelight:catfish_crate"
   }
 }

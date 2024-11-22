@@ -6,17 +6,17 @@
     }
   ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
     "###"
   ],
   "key": {
-    "#": {
-      "item": "create:powdered_obsidian"
-    }
+    "#": "create:powdered_obsidian"
   },
   "result": {
+    "count": 1,
     "id": "cratedelight:powdered_obsidian_bag"
   }
 }

@@ -6,17 +6,17 @@
     }
   ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
     "###"
   ],
   "key": {
-    "#": {
-      "item": "jagmkiwis:kiwi_egg"
-    }
+    "#": "jagmkiwis:kiwi_egg"
   },
   "result": {
+    "count": 1,
     "id": "cratedelight:kiwi_egg_crate"
   }
 }

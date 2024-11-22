@@ -6,13 +6,12 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:wheat_flour_bag"
-    }
+    "cratedelight:wheat_flour_bag"
   ],
   "result": {
-    "id": "create:wheat_flour",
-    "count": 9
+    "count": 9,
+    "id": "create:wheat_flour"
   }
 }

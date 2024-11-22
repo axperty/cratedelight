@@ -1,7 +1,7 @@
 package com.axperty.cratedelight;
 
-import com.axperty.cratedelight.registry.CreativeTabRegistry;
 import com.axperty.cratedelight.registry.BlockRegistry;
+import com.axperty.cratedelight.registry.CreativeTabRegistry;
 import com.axperty.cratedelight.registry.ItemRegistry;
 import org.slf4j.Logger;
 
@@ -18,10 +18,10 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-@Mod(CrateDelight.MOD_ID)
+@Mod(CrateDelight.MODID)
 public class CrateDelight
 {
-    public static final String MOD_ID = "cratedelight";
+    public static final String MODID = "cratedelight";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public CrateDelight(IEventBus modEventBus, ModContainer modContainer)
@@ -44,7 +44,7 @@ public class CrateDelight
 
     }
 
-    @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
     {
         @SubscribeEvent

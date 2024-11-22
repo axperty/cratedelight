@@ -6,17 +6,17 @@
     }
   ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
     "###"
   ],
   "key": {
-    "#": {
-      "item": "alexsmobs:crocodile_egg"
-    }
+    "#": "alexsmobs:crocodile_egg"
   },
   "result": {
+    "count": 1,
     "id": "cratedelight:crocodile_egg_crate"
   }
 }

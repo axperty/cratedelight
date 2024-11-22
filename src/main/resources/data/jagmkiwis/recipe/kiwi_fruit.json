@@ -6,13 +6,12 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:kiwifruit_crate"
-    }
+    "cratedelight:kiwifruit_crate"
   ],
   "result": {
-    "id": "jagmkiwis:kiwi_fruit",
-    "count": 9
+    "count": 9,
+    "id": "jagmkiwis:kiwi_fruit"
   }
 }

@@ -6,13 +6,12 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:crocodile_egg_crate"
-    }
+    "cratedelight:crocodile_egg_crate"
   ],
   "result": {
-    "id": "alexsmobs:crocodile_egg",
-    "count": 9
+    "count": 9,
+    "id": "alexsmobs:crocodile_egg"
   }
 }

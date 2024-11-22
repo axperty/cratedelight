@@ -11,9 +11,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:beetroot_crate"
-    }
+    "cratedelight:beetroot_crate"
   ],
   "result": {
     "count": 1,

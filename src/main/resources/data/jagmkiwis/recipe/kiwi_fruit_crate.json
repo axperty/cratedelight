@@ -6,17 +6,17 @@
     }
   ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
     "###"
   ],
   "key": {
-    "#": {
-      "item": "jagmkiwis:kiwi_fruit"
-    }
+    "#": "jagmkiwis:kiwi_fruit"
   },
   "result": {
+    "count": 1,
     "id": "cratedelight:kiwifruit_crate"
   }
 }

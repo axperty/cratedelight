@@ -6,17 +6,17 @@
     }
   ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
     "###"
   ],
   "key": {
-    "#": {
-      "item": "alexsmobs:terrapin_egg"
-    }
+    "#": "alexsmobs:terrapin_egg"
   },
   "result": {
+    "count": 1,
     "id": "cratedelight:terrapin_egg_crate"
   }
 }

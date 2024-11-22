@@ -6,17 +6,17 @@
     }
   ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
     "###"
   ],
   "key": {
-    "#": {
-      "item": "naturalist:bass"
-    }
+    "#": "naturalist:bass"
   },
   "result": {
+    "count": 1,
     "id": "cratedelight:bass_crate"
   }
 }

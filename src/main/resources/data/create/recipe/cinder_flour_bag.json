@@ -6,17 +6,17 @@
     }
   ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
     "###"
   ],
   "key": {
-    "#": {
-      "item": "create:cinder_flour"
-    }
+    "#": "create:cinder_flour"
   },
   "result": {
+    "count": 1,
     "id": "cratedelight:cinder_flour_bag"
   }
 }

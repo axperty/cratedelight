@@ -6,13 +6,12 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:banana_crate"
-    }
+    "cratedelight:banana_crate"
   ],
   "result": {
-    "id": "alexsmobs:banana",
-    "count": 9
+    "count": 9,
+    "id": "alexsmobs:banana"
   }
 }

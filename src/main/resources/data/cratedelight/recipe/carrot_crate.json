@@ -16,9 +16,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:carrot"
-    }
+    "#": "minecraft:carrot"
   },
   "result": {
     "count": 1,

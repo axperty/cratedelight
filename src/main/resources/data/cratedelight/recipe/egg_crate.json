@@ -7,9 +7,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:egg"
-    }
+    "#": "minecraft:egg"
   },
   "result": {
     "count": 1,

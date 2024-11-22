@@ -1,6 +1,5 @@
 package com.axperty.cratedelight.registry;
 
-import com.axperty.cratedelight.CrateDelight;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -8,8 +7,10 @@ import net.minecraft.world.level.material.MapColor;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+import static com.axperty.cratedelight.CrateDelight.MODID;
+
 public class BlockRegistry {
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(CrateDelight.MOD_ID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
 
     // Carrot Crate
     public static final DeferredBlock<Block> CARROT_CRATE = BLOCKS.registerSimpleBlock("carrot_crate",
@@ -150,13 +151,4 @@ public class BlockRegistry {
     // Cookie Bag
     public static final DeferredBlock<Block> COOKIE_BAG = BLOCKS.registerSimpleBlock("cookie_bag",
             BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
-
-    // Stacked Melons
-    public static final DeferredBlock<Block> STACKED_MELONS = BLOCKS.registerSimpleBlock("stacked_melons",
-            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
-
-    // Stacked Pumpkins
-    public static final DeferredBlock<Block> STACKED_PUMPKINS = BLOCKS.registerSimpleBlock("stacked_pumpkins",
-            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
-
 }

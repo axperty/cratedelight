@@ -6,13 +6,12 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:emu_egg_crate"
-    }
+    "cratedelight:emu_egg_crate"
   ],
   "result": {
-    "id": "alexsmobs:emu_egg",
-    "count": 9
+    "count": 9,
+    "id": "alexsmobs:emu_egg"
   }
 }
