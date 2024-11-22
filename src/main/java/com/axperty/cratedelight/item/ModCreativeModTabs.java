@@ -43,9 +43,6 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.SUGAR_BAG.get());
                         pOutput.accept(ModBlocks.GUNPOWDER_BAG.get());
                         pOutput.accept(ModBlocks.COOKIE_BAG.get());
-
-                        pOutput.accept(ModBlocks.STACKED_MELONS.get());
-                        pOutput.accept(ModBlocks.STACKED_PUMPKINS.get());
                     })
                     .build());
 

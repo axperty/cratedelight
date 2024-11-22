@@ -2,16 +2,13 @@
 
 ***
 
-### ✨ What's New:
+### 🛠️ Important Changes:
 
-- Added Cookie Bag.
-- Added Stacked Melons.
-- Added Stacked Pumpkins.
+- Stacked melons and stacked pumpkins have moved to a new mod called [Stacked Blocks](https://www.curseforge.com/minecraft/mc-mods/stacked-blocks), this mod includes even more blocks that can be compressed to save space and organize your items.
 
-### 📝 Translations:
+### 🛠️ Bug Fixes:
 
-- Added translations for Turkish. These translations might contain typos or grammatical mistakes,
-  you can make changes and improvements [here](https://github.com/axperty/cratedelight/blob/1.21-neoforge/src/main/resources/assets/cratedelight/lang/tr_tr.json).
+- Fixed a bug where placing the beetroot crate on the crafting table gave the player only one beetroot item.
 
 ***
 

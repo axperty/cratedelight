@@ -87,14 +87,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> COOKIE_BAG = registerBlock("cookie_bag",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
 
-    // Stacked Melons
-    public static final RegistryObject<Block> STACKED_MELONS = registerBlock("stacked_melons",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
-
-    // Stacked Pumpkins
-    public static final RegistryObject<Block> STACKED_PUMPKINS = registerBlock("stacked_pumpkins",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
-
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
