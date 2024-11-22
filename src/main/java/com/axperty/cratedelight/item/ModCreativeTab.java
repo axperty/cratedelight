@@ -96,9 +96,6 @@ public class ModCreativeTab {
                         if (FabricLoader.getInstance().isModLoaded("betterend")) {
                             entries.add(BlockRegistry.ENDER_DUST_BAG);
                         }
-
-                        entries.add(BlockRegistry.STACKED_MELONS);
-                        entries.add(BlockRegistry.STACKED_PUMPKINS);
                     })
                     .build());
 

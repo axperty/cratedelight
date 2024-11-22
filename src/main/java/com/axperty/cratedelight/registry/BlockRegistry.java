@@ -157,14 +157,6 @@ public class BlockRegistry {
     public static final Block ENDER_DUST_BAG = registerBlock("ender_dust_bag",
             new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
 
-    // Stacked Melons Registry
-    public static final Block STACKED_MELONS = registerBlock("stacked_melons",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
-
-    // Stacked Pumpkins Registry
-    public static final Block STACKED_PUMPKINS = registerBlock("stacked_pumpkins",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
-
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.tryParse(CrateDelight.MODID + ":" + name), block);
