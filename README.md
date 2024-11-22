@@ -35,6 +35,7 @@ This mod adds thirteen new type of blocks to the game that are useful to save st
 - Cocoa Beans Bag
 - Sugar Bag
 - Gunpowder Bag
+- Cookie Bag
 
 It also adds crates and bags for the following mods:
 

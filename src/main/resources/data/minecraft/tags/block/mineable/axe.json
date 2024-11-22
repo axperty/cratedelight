@@ -13,8 +13,6 @@
     "cratedelight:golden_apple_crate",
     "cratedelight:red_mushroom_crate",
     "cratedelight:brown_mushroom_crate",
-    "cratedelight:golden_carrot_crate",
-    "cratedelight:stacked_melons",
-    "cratedelight:stacked_pumpkins"
+    "cratedelight:golden_carrot_crate"
   ]
 }

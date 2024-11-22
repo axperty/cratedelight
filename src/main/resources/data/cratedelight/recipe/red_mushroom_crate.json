@@ -7,9 +7,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:red_mushroom"
-    }
+    "#": "minecraft:red_mushroom"
   },
   "result": {
     "count": 1,
