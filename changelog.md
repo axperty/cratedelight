@@ -2,19 +2,9 @@
 
 ***
 
-### ✨ What's New:
+### 🛠️ Important Changes:
 
-- Added Diamond Apple Crate (for ya017zan's Diamond Apples).
-
-### 🛠️ Bug Fixes:
-
-- Fixed a bug where recipes for the beetroot crate, carrot crate, and potato crate were displayed twice when Farmer's Delight was loaded,
-  special thanks to Aruman-Zen.
-- Fixed a bug where the stacked melons and stacked pumpkins couldn't be made using rope from Farmer's Delight.
-
-### 📝 Translations:
-
-- Improved translations for Russian, special thanks to Korben.
+- Stacked melons and stacked pumpkins have moved to a new mod called [Stacked Blocks](https://www.curseforge.com/minecraft/mc-mods/stacked-blocks), this mod includes even more blocks that can be compressed to save space and organize your items.
 
 ***
 

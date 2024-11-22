@@ -113,10 +113,4 @@ public class BlockList {
 
     // Ender Dust Bag (for BetterEnd)
     public static Block ENDER_DUST_BAG;
-
-    // Stacked Melons
-    public static Block STACKED_MELONS;
-
-    // Stacked Pumpkins
-    public static Block STACKED_PUMPKINS;
 }

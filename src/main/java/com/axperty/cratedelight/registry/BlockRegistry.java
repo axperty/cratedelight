@@ -189,14 +189,6 @@ public class BlockRegistry {
                     new Block(blockSettings(.7f, .8f, BlockSoundGroup.WOOL)));
         }
 
-        // Stacked Melons Registry
-        BlockList.STACKED_MELONS = block("stacked_melons",
-                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
-
-        // Stacked Pumpkins Registry
-        BlockList.STACKED_PUMPKINS = block("stacked_pumpkins",
-                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
-
     }
     private static FabricBlockSettings blockSettings(float hardness, float resistance, BlockSoundGroup sound) {
         return FabricBlockSettings.create().strength(hardness, resistance).sounds(sound);
