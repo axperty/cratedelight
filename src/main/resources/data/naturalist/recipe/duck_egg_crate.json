@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "naturalist:duck_egg"
-    }
+    "#": "naturalist:duck_egg"
   },
   "result": {
     "count": 1,

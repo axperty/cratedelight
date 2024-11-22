@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "betterend:end_fish_raw"
-    }
+    "#": "betterend:end_fish_raw"
   },
   "result": {
     "count": 1,

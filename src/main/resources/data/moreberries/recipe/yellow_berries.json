@@ -10,9 +10,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:yellow_berry_crate"
-    }
+    "cratedelight:yellow_berry_crate"
   ],
   "result": {
     "count": 9,

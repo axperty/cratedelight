@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "nutritious-feast:blueberries"
-    }
+    "#": "nutritious-feast:blueberries"
   },
   "result": {
     "count": 1,

@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "moreberries:blue_berries"
-    }
+    "#": "moreberries:blue_berries"
   },
   "result": {
     "count": 1,

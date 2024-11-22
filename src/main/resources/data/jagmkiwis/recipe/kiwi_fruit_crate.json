@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "jagmkiwis:kiwi_fruit"
-    }
+    "#": "jagmkiwis:kiwi_fruit"
   },
   "result": {
     "count": 1,

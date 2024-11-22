@@ -7,9 +7,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:golden_carrot"
-    }
+    "#": "minecraft:golden_carrot"
   },
   "result": {
     "count": 1,

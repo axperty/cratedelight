@@ -10,9 +10,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:ender_dust_bag"
-    }
+    "cratedelight:ender_dust_bag"
   ],
   "result": {
     "count": 9,

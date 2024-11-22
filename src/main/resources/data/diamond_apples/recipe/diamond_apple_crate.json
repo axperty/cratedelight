@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "diamond_apples:diamond_apple"
-    }
+    "#": "diamond_apples:diamond_apple"
   },
   "result": {
     "count": 1,

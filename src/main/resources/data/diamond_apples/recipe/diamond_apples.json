@@ -10,9 +10,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:diamond_apple_crate"
-    }
+    "cratedelight:diamond_apple_crate"
   ],
   "result": {
     "count": 9,

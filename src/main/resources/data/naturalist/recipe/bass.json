@@ -10,9 +10,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:bass_crate"
-    }
+    "cratedelight:bass_crate"
   ],
   "result": {
     "count": 9,

@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "expandeddelight:peanut"
-    }
+    "#": "expandeddelight:peanut"
   },
   "result": {
     "count": 1,

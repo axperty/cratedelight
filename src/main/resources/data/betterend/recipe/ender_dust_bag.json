@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "betterend:ender_dust"
-    }
+    "#": "betterend:ender_dust"
   },
   "result": {
     "count": 1,

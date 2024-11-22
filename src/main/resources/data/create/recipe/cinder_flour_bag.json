@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "create:cinder_flour"
-    }
+    "#": "create:cinder_flour"
   },
   "result": {
     "count": 1,

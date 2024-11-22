@@ -10,9 +10,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:powdered_obsidian_bag"
-    }
+    "cratedelight:powdered_obsidian_bag"
   ],
   "result": {
     "count": 9,

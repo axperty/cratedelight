@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "naturalist:catfish"
-    }
+    "#": "naturalist:catfish"
   },
   "result": {
     "count": 1,

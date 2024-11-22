@@ -7,9 +7,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:sweet_berries"
-    }
+    "#": "minecraft:sweet_berries"
   },
   "result": {
     "count": 1,

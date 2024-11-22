@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "naturalist:bass"
-    }
+    "#": "naturalist:bass"
   },
   "result": {
     "count": 1,

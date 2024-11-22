@@ -10,9 +10,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:black_berry_crate"
-    }
+    "cratedelight:black_berry_crate"
   ],
   "result": {
     "count": 9,

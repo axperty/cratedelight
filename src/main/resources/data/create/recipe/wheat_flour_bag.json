@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "create:wheat_flour"
-    }
+    "#": "create:wheat_flour"
   },
   "result": {
     "count": 1,

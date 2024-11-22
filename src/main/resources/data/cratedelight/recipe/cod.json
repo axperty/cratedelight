@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "cratedelight:cod_crate"
-    }
+    "cratedelight:cod_crate"
   ],
   "result": {
     "count": 9,

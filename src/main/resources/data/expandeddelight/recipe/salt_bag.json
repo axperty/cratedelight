@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "expandeddelight:ground_salt"
-    }
+    "#": "expandeddelight:ground_salt"
   },
   "result": {
     "count": 1,

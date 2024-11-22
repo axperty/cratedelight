@@ -15,9 +15,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "expandeddelight:ground_cinnamon"
-    }
+    "#": "expandeddelight:ground_cinnamon"
   },
   "result": {
     "count": 1,
