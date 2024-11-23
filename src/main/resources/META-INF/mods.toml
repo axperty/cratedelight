@@ -5,10 +5,10 @@ license="${mod_license}"
 
 [[mods]]
     modId="cratedelight"
-    version="24.11.07-1.19-forge"
+    version="24.11.22-1.19-forge"
     displayName="Crate Delight"
     authors="Axperty"
-    description="A mod that adds crates, bags, and stacked blocks to the game."
+    description="A mod that adds crates and bags to the game."
     logoFile="assets/cratedelight/logo.png"
 
 [[dependencies.cratedelight]]
