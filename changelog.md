@@ -2,15 +2,14 @@
 
 ***
 
+### 🛠️ Important Changes:
+
+- Stacked melons and stacked pumpkins have moved to a new mod called [Stacked Blocks](https://www.curseforge.com/minecraft/mc-mods/stacked-blocks), this mod includes even more blocks that can be compressed to save space and organize your items.
+
 ### 🛠️ Bug Fixes:
 
-- Fixed a bug where recipes for the beetroot crate, carrot crate, and potato crate were displayed twice when Farmer's Delight was loaded, special thanks to Aruman-Zen.
-- Fixed a bug where the stacked melons and stacked pumpkins couldn't be made using rope from Farmer's Delight.
-
-### 📝 Translations:
-
-- Improved translations for Russian, special thanks to Korben.
+- Fixed a bug where the crates and bags took more time to break than usual.
 
 ***
 
-Send your suggestions or report any issues on [GitHub](https://github.com/axperty/cratedelight/issues/new). Support Crate Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn).
+Send your suggestions or report any issues on [GitHub](https://github.com/axperty/cratedelight/issues/new). Support Crate Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn). 
