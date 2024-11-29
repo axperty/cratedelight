@@ -2,7 +2,6 @@ package com.axperty.cratedelight.registry;
 
 import com.axperty.cratedelight.CrateDelight;
 import com.axperty.cratedelight.block.BlockList;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.loader.api.FabricLoader;
@@ -201,12 +200,8 @@ public class BlockRegistry {
 
     private static Item blockItem(String name, Block block) {
         Item item = Registry.register(Registries.ITEM, new Identifier(CrateDelight.MODID, name),
-                new BlockItem(block, new FabricItemSettings()));
+                new BlockItem(block, new Item.Settings()));
         ItemGroupEvents.modifyEntriesEvent(CrateDelight.GROUP).register(entries -> entries.add(item));
         return item;
-    }
-
-    private static Block withoutBlockItem(String name, Block block) {
-        return Registry.register(Registries.BLOCK, new Identifier(CrateDelight.MODID, name), block);
     }
 }

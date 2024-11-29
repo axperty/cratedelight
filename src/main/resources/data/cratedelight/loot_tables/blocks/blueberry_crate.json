@@ -1,7 +1,7 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:any_mod_loaded",
+      "condition": "fabric:any_mods_loaded",
       "values": [
         "moreberries",
         "nutritious-feast"

@@ -2,9 +2,9 @@
 
 ***
 
-### 🛠️ Important Changes:
+### ✨ What's New:
 
-- Stacked melons and stacked pumpkins have moved to a new mod called [Stacked Blocks](https://www.curseforge.com/minecraft/mc-mods/stacked-blocks), this mod includes even more blocks that can be compressed to save space and organize your items.
+- This version of Crate Delight now works with Minecraft 1.20.5-1.20.6.
 
 ***
 
