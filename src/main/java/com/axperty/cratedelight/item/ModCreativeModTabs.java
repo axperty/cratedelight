@@ -28,46 +28,11 @@ public class ModCreativeModTabs {
                         }
 
                         pOutput.accept(ModBlocks.APPLE_CRATE.get());
-
-                        if (ModList.get().isLoaded("diamond_apples")) {
-                            pOutput.accept(ModBlocks.DIAMOND_APPLE_CRATE.get());
-                        }
-
                         pOutput.accept(ModBlocks.BERRY_CRATE.get());
-
-                        if (ModList.get().isLoaded("nutritious_feast")) {
-                            pOutput.accept(ModBlocks.BLUEBERRY_CRATE.get());
-                        }
-
                         pOutput.accept(ModBlocks.GLOWBERRY_CRATE.get());
                         pOutput.accept(ModBlocks.EGG_CRATE.get());
                         pOutput.accept(ModBlocks.SALMON_CRATE.get());
                         pOutput.accept(ModBlocks.COD_CRATE.get());
-
-                        if (ModList.get().isLoaded("naturalist")) {
-                            pOutput.accept(ModBlocks.DUCK_EGG_CRATE.get());
-                            pOutput.accept(ModBlocks.CATFISH_CRATE.get());
-                            pOutput.accept(ModBlocks.BASS_CRATE.get());
-                        }
-
-                        if (ModList.get().isLoaded("betterend")) {
-                            pOutput.accept(ModBlocks.END_FISH_CRATE.get());
-                        }
-
-                        if (ModList.get().isLoaded("jagmkiwis")) {
-                            pOutput.accept(ModBlocks.KIWI_EGG_CRATE.get());
-                            pOutput.accept(ModBlocks.KIWIFRUIT_CRATE.get());
-                        }
-
-                        if (ModList.get().isLoaded("alexsmobs")) {
-                            pOutput.accept(ModBlocks.EMU_EGG_CRATE.get());
-                            pOutput.accept(ModBlocks.TERRAPIN_EGG_CRATE.get());
-                            pOutput.accept(ModBlocks.CROCODILE_EGG_CRATE.get());
-                            pOutput.accept(ModBlocks.CAIMAN_EGG_CRATE.get());
-                            pOutput.accept(ModBlocks.PLATYPUS_EGG_CRATE.get());
-                            pOutput.accept(ModBlocks.BANANA_CRATE.get());
-                        }
-
                         pOutput.accept(ModBlocks.RED_MUSHROOM_CRATE.get());
                         pOutput.accept(ModBlocks.BROWN_MUSHROOM_CRATE.get());
                         pOutput.accept(ModBlocks.GOLDEN_CARROT_CRATE.get());
@@ -76,16 +41,6 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.SUGAR_BAG.get());
                         pOutput.accept(ModBlocks.GUNPOWDER_BAG.get());
                         pOutput.accept(ModBlocks.COOKIE_BAG.get());
-
-                        if (ModList.get().isLoaded("create")) {
-                            pOutput.accept(ModBlocks.WHEAT_FLOUR_BAG.get());
-                            pOutput.accept(ModBlocks.POWDERED_OBSIDIAN_BAG.get());
-                            pOutput.accept(ModBlocks.CINDER_FLOUR_BAG.get());
-                        }
-
-                        if (ModList.get().isLoaded("betterend")) {
-                            pOutput.accept(ModBlocks.ENDER_DUST_BAG.get());
-                        }
                     })
                     .build());
 
