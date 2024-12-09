@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "cratedelight:item/egg_crate"
+  }
+}
