@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cratedelight",
-  "version": "24.11.22-1.21-fabric",
+  "version": "24.12.09-1.21.4-fabric",
   "name": "Crate Delight",
   "description": "A mod that adds crates and bags to the game.",
   "authors": [
@@ -19,8 +19,8 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.14.21",
-    "minecraft": ">=1.21.2",
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
     "java": ">=21",
     "fabric-api": "*"
   }
