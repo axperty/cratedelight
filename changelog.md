@@ -2,14 +2,9 @@
 
 ***
 
-### 🛠️ Important Changes:
-
-- Stacked melons and stacked pumpkins have moved to a new mod called [Stacked Blocks](https://www.curseforge.com/minecraft/mc-mods/stacked-blocks), this mod includes even more blocks that can be compressed to save space and organize your items.
-
 ### 🛠️ Bug Fixes:
 
-- Fixed a bug where the diamond apple crate appeared in the creative mode tab when the mod Diamond Apples wasn't loaded.
-- Fixed a bug where the crates and bags took more time to break than usual.
+- Fixed a bug where Crate Delight caused Minecraft to crash unexpectedly when initializing the game.
 
 ***
 

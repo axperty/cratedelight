@@ -52,10 +52,6 @@
     {
       "id": "cratedelight:golden_carrot_crate",
       "required": false
-    },
-    {
-      "id": "cratedelight:diamond_apple_crate",
-      "required": false
     }
   ]
 }

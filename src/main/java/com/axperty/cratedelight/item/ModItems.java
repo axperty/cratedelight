@@ -30,10 +30,6 @@ public class ModItems {
     public static final RegistryObject<Item> APPLE_CRATE = ITEMS.register("apple_crate",
             () -> (new BlockItem(ModBlocks.APPLE_CRATE.get(), (new Item.Properties()).tab(CrateDelight.ITEM_GROUP))));
 
-    // Diamond Apple Crate
-    public static final RegistryObject<Item> DIAMOND_APPLE_CRATE = modLoaded("diamond_apples") ? ITEMS.register("diamond_apple_crate",
-            () -> (new BlockItem(ModBlocks.DIAMOND_APPLE_CRATE.get(), (new Item.Properties()).tab(CrateDelight.ITEM_GROUP)))) : null;
-
     // Berry Crate
     public static final RegistryObject<Item> BERRY_CRATE = ITEMS.register("berry_crate",
             () -> (new BlockItem(ModBlocks.BERRY_CRATE.get(), (new Item.Properties()).tab(CrateDelight.ITEM_GROUP))));
