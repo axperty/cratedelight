@@ -1,0 +1,282 @@
+{
+  "format_version": "1.21.40",
+  "cratedelight:carrot_crate": {
+    "textures": {
+      "up": "carrot_crate_top",
+      "down": "crate_bottom",
+      "side": "carrot_crate_side"
+    },
+    "carried_textures": {
+      "up": "carrot_crate_top",
+      "down": "crate_bottom",
+      "side": "carrot_crate_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "wood"
+  },
+  "cratedelight:potato_crate": {
+    "textures": {
+      "up": "potato_crate_top",
+      "down": "crate_bottom",
+      "side": "potato_crate_side"
+    },
+    "carried_textures": {
+      "up": "potato_crate_top",
+      "down": "crate_bottom",
+      "side": "potato_crate_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "wood"
+  },
+  "cratedelight:beetroot_crate": {
+    "textures": {
+      "up": "beetroot_crate_top",
+      "down": "crate_bottom",
+      "side": "beetroot_crate_side"
+    },
+    "carried_textures": {
+      "up": "beetroot_crate_top",
+      "down": "crate_bottom",
+      "side": "beetroot_crate_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "wood"
+  },
+  "cratedelight:apple_crate": {
+    "textures": {
+      "up": "apple_crate_top",
+      "down": "crate_bottom",
+      "side": "apple_crate_side"
+    },
+    "carried_textures": {
+      "up": "apple_crate_top",
+      "down": "crate_bottom",
+      "side": "apple_crate_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "wood"
+  },
+  "cratedelight:berry_crate": {
+    "textures": {
+      "up": "berry_crate_top",
+      "down": "crate_bottom",
+      "side": "berry_crate_side"
+    },
+    "carried_textures": {
+      "up": "berry_crate_top",
+      "down": "crate_bottom",
+      "side": "berry_crate_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "wood"
+  },
+  "cratedelight:glowberry_crate": {
+    "textures": {
+      "up": "glowberry_crate_top",
+      "down": "crate_bottom",
+      "side": "glowberry_crate_side"
+    },
+    "carried_textures": {
+      "up": "glowberry_crate_top",
+      "down": "crate_bottom",
+      "side": "glowberry_crate_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "wood"
+  },
+  "cratedelight:egg_crate": {
+    "textures": {
+      "up": "egg_crate_top",
+      "down": "crate_bottom",
+      "side": "egg_crate_side"
+    },
+    "carried_textures": {
+      "up": "egg_crate_top",
+      "down": "crate_bottom",
+      "side": "egg_crate_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "wood"
+  },
+  "cratedelight:salmon_crate": {
+    "textures": {
+      "up": "salmon_crate_top",
+      "down": "crate_bottom",
+      "side": "salmon_crate_side"
+    },
+    "carried_textures": {
+      "up": "salmon_crate_top",
+      "down": "crate_bottom",
+      "side": "salmon_crate_side"
+    },
+     "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "wood"
+  },
+  "cratedelight:cod_crate": {
+    "textures": {
+      "up": "cod_crate_top",
+      "down": "crate_bottom",
+      "side": "cod_crate_side"
+    },
+    "carried_textures": {
+      "up": "cod_crate_top",
+      "down": "crate_bottom",
+      "side": "cod_crate_side"
+    },
+     "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "wood"
+  },
+   "cratedelight:red_mushroom_crate": {
+    "textures": {
+      "up": "red_mushroom_crate_top",
+      "down": "crate_bottom",
+      "side": "red_mushroom_crate_side"
+    },
+    "carried_textures": {
+      "up": "red_mushroom_crate_top",
+      "down": "crate_bottom",
+      "side": "red_mushroom_crate_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "wood"
+  },
+  "cratedelight:brown_mushroom_crate": {
+    "textures": {
+      "up": "brown_mushroom_crate_top",
+      "down": "crate_bottom",
+      "side": "brown_mushroom_crate_side"
+    },
+    "carried_textures": {
+      "up": "brown_mushroom_crate_top",
+      "down": "crate_bottom",
+      "side": "brown_mushroom_crate_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "wood"
+  },
+  "cratedelight:golden_carrot_crate": {
+    "textures": {
+      "up": "golden_carrot_crate_top",
+      "down": "crate_bottom",
+      "side": "golden_carrot_crate_side"
+    },
+    "carried_textures": {
+      "up": "golden_carrot_crate_top",
+      "down": "crate_bottom",
+      "side": "golden_carrot_crate_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "wood"
+  },
+  "cratedelight:golden_apple_crate": {
+    "textures": {
+      "up": "golden_apple_crate_top",
+      "down": "crate_bottom",
+      "side": "golden_apple_crate_side"
+    },
+    "carried_textures": {
+      "up": "golden_apple_crate_top",
+      "down": "crate_bottom",
+      "side": "golden_apple_crate_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "wood"
+  },
+  "cratedelight:cocoabeans_bag": {
+    "textures": {
+      "up": "cocoabeans_bag_top",
+      "down": "rice_bag_bottom",
+      "east": "rice_bag_side",
+      "north": "rice_bag_side_tied",
+      "south": "rice_bag_side_tied",
+      "west": "rice_bag_side"
+    },
+    "carried_textures": {
+      "up": "cocoabeans_bag_top",
+      "down": "rice_bag_bottom",
+      "east": "rice_bag_side",
+      "north": "rice_bag_side_tied",
+      "south": "rice_bag_side_tied",
+      "west": "rice_bag_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "cloth"
+  },
+  "cratedelight:sugar_bag": {
+    "textures": {
+      "down": "rice_bag_bottom",
+      "up": "sugar_bag_top",
+      "north": "rice_bag_side_tied",
+      "east": "rice_bag_side",
+      "south": "rice_bag_side_tied",
+      "west": "rice_bag_side"
+    },
+    "carried_textures": {
+      "up": "sugar_bag_top",
+      "down": "rice_bag_bottom",
+      "east": "rice_bag_side",
+      "north": "rice_bag_side_tied",
+      "south": "rice_bag_side_tied",
+      "west": "rice_bag_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "cloth"
+  },
+  "cratedelight:gunpowder_bag": {
+    "textures": {
+      "up": "gunpowder_bag_top",
+      "down": "rice_bag_bottom",
+      "east": "rice_bag_side",
+      "north": "rice_bag_side_tied",
+      "south": "rice_bag_side_tied",
+      "west": "rice_bag_side"
+    },
+    "carried_textures": {
+      "up": "gunpowder_bag_top",
+      "down": "rice_bag_bottom",
+      "east": "rice_bag_side",
+      "north": "rice_bag_side_tied",
+      "south": "rice_bag_side_tied",
+      "west": "rice_bag_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "cloth"
+  },
+    "cratedelight:cookie_bag": {
+    "textures": {
+      "up": "cookie_bag_top",
+      "down": "rice_bag_bottom",
+      "east": "rice_bag_side",
+      "north": "rice_bag_side_tied",
+      "south": "rice_bag_side_tied",
+      "west": "rice_bag_side"
+    },
+    "carried_textures": {
+      "up": "cookie_bag_top",
+      "down": "rice_bag_bottom",
+      "east": "rice_bag_side",
+      "north": "rice_bag_side_tied",
+      "south": "rice_bag_side_tied",
+      "west": "rice_bag_side"
+    },
+    "isotropic": false,
+    "brightness_gamma": 1,
+    "sound": "cloth"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "resource_pack_name": "crate_delight_resource_pack",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "carrot_crate_top": {
+      "textures": "textures/blocks/carrot_crate_top"
+    },
+     "carrot_crate_side": {
+      "textures": "textures/blocks/carrot_crate_side"
+    },
+    "potato_crate_top": {
+      "textures": "textures/blocks/potato_crate_top"
+    },
+    "potato_crate_side": {
+      "textures": "textures/blocks/potato_crate_side"
+    },
+    "beetroot_crate_top": {
+      "textures": "textures/blocks/beetroot_crate_top"
+    },
+    "beetroot_crate_side": {
+      "textures": "textures/blocks/beetroot_crate_side"
+    },
+    "apple_crate_top": {
+      "textures": "textures/blocks/apple_crate_top"
+    },
+    "apple_crate_side": {
+      "textures": "textures/blocks/apple_crate_side"
+    },
+     "berry_crate_top": {
+      "textures": "textures/blocks/berry_crate_top"
+    },
+    "berry_crate_side": {
+      "textures": "textures/blocks/berry_crate_side"
+    },
+    "glowberry_crate_top": {
+      "textures": "textures/blocks/glowberry_crate_top"
+    },
+    "glowberry_crate_side": {
+      "textures": "textures/blocks/glowberry_crate_side"
+    },
+    "egg_crate_top": {
+      "textures": "textures/blocks/egg_crate_top"
+    },
+    "egg_crate_side": {
+      "textures": "textures/blocks/egg_crate_side"
+    },
+     "salmon_crate_top": {
+      "textures": "textures/blocks/salmon_crate_top"
+    },
+    "salmon_crate_side": {
+      "textures": "textures/blocks/salmon_crate_side"
+    },
+    "cod_crate_top": {
+      "textures": "textures/blocks/cod_crate_top"
+    },
+    "cod_crate_side": {
+      "textures": "textures/blocks/cod_crate_side"
+    },
+    "red_mushroom_crate_top": {
+      "textures": "textures/blocks/red_mushroom_crate_top"
+    },
+    "red_mushroom_crate_side": {
+      "textures": "textures/blocks/red_mushroom_crate_side"
+    },
+    "brown_mushroom_crate_top": {
+      "textures": "textures/blocks/brown_mushroom_crate_top"
+    },
+     "brown_mushroom_crate_side": {
+      "textures": "textures/blocks/brown_mushroom_crate_side"
+    },
+    "golden_carrot_crate_top": {
+      "textures": "textures/blocks/golden_carrot_crate_top"
+    },
+     "golden_carrot_crate_side": {
+      "textures": "textures/blocks/golden_carrot_crate_side"
+    },
+      "golden_apple_crate_top": {
+      "textures": "textures/blocks/golden_apple_crate_top"
+    },
+    "golden_apple_crate_side": {
+      "textures": "textures/blocks/golden_apple_crate_side"
+    },
+     "cocoabeans_bag_top": {
+      "textures": "textures/blocks/cocoabeans_bag_top"
+    },
+    "sugar_bag_top": {
+      "textures": "textures/blocks/sugar_bag_top"
+    },
+    "gunpowder_bag_top": {
+      "textures": "textures/blocks/gunpowder_bag_top"
+    },
+        "cookie_bag_top": {
+      "textures": "textures/blocks/cookie_bag_top"
+    },
+    "crate_bottom": {
+      "textures": "textures/blocks/crate_bottom"
+    },
+     "rice_bag_bottom": {
+      "textures": "textures/blocks/rice_bag_bottom"
+    },
+    "rice_bag_side_tied": {
+      "textures": "textures/blocks/rice_bag_side_tied"
+    },
+    "rice_bag_side": {
+      "textures": "textures/blocks/rice_bag_side"
+    },
+    "rice_bag_top": {
+      "textures": "textures/blocks/rice_bag_top"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cratedelight:potato_crate"
+		},
+		"tags": ["crafting_table"],
+    "pattern": [
+			"AAA",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:potato"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:potato"
+			}	
+        ],
+		"result": {
+			"item": "cratedelight:potato_crate"
+		}
+	}
+}

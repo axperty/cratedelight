@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cratedelight:cocoabeans_from_bag"
+		},
+		"tags": ["crafting_table"],
+		"ingredients": [
+            "cratedelight:cocoabeans_bag"
+        ],
+		"unlock": [
+			{
+				"item": "cratedelight:cocoabeans_bag"
+			}	
+        ],
+		"result": {
+			"item": "minecraft:cocoa_beans",
+			"count": 9
+		}
+	}
+}

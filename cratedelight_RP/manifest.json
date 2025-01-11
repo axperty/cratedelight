@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Crate Delight",
+    "description": "An add-on that adds crates and bags to the game.",
+    "uuid": "588eccfa-eae5-4a53-94bc-846eb6a6780a",
+    "version": [
+      25,
+      1,
+      11
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "description": "Add-on Pack Resources",
+      "type": "resources",
+      "uuid": "ca634b76-693f-494f-a581-8f965a02c7f0",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "fc232699-d8e7-4826-99c6-6af3c7f52dbf",
+      "version": [
+        25,
+        1,
+        11
+      ]
+    }
+  ]
+}

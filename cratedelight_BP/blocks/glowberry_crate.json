@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cratedelight:glowberry_crate",
+      "menu_category": {
+				"category": "construction"
+			}
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "glowberry_crate_top"
+        },
+        "down": {
+          "texture": "crate_bottom"
+        },
+        "side": {
+          "texture": "glowberry_crate_side"
+        }
+      },
+      "tag:minecraft:is_axe_item_destructible": {},
+      "minecraft:light_emission": 10,
+      "minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
+      "minecraft:loot": "loot_table/blocks/glowberry_crate.json"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "atlas_tile": "cod_crate_top",
+        "flipbook_texture": "textures/blocks/cod_crate_top",
+        "blend_frames": false,
+        "ticks_per_frame": 20
+    },
+
+    {
+        "atlas_tile": "salmon_crate_top",
+        "flipbook_texture": "textures/blocks/salmon_crate_top",
+        "blend_frames": false,
+        "ticks_per_frame": 20
+    },
+
+    {
+        "atlas_tile": "glowberry_crate_top",
+        "flipbook_texture": "textures/blocks/glowberry_crate_top",
+        "ticks_per_frame": 15
+    },
+
+    {
+        "atlas_tile": "glowberry_crate_side",
+        "flipbook_texture": "textures/blocks/glowberry_crate_side",
+        "ticks_per_frame": 15
+    }
+]

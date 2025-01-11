@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cratedelight:red_mushroom_crate"
+		},
+		"tags": ["crafting_table"],
+    "pattern": [
+			"AAA",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:red_mushroom"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:red_mushroom"
+			}	
+        ],
+		"result": {
+			"item": "cratedelight:red_mushroom_crate"
+		}
+	}
+}

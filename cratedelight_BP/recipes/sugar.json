@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cratedelight:sugar_from_bag"
+		},
+		"tags": ["crafting_table"],
+		"ingredients": [
+            "cratedelight:sugar_bag"
+        ],
+		"unlock": [
+			{
+				"item": "cratedelight:sugar_bag"
+			}	
+        ],
+		"result": {
+			"item": "minecraft:sugar",
+			"count": 9
+		}
+	}
+}

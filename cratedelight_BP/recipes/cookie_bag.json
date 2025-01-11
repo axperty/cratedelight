@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cratedelight:cookie_bag"
+		},
+		"tags": ["crafting_table"],
+		"pattern": [
+				"AAA",
+				"AAA",
+				"AAA"
+			],
+		"key": {
+			"A": {
+				"item": "minecraft:cookie"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:cookie"
+			}	
+        ],
+		"result": {
+			"item": "cratedelight:cookie_bag"
+		}
+	}
+}
