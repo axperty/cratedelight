@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="cratedelight"
-version="25.07.03-1.21.6-forge"
+version="25.07.03-1.21.7-forge"
 displayName="Crate Delight"
 authors="Axperty"
 description='''A mod that adds crates and bags to the game.'''
