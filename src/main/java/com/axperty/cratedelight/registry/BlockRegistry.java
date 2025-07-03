@@ -1,5 +1,6 @@
 package com.axperty.cratedelight.registry;
 
+import com.axperty.cratedelight.CrateDelight;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
@@ -8,10 +9,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import static com.axperty.cratedelight.CrateDelight.MODID;
-
 public class BlockRegistry {
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
+    public static final DeferredRegister<Block> BLOCKS =
+            DeferredRegister.create(ForgeRegistries.BLOCKS, CrateDelight.MOD_ID);
 
     // Carrot Crate
     public static final RegistryObject<Block> CARROT_CRATE = BLOCKS.register("carrot_crate",

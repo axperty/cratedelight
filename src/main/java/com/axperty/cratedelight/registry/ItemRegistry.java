@@ -6,11 +6,20 @@ import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import com.google.common.collect.Sets;
 
-import static com.axperty.cratedelight.CrateDelight.MODID;
+import java.util.LinkedHashSet;
+import java.util.function.Supplier;
 
 public class ItemRegistry {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CrateDelight.MOD_ID);
+    public static LinkedHashSet<RegistryObject<Item>> CREATIVE_TAB_ITEMS = Sets.newLinkedHashSet();
+
+    public static RegistryObject<Item> registerWithTab(final String name, final Supplier<Item> supplier) {
+        RegistryObject<Item> block = ITEMS.register(name, supplier);
+        CREATIVE_TAB_ITEMS.add(block);
+        return block;
+    }
 
     // Carrot Crate
     public static final RegistryObject<Item> CARROT_CRATE_ITEM = ITEMS.register("carrot_crate",

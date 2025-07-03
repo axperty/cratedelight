@@ -8,9 +8,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-@Mod(CrateDelight.MODID)
+@Mod(CrateDelight.MOD_ID)
 public class CrateDelight {
-    public static final String MODID = "cratedelight";
+    public static final String MOD_ID = "cratedelight";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public CrateDelight(FMLJavaModLoadingContext context) {
