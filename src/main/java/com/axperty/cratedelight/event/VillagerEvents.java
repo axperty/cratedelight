@@ -4,6 +4,7 @@ import com.axperty.cratedelight.CrateDelight;
 import com.axperty.cratedelight.registry.BlockRegistry;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
@@ -29,15 +30,15 @@ public class VillagerEvents {
     @SubscribeEvent
     public static void onVillagerTrades(VillagerTradesEvent event) {
         Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
-        VillagerProfession profession = event.getType();
-        ResourceLocation professionKey = BuiltInRegistries.VILLAGER_PROFESSION.getKey(profession);
-        if (professionKey.getPath().equals("farmer")) {
+        ResourceKey<VillagerProfession> profession = event.getType();
+
+        if (profession.equals(VillagerProfession.FARMER)) {
             trades.get(1).add(emeraldForItemsTrade(BlockRegistry.CARROT_CRATE.get(), 3, 1, 2));
             trades.get(1).add(emeraldForItemsTrade(BlockRegistry.POTATO_CRATE.get(), 3, 1, 2));
             trades.get(1).add(emeraldForItemsTrade(BlockRegistry.APPLE_CRATE.get(), 3, 1, 2));
-
         }
     }
+
 
     public static BasicItemListing emeraldForItemsTrade(ItemLike item, int count, int maxTrades, int xp) {
         return new BasicItemListing(new ItemStack(item, count), new ItemStack(Items.EMERALD,  9), maxTrades, xp, 0.05F);
