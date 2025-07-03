@@ -12,9 +12,7 @@ public class CrateDelight implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.debug("[Crate Delight]: Registering blocks...");
         ModCreativeTab.registerItemGroups();
         BlockRegistry.registerModBlocks();
-        LOGGER.debug("[Crate Delight]: Blocks registered successfully!");
     }
 }
