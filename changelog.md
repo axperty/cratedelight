@@ -4,7 +4,7 @@
 
 ### ✨ What's New:
 
-- Added support for Minecraft 1.21.4.
+- Added support for Minecraft 1.21.6.
 ***
 
 Send your suggestions or report any issues on [GitHub](https://github.com/axperty/cratedelight/issues/new). Support Crate Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn). 
