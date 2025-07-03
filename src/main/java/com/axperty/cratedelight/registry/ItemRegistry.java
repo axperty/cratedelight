@@ -3,7 +3,6 @@ package com.axperty.cratedelight.registry;
 import com.axperty.cratedelight.CrateDelight;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -97,8 +96,4 @@ public class ItemRegistry {
     public static final RegistryObject<Item> COOKIE_BAG_ITEM = ITEMS.register("cookie_bag",
             () -> new BlockItem(BlockRegistry.COOKIE_BAG.get(), new Item.Properties().setId(ITEMS.key("cookie_bag")))
     );
-
-    public static void register(IEventBus eventBus) {
-        ITEMS.register(eventBus);
-    }
 }
