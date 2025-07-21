@@ -26,6 +26,9 @@
     "cratedelight:golden_carrot_crate",
     "cratedelight:kiwi_egg_crate",
     "cratedelight:kiwifruit_crate",
-    "cratedelight:peanut_crate"
+    "cratedelight:peanut_crate",
+    "cratedelight:poisonous_potato_crate",
+    "cratedelight:pumpkin_slices_crate",
+    "cratedelight:sticks_crate"
   ]
 }

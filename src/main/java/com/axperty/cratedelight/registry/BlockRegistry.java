@@ -16,12 +16,16 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> CARROT_CRATE = BLOCKS.registerSimpleBlock("carrot_crate",
             BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
 
+    // Beetroot Crate
+    public static final DeferredBlock<Block> BEETROOT_CRATE = BLOCKS.registerSimpleBlock("beetroot_crate",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
+
     // Potato Crate
     public static final DeferredBlock<Block> POTATO_CRATE = BLOCKS.registerSimpleBlock("potato_crate",
             BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
 
-    // Beetroot Crate
-    public static final DeferredBlock<Block> BEETROOT_CRATE = BLOCKS.registerSimpleBlock("beetroot_crate",
+    // Poisonous Potato Crate
+    public static final DeferredBlock<Block> POISONOUS_POTATO_CRATE = BLOCKS.registerSimpleBlock("poisonous_potato_crate",
             BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
 
     // Apple Crate
@@ -108,12 +112,20 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> BROWN_MUSHROOM_CRATE = BLOCKS.registerSimpleBlock("brown_mushroom_crate",
             BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
 
+    // Pumpkin Slices Crate
+    public static final DeferredBlock<Block> PUMPKIN_SLICES_CRATE = BLOCKS.registerSimpleBlock("pumpkin_slices_crate",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
+
     // Golden Carrot Crate
     public static final DeferredBlock<Block> GOLDEN_CARROT_CRATE = BLOCKS.registerSimpleBlock("golden_carrot_crate",
             BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
 
     // Golden Apple Crate
     public static final DeferredBlock<Block> GOLDEN_APPLE_CRATE = BLOCKS.registerSimpleBlock("golden_apple_crate",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
+
+    // Sticks Crate
+    public static final DeferredBlock<Block> STICKS_CRATE = BLOCKS.registerSimpleBlock("sticks_crate",
             BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
 
     // Cocoa Beans Bag

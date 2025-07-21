@@ -4,7 +4,10 @@
 
 ### ✨ What's New:
 
-- Added support for Minecraft 1.21.6.
+- Added Poisonous Potato Crate.
+- Added Sticks Crate.
+- Potato Crates can now be smelted in a furnace to get 9 potato items.
+
 ***
 
 Send your suggestions or report any issues on [GitHub](https://github.com/axperty/cratedelight/issues/new). Support Crate Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn). 

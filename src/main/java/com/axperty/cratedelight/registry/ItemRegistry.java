@@ -12,11 +12,14 @@ public class ItemRegistry {
     // Carrot Crate Item
     public static final DeferredItem<BlockItem> CARROT_CRATE_ITEM = ITEMS.registerSimpleBlockItem("carrot_crate", BlockRegistry.CARROT_CRATE);
 
+    // Beetroot Crate Item
+    public static final DeferredItem<BlockItem> BEETROOT_CRATE_ITEM = ITEMS.registerSimpleBlockItem("beetroot_crate", BlockRegistry.BEETROOT_CRATE);
+
     // Potato Crate Item
     public static final DeferredItem<BlockItem> POTATO_CRATE_ITEM = ITEMS.registerSimpleBlockItem("potato_crate", BlockRegistry.POTATO_CRATE);
 
-    // Beetroot Crate Item
-    public static final DeferredItem<BlockItem> BEETROOT_CRATE_ITEM = ITEMS.registerSimpleBlockItem("beetroot_crate", BlockRegistry.BEETROOT_CRATE);
+    // Poisonous Potato Crate Item
+    public static final DeferredItem<BlockItem> POISONOUS_POTATO_CRATE_ITEM = ITEMS.registerSimpleBlockItem("poisonous_potato_crate", BlockRegistry.POISONOUS_POTATO_CRATE);
 
     // Apple Crate Item
     public static final DeferredItem<BlockItem> APPLE_CRATE_ITEM = ITEMS.registerSimpleBlockItem("apple_crate", BlockRegistry.APPLE_CRATE);
@@ -81,11 +84,17 @@ public class ItemRegistry {
     // Brown Mushroom Crate Item
     public static final DeferredItem<BlockItem> BROWN_MUSHROOM_CRATE_ITEM = ITEMS.registerSimpleBlockItem("brown_mushroom_crate", BlockRegistry.BROWN_MUSHROOM_CRATE);
 
+    // Pumpkin Slices Crate Item
+    public static final DeferredItem<BlockItem> PUMPKIN_SLICES_CRATE_ITEM = ITEMS.registerSimpleBlockItem("pumpkin_slices_crate", BlockRegistry.PUMPKIN_SLICES_CRATE);
+
     // Golden Carrot Crate Item
     public static final DeferredItem<BlockItem> GOLDEN_CARROT_CRATE_ITEM = ITEMS.registerSimpleBlockItem("golden_carrot_crate", BlockRegistry.GOLDEN_CARROT_CRATE);
 
     // Golden Apple Crate Item
     public static final DeferredItem<BlockItem> GOLDEN_APPLE_CRATE_ITEM = ITEMS.registerSimpleBlockItem("golden_apple_crate", BlockRegistry.GOLDEN_APPLE_CRATE);
+
+    // Sticks Crate Item
+    public static final DeferredItem<BlockItem> STICKS_CRATE_ITEM = ITEMS.registerSimpleBlockItem("sticks_crate", BlockRegistry.STICKS_CRATE);
 
     // Cocoa Beans Bag Item
     public static final DeferredItem<BlockItem> COCOABEANS_BAG_ITEM = ITEMS.registerSimpleBlockItem("cocoabeans_bag", BlockRegistry.COCOABEANS_BAG);

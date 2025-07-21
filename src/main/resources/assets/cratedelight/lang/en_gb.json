@@ -41,5 +41,9 @@
 
   "block.cratedelight.cookie_bag": "Cookie Bag",
 
+  "block.cratedelight.pumpkin_slices_crate": "Pumpkin Slices Crate",
+  "block.cratedelight.poisonous_potato_crate": "Poisonous Potato Crate",
+  "block.cratedelight.sticks_crate": "Sticks Crate",
+
   "itemGroup.cratedelight": "Crate Delight"
 }

@@ -13,16 +13,19 @@ import static com.axperty.cratedelight.CrateDelight.MODID;
 public class CreativeTabRegistry {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CRATEDELIGHT_TAB = CREATIVE_MODE_TABS.register("cratedelight_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.cratedelight"))
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> ItemRegistry.BERRY_CRATE_ITEM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
+
                 if (!ModList.get().isLoaded("farmersdelight")) {
                     output.accept(BlockRegistry.CARROT_CRATE.get());
-                    output.accept(BlockRegistry.POTATO_CRATE.get());
                     output.accept(BlockRegistry.BEETROOT_CRATE.get());
+                    output.accept(BlockRegistry.POTATO_CRATE.get());
                 }
+
+                output.accept(BlockRegistry.POISONOUS_POTATO_CRATE.get());
 
                 output.accept(BlockRegistry.APPLE_CRATE.get());
                 output.accept(BlockRegistry.BERRY_CRATE.get());
@@ -62,8 +65,14 @@ public class CreativeTabRegistry {
 
                 output.accept(BlockRegistry.RED_MUSHROOM_CRATE.get());
                 output.accept(BlockRegistry.BROWN_MUSHROOM_CRATE.get());
+
+                if (!ModList.get().isLoaded("farmersdelight")) {
+                    output.accept(BlockRegistry.PUMPKIN_SLICES_CRATE.get());
+                }
+
                 output.accept(BlockRegistry.GOLDEN_CARROT_CRATE.get());
                 output.accept(BlockRegistry.GOLDEN_APPLE_CRATE.get());
+                output.accept(BlockRegistry.STICKS_CRATE);
                 output.accept(BlockRegistry.COCOABEANS_BAG.get());
                 output.accept(BlockRegistry.SUGAR_BAG.get());
                 output.accept(BlockRegistry.COOKIE_BAG.get());

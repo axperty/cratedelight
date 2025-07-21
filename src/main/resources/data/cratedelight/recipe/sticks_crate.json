@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:stick"
+  },
+  "result": {
+    "count": 1,
+    "id": "cratedelight:sticks_crate"
+  }
+}

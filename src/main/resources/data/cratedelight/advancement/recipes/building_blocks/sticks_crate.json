@@ -1,21 +1,12 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:not",
-      "value": {
-        "type": "neoforge:mod_loaded",
-        "modid": "farmersdelight"
-      }
-    }
-  ],
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_potato": {
+    "has_stick": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:potato"
+              "minecraft:stick"
             ]
           }
         ]
@@ -24,21 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelight:potato_crate"
+        "recipe": "cratedelight:sticks_crate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_potato",
+      "has_stick",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "cratedelight:potato_crate",
-      "cratedelight:potato_crate_smelting"
+      "cratedelight:sticks_crate"
     ]
   },
   "sends_telemetry_event": false
