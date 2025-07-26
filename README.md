@@ -20,22 +20,26 @@ Your contributions to this project allows Crate Delight to be improved to delive
 This mod adds thirteen new type of blocks to the game that are useful to save storage, new blocks are constantly added with updates:
 
 - Carrot Crate
-- Potato Crate
 - Beetroot Crate
+- Potato Crate
+- Poisonous Potato Crate
 - Apple Crate
 - Berry Crate
 - Glow Berry Crate
 - Egg Crate
+- Brown Egg Crate
+- Blue Egg Crate
 - Raw Salmon Crate
 - Raw Cod Crate
 - Red Mushroom Crate
 - Brown Mushroom Crate
 - Golden Carrot Crate
 - Golden Apple Crate
+- Bread Bag
+- Cookie Bag
 - Cocoa Beans Bag
 - Sugar Bag
 - Gunpowder Bag
-- Cookie Bag
 
 It also adds crates and bags for the following mods:
 

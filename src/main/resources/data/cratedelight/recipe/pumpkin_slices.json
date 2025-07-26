@@ -8,7 +8,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "cratedelight:pumpkin_slices_crate"
+    "cratedelight:pumpkin_slice_crate"
   ],
   "result": {
     "count": 9,
