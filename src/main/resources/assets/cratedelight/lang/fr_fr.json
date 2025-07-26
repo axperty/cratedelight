@@ -39,15 +39,7 @@
   "item.cratedelight.potato_crate": "Caisse de pommes de terre",
   "item.cratedelight.beetroot_crate": "Caisse de betteraves",
 
-  "item.cratedelight.black_berry_crate": "Caisse de baies noires",
-  "item.cratedelight.green_berry_crate": "Caisse de baies vertes",
-  "item.cratedelight.orange_berry_crate": "Caisse de baies oranges",
-  "item.cratedelight.yellow_berry_crate": "Caisse de baies jaunes",
-  "item.cratedelight.purple_berry_crate": "Caisse de baies violettes",
-
   "item.cratedelight.cookie_bag": "Sac de Biscuits",
-
-  "item.cratedelight.diamond_apple_crate": "Caisse de Pommes en Diamant",
 
   "itemGroup.cratedelight": "Crate Delight"
 }

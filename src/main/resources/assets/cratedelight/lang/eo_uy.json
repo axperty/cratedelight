@@ -39,15 +39,7 @@
   "item.cratedelight.potato_crate": "Terpoma kesto",
   "item.cratedelight.beetroot_crate": "Bete kuŝejo",
 
-  "item.cratedelight.black_berry_crate": "Nigra Berujo",
-  "item.cratedelight.green_berry_crate": "Verda Berujo",
-  "item.cratedelight.orange_berry_crate": "Oranĝa Berujo",
-  "item.cratedelight.yellow_berry_crate": "Flava Berujo",
-  "item.cratedelight.purple_berry_crate": "Purpura Berujo",
-
   "item.cratedelight.cookie_bag": "Biskvita Sako",
-
-  "item.cratedelight.diamond_apple_crate": "Diamanta Pomujo",
 
   "itemGroup.cratedelight": "Crate Delight"
 }

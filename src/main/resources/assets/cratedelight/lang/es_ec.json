@@ -39,15 +39,13 @@
   "item.cratedelight.potato_crate": "Cajón de patatas",
   "item.cratedelight.beetroot_crate": "Cajón de remolacha",
 
-  "item.cratedelight.black_berry_crate": "Cajón de bayas negras",
-  "item.cratedelight.green_berry_crate": "Cajón de bayas verdes",
-  "item.cratedelight.orange_berry_crate": "Cajón de bayas naranjas",
-  "item.cratedelight.yellow_berry_crate": "Cajón de bayas amarillas",
-  "item.cratedelight.purple_berry_crate": "Cajón de bayas moradas",
-
   "item.cratedelight.cookie_bag": "Bolsa de galletas",
 
-  "item.cratedelight.diamond_apple_crate": "Cajón de manzanas de diamante",
+  "item.cratedelight.poisonous_potato_crate": "Cajón de patatas venenosas",
+  "item.cratedelight.brown_egg_crate": "Cajón de huevos marrones",
+  "item.cratedelight.blue_egg_crate": "Cajón de huevos azules",
+  "item.cratedelight.pumpkin_slice_crate": "Cajón de rodajas de calabaza",
+  "item.cratedelight.bread_bag": "Bolsa de pan",
 
   "itemGroup.cratedelight": "Crate Delight"
 }
