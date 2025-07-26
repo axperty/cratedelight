@@ -39,7 +39,6 @@ public class VillagerEvents {
         }
     }
 
-
     public static BasicItemListing emeraldForItemsTrade(ItemLike item, int count, int maxTrades, int xp) {
         return new BasicItemListing(new ItemStack(item, count), new ItemStack(Items.EMERALD,  9), maxTrades, xp, 0.05F);
     }
