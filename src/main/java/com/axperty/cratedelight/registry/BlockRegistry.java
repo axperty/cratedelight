@@ -21,6 +21,10 @@ public class BlockRegistry {
     public static final RegistryObject<Block> POTATO_CRATE = BLOCKS.register("potato_crate",
             () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("potato_crate")).sound(SoundType.WOOD)));
 
+    // Poisonous Potato Crate
+    public static final RegistryObject<Block> POISONOUS_POTATO_CRATE = BLOCKS.register("poisonous_potato_crate",
+            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("poisonous_potato_crate")).sound(SoundType.WOOD)));
+
     // Beetroot Crate
     public static final RegistryObject<Block> BEETROOT_CRATE = BLOCKS.register("beetroot_crate",
             () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("beetroot_crate")).sound(SoundType.WOOD)));
@@ -40,6 +44,14 @@ public class BlockRegistry {
     // Egg Crate
     public static final RegistryObject<Block> EGG_CRATE = BLOCKS.register("egg_crate",
             () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("egg_crate")).sound(SoundType.WOOD)));
+
+    // Brown Egg Crate
+    public static final RegistryObject<Block> BROWN_EGG_CRATE = BLOCKS.register("brown_egg_crate",
+            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("brown_egg_crate")).sound(SoundType.WOOD)));
+
+    // Blue Egg Crate
+    public static final RegistryObject<Block> BLUE_EGG_CRATE = BLOCKS.register("blue_egg_crate",
+            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("blue_egg_crate")).sound(SoundType.WOOD)));
 
     // Salmon Crate
     public static final RegistryObject<Block> SALMON_CRATE = BLOCKS.register("salmon_crate",
@@ -65,6 +77,14 @@ public class BlockRegistry {
     public static final RegistryObject<Block> GOLDEN_APPLE_CRATE = BLOCKS.register("golden_apple_crate",
             () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("golden_apple_crate")).sound(SoundType.WOOD)));
 
+    // Bread Bag
+    public static final RegistryObject<Block> BREAD_BAG = BLOCKS.register("bread_bag",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("bread_bag")).sound(SoundType.WOOL)));
+
+    // Cookie Bag
+    public static final RegistryObject<Block> COOKIE_BAG = BLOCKS.register("cookie_bag",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("cookie_bag")).sound(SoundType.WOOL)));
+
     // Cocoa Beans Bag
     public static final RegistryObject<Block> COCOABEANS_BAG = BLOCKS.register("cocoabeans_bag",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("cocoabeans_bag")).sound(SoundType.WOOL)));
@@ -76,8 +96,4 @@ public class BlockRegistry {
     // Gunpowder Bag
     public static final RegistryObject<Block> GUNPOWDER_BAG = BLOCKS.register("gunpowder_bag",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("gunpowder_bag")).sound(SoundType.WOOL)));
-
-    // Cookie Bag
-    public static final RegistryObject<Block> COOKIE_BAG = BLOCKS.register("cookie_bag",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("cookie_bag")).sound(SoundType.WOOL)));
 }
