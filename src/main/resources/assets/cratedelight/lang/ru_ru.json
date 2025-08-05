@@ -35,13 +35,13 @@
   "item.cratedelight.kiwi_egg_crate": "Ящик с яйцами киви",
   "item.cratedelight.kiwifruit_crate": "Ящик с киви",
 
-  "item.cratedelight.carrot_crate": "Ящик с морковью",
-  "item.cratedelight.potato_crate": "Ящик с картофелем",
-  "item.cratedelight.beetroot_crate": "Ящик со свёклой",
-
   "item.cratedelight.cookie_bag": "Мешок с печеньем",
 
-  "item.cratedelight.diamond_apple_crate": "Ящик с Алмазными Яблоками",
+  "block.cratedelight.poisonous_potato_crate": "Ящик с ядовитым картофелем",
+  "block.cratedelight.brown_egg_crate": "Ящик с коричневыми яйцами",
+  "block.cratedelight.blue_egg_crate": "Ящик с голубыми яйцами",
+  "block.cratedelight.pumpkin_slice_crate": "Ящик с ломтиками тыквы",
+  "block.cratedelight.bread_bag": "Мешок с хлебом",
 
-  "itemGroup.cratedelight": "Ящичный Восторг"
+  "itemGroup.cratedelight": "Ящичные Изыски"
 }

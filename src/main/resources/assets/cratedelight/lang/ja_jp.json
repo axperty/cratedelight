@@ -39,15 +39,7 @@
   "item.cratedelight.potato_crate": "ジャガイモの箱",
   "item.cratedelight.beetroot_crate": "ビートルートの箱",
 
-  "item.cratedelight.black_berry_crate": "ブラックベリーのクレート",
-  "item.cratedelight.green_berry_crate": "グリーンベリーのクレート",
-  "item.cratedelight.orange_berry_crate": "オレンジベリーのクレート",
-  "item.cratedelight.yellow_berry_crate": "イエローベリーのクレート",
-  "item.cratedelight.purple_berry_crate": "パープルベリーのクレート",
-
   "item.cratedelight.cookie_bag": "クッキーバッグ",
-
-  "item.cratedelight.diamond_apple_crate": "ダイヤモンドリンゴの箱",
 
   "itemGroup.cratedelight": "Crate Delight"
 }

@@ -21,80 +21,42 @@ public class ModCreativeTab {
 
                         if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
                             entries.add(BlockRegistry.CARROT_CRATE);
-                            entries.add(BlockRegistry.POTATO_CRATE);
                             entries.add(BlockRegistry.BEETROOT_CRATE);
+                            entries.add(BlockRegistry.POTATO_CRATE);
                         }
 
+                        entries.add(BlockRegistry.POISONOUS_POTATO_CRATE);
                         entries.add(BlockRegistry.APPLE_CRATE);
-
-                        if (FabricLoader.getInstance().isModLoaded("diamond_apples")) {
-                            entries.add(BlockRegistry.DIAMOND_APPLE_CRATE);
-                        }
-
                         entries.add(BlockRegistry.BERRY_CRATE);
-
-                        if (FabricLoader.getInstance().isModLoaded("nutritious-feast") || FabricLoader.getInstance().isModLoaded("moreberries")) {
-                            entries.add(BlockRegistry.BLUEBERRY_CRATE);
-                        }
-
-                        if (FabricLoader.getInstance().isModLoaded("moreberries")) {
-                            entries.add(BlockRegistry.BLACK_BERRY_CRATE);
-                            entries.add(BlockRegistry.GREEN_BERRY_CRATE);
-                            entries.add(BlockRegistry.ORANGE_BERRY_CRATE);
-                            entries.add(BlockRegistry.YELLOW_BERRY_CRATE);
-                            entries.add(BlockRegistry.PURPLE_BERRY_CRATE);
-                        }
-
                         entries.add(BlockRegistry.GLOWBERRY_CRATE);
                         entries.add(BlockRegistry.EGG_CRATE);
-
-                        if (FabricLoader.getInstance().isModLoaded("naturalist")) {
-                            entries.add(BlockRegistry.DUCK_EGG_CRATE);
-                        }
+                        entries.add(BlockRegistry.BROWN_EGG_CRATE);
+                        entries.add(BlockRegistry.BLUE_EGG_CRATE);
 
                         if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
                             entries.add(BlockRegistry.PEANUT_CRATE);
                         }
 
-                        if (FabricLoader.getInstance().isModLoaded("jagmkiwis")) {
-                            entries.add(BlockRegistry.KIWI_EGG_CRATE);
-                            entries.add(BlockRegistry.KIWIFRUIT_CRATE);
-                        }
-
                         entries.add(BlockRegistry.SALMON_CRATE);
                         entries.add(BlockRegistry.COD_CRATE);
-
-                        if (FabricLoader.getInstance().isModLoaded("naturalist")) {
-                            entries.add(BlockRegistry.CATFISH_CRATE);
-                            entries.add(BlockRegistry.BASS_CRATE);
-                        }
-
-                        if (FabricLoader.getInstance().isModLoaded("betterend")) {
-                            entries.add(BlockRegistry.END_FISH_CRATE);
-                        }
-
                         entries.add(BlockRegistry.RED_MUSHROOM_CRATE);
                         entries.add(BlockRegistry.BROWN_MUSHROOM_CRATE);
+
+                        if (FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+                            entries.add(BlockRegistry.PUMPKIN_SLICE_CRATE);
+                        }
+
                         entries.add(BlockRegistry.GOLDEN_CARROT_CRATE);
                         entries.add(BlockRegistry.GOLDEN_APPLE_CRATE);
+                        entries.add(BlockRegistry.BREAD_BAG);
+                        entries.add(BlockRegistry.COOKIE_BAG);
                         entries.add(BlockRegistry.COCOABEANS_BAG);
                         entries.add(BlockRegistry.SUGAR_BAG);
                         entries.add(BlockRegistry.GUNPOWDER_BAG);
-                        entries.add(BlockRegistry.COOKIE_BAG);
 
                         if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
                             entries.add(BlockRegistry.SALT_BAG);
                             entries.add(BlockRegistry.GROUND_CINNAMON_BAG);
-                        }
-
-                        if (FabricLoader.getInstance().isModLoaded("create")) {
-                            entries.add(BlockRegistry.WHEAT_FLOUR_BAG);
-                            entries.add(BlockRegistry.POWDERED_OBSIDIAN_BAG);
-                            entries.add(BlockRegistry.CINDER_FLOUR_BAG);
-                        }
-
-                        if (FabricLoader.getInstance().isModLoaded("betterend")) {
-                            entries.add(BlockRegistry.ENDER_DUST_BAG);
                         }
                     })
                     .build());
