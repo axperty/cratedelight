@@ -37,7 +37,8 @@
   ],
   "rewards": {
     "recipes": [
-      "cratedelight:potato_crate"
+      "cratedelight:potato_crate",
+      "cratedelight:potato_crate_smelting"
     ]
   },
   "sends_telemetry_event": false
