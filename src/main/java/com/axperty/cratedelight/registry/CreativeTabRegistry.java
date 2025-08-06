@@ -21,26 +21,25 @@ public class CreativeTabRegistry {
 
                         if (!ModList.get().isLoaded("farmersdelight")) {
                             pOutput.accept(BlockRegistry.CARROT_CRATE.get());
-                            pOutput.accept(BlockRegistry.POTATO_CRATE.get());
                             pOutput.accept(BlockRegistry.BEETROOT_CRATE.get());
+                            pOutput.accept(BlockRegistry.POTATO_CRATE.get());
                         }
-
+                        pOutput.accept(BlockRegistry.POISONOUS_POTATO_CRATE.get());
                         pOutput.accept(BlockRegistry.APPLE_CRATE.get());
                         pOutput.accept(BlockRegistry.BERRY_CRATE.get());
-
                         pOutput.accept(BlockRegistry.GLOWBERRY_CRATE.get());
                         pOutput.accept(BlockRegistry.EGG_CRATE.get());
                         pOutput.accept(BlockRegistry.SALMON_CRATE.get());
                         pOutput.accept(BlockRegistry.COD_CRATE.get());
-
                         pOutput.accept(BlockRegistry.RED_MUSHROOM_CRATE.get());
                         pOutput.accept(BlockRegistry.BROWN_MUSHROOM_CRATE.get());
                         pOutput.accept(BlockRegistry.GOLDEN_CARROT_CRATE.get());
                         pOutput.accept(BlockRegistry.GOLDEN_APPLE_CRATE.get());
+                        pOutput.accept(BlockRegistry.BREAD_BAG.get());
+                        pOutput.accept(BlockRegistry.COOKIE_BAG.get());
                         pOutput.accept(BlockRegistry.COCOABEANS_BAG.get());
                         pOutput.accept(BlockRegistry.SUGAR_BAG.get());
                         pOutput.accept(BlockRegistry.GUNPOWDER_BAG.get());
-                        pOutput.accept(BlockRegistry.COOKIE_BAG.get());
                     })
                     .build());
 
