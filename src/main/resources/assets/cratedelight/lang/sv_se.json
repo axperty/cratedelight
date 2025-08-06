@@ -39,15 +39,7 @@
   "item.cratedelight.potato_crate": "Potatislåda",
   "item.cratedelight.beetroot_crate": "Rödbetslåda",
 
-  "item.cratedelight.black_berry_crate": "Svartbärslåda",
-  "item.cratedelight.green_berry_crate": "Grönbärslåda",
-  "item.cratedelight.orange_berry_crate": "Orangebärslåda",
-  "item.cratedelight.yellow_berry_crate": "Gulbärslåda",
-  "item.cratedelight.purple_berry_crate": "Lila bärslåda",
-
   "item.cratedelight.cookie_bag": "Kakpåse",
-
-  "item.cratedelight.diamond_apple_crate": "Låda med Diamantäpplen",
 
   "itemGroup.cratedelight": "Crate Delight"
 }

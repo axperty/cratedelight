@@ -39,15 +39,7 @@
   "item.cratedelight.potato_crate": "Aardappelkist",
   "item.cratedelight.beetroot_crate": "Bietenkist",
 
-  "item.cratedelight.black_berry_crate": "Zwarte bessen krat",
-  "item.cratedelight.green_berry_crate": "Groene bessen krat",
-  "item.cratedelight.orange_berry_crate": "Oranje bessen krat",
-  "item.cratedelight.yellow_berry_crate": "Gele bessen krat",
-  "item.cratedelight.purple_berry_crate": "Paarse bessen krat",
-
   "item.cratedelight.cookie_bag": "Koekjestas",
-
-  "item.cratedelight.diamond_apple_crate": "Diamanten Appelkist",
 
   "itemGroup.cratedelight": "Crate Delight"
 }
