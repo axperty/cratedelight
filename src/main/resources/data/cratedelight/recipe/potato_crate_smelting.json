@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 400,
+  "experience": 0.35,
+  "ingredient": "cratedelight:potato_crate",
+  "result": {
+    "count": 9,
+    "id": "minecraft:baked_potato"
+  }
+}

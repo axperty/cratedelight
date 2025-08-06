@@ -35,13 +35,7 @@
   "item.cratedelight.kiwi_egg_crate": "Ящик с яйцами киви",
   "item.cratedelight.kiwifruit_crate": "Ящик с киви",
 
-  "item.cratedelight.carrot_crate": "Ящик с морковью",
-  "item.cratedelight.potato_crate": "Ящик с картофелем",
-  "item.cratedelight.beetroot_crate": "Ящик со свёклой",
-
   "item.cratedelight.cookie_bag": "Мешок с печеньем",
-
-  "item.cratedelight.diamond_apple_crate": "Ящик с Алмазными Яблоками",
 
   "itemGroup.cratedelight": "Ящичный Восторг"
 }

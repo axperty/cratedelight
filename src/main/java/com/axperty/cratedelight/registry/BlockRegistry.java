@@ -21,6 +21,8 @@ public class BlockRegistry {
 
     public static final Block BEETROOT_CRATE = registerBlock("beetroot_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
 
+    public static final Block POISONOUS_POTATO_CRATE = registerBlock("poisonous_potato_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
+
     public static final Block APPLE_CRATE = registerBlock("apple_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
 
     public static final Block DIAMOND_APPLE_CRATE = registerBlock("diamond_apple_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
@@ -42,6 +44,10 @@ public class BlockRegistry {
     public static final Block GLOWBERRY_CRATE = registerBlock("glowberry_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS).luminance((state) -> 13));
 
     public static final Block EGG_CRATE = registerBlock("egg_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
+
+    public static final Block BROWN_EGG_CRATE = registerBlock("brown_egg_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
+
+    public static final Block BLUE_EGG_CRATE = registerBlock("blue_egg_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
 
     public static final Block DUCK_EGG_CRATE = registerBlock("duck_egg_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
 
@@ -65,17 +71,21 @@ public class BlockRegistry {
 
     public static final Block BROWN_MUSHROOM_CRATE = registerBlock("brown_mushroom_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
 
+    public static final Block PUMPKIN_SLICE_CRATE = registerBlock("pumpkin_slice_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
+
     public static final Block GOLDEN_CARROT_CRATE = registerBlock("golden_carrot_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
 
     public static final Block GOLDEN_APPLE_CRATE = registerBlock("golden_apple_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
+
+    public static final Block BREAD_BAG = registerBlock("bread_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
+
+    public static final Block COOKIE_BAG = registerBlock("cookie_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
 
     public static final Block COCOABEANS_BAG = registerBlock("cocoabeans_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
 
     public static final Block SUGAR_BAG = registerBlock("sugar_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
 
     public static final Block GUNPOWDER_BAG = registerBlock("gunpowder_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
-
-    public static final Block COOKIE_BAG = registerBlock("cookie_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
 
     public static final Block SALT_BAG = registerBlock("salt_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
 
