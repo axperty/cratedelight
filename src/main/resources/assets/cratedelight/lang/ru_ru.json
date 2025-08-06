@@ -41,5 +41,11 @@
 
   "item.cratedelight.cookie_bag": "Мешок с печеньем",
 
-  "itemGroup.cratedelight": "Ящичный Восторг"
+  "block.cratedelight.poisonous_potato_crate": "Ящик с ядовитым картофелем",
+  "block.cratedelight.brown_egg_crate": "Ящик с коричневыми яйцами",
+  "block.cratedelight.blue_egg_crate": "Ящик с голубыми яйцами",
+  "block.cratedelight.pumpkin_slice_crate": "Ящик с ломтиками тыквы",
+  "block.cratedelight.bread_bag": "Мешок с хлебом",
+
+  "itemGroup.cratedelight": "Ящичные Изыски"
 }
