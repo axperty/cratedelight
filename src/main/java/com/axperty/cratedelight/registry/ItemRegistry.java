@@ -23,6 +23,11 @@ public class ItemRegistry {
             () -> new BlockItem(BlockRegistry.POTATO_CRATE.get(), new Item.Properties().setId(ITEMS.key("potato_crate")))
     );
 
+    // Poisonous Potato Crate
+    public static final RegistryObject<Item> POISONOUS_POTATO_CRATE_ITEM = ITEMS.register("poisonous_potato_crate",
+            () -> new BlockItem(BlockRegistry.POISONOUS_POTATO_CRATE.get(), new Item.Properties().setId(ITEMS.key("poisonous_potato_crate")))
+    );
+
     // Beetroot Crate
     public static final RegistryObject<Item> BEETROOT_CRATE_ITEM = ITEMS.register("beetroot_crate",
             () -> new BlockItem(BlockRegistry.BEETROOT_CRATE.get(), new Item.Properties().setId(ITEMS.key("beetroot_crate")))
@@ -46,6 +51,16 @@ public class ItemRegistry {
     // Egg Crate
     public static final RegistryObject<Item> EGG_CRATE_ITEM = ITEMS.register("egg_crate",
             () -> new BlockItem(BlockRegistry.EGG_CRATE.get(), new Item.Properties().setId(ITEMS.key("egg_crate")))
+    );
+
+    // Brown Egg Crate
+    public static final RegistryObject<Item> BROWN_EGG_CRATE_ITEM = ITEMS.register("brown_egg_crate",
+            () -> new BlockItem(BlockRegistry.BROWN_EGG_CRATE.get(), new Item.Properties().setId(ITEMS.key("brown_egg_crate")))
+    );
+
+    // Blue Egg Crate
+    public static final RegistryObject<Item> BLUE_EGG_CRATE_ITEM = ITEMS.register("blue_egg_crate",
+            () -> new BlockItem(BlockRegistry.BLUE_EGG_CRATE.get(), new Item.Properties().setId(ITEMS.key("blue_egg_crate")))
     );
 
     // Salmon Crate
@@ -78,6 +93,16 @@ public class ItemRegistry {
             () -> new BlockItem(BlockRegistry.GOLDEN_APPLE_CRATE.get(), new Item.Properties().setId(ITEMS.key("golden_apple_crate")))
     );
 
+    // Bread Bag
+    public static final RegistryObject<Item> BREAD_BAG_ITEM = ITEMS.register("bread_bag",
+            () -> new BlockItem(BlockRegistry.BREAD_BAG.get(), new Item.Properties().setId(ITEMS.key("bread_bag")))
+    );
+
+    // Cookie Bag
+    public static final RegistryObject<Item> COOKIE_BAG_ITEM = ITEMS.register("cookie_bag",
+            () -> new BlockItem(BlockRegistry.COOKIE_BAG.get(), new Item.Properties().setId(ITEMS.key("cookie_bag")))
+    );
+
     // Cocoa Beans Bag
     public static final RegistryObject<Item> COCOABEANS_BAG_ITEM = ITEMS.register("cocoabeans_bag",
             () -> new BlockItem(BlockRegistry.COCOABEANS_BAG.get(), new Item.Properties().setId(ITEMS.key("cocoabeans_bag")))
@@ -91,11 +116,6 @@ public class ItemRegistry {
     // Gunpowder Bag
     public static final RegistryObject<Item> GUNPOWDER_BAG_ITEM = ITEMS.register("gunpowder_bag",
             () -> new BlockItem(BlockRegistry.GUNPOWDER_BAG.get(), new Item.Properties().setId(ITEMS.key("gunpowder_bag")))
-    );
-
-    // Cookie Bag
-    public static final RegistryObject<Item> COOKIE_BAG_ITEM = ITEMS.register("cookie_bag",
-            () -> new BlockItem(BlockRegistry.COOKIE_BAG.get(), new Item.Properties().setId(ITEMS.key("cookie_bag")))
     );
 
     public static void register(IEventBus eventBus) {
