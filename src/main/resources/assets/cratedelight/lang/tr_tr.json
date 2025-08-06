@@ -39,15 +39,7 @@
   "item.cratedelight.potato_crate": "Patates Kasası",
   "item.cratedelight.beetroot_crate": "Pancar Kasası",
 
-  "item.cratedelight.black_berry_crate": "Siyah Çilek Kasası",
-  "item.cratedelight.green_berry_crate": "Yeşil Çilek Kasası",
-  "item.cratedelight.orange_berry_crate": "Turuncu Çilek Kasası",
-  "item.cratedelight.yellow_berry_crate": "Sarı Çilek Kasası",
-  "item.cratedelight.purple_berry_crate": "Mor Çilek Kasası",
-
   "item.cratedelight.cookie_bag": "Kurabiye Torbası",
-
-  "item.cratedelight.diamond_apple_crate": "Elmas Elma Sandığı",
 
   "itemGroup.cratedelight": "Crate Delight"
 }

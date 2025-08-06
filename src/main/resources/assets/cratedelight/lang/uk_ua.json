@@ -39,15 +39,7 @@
   "item.cratedelight.potato_crate": "Коробка картоплі",
   "item.cratedelight.beetroot_crate": "Коробка буряка",
 
-  "item.cratedelight.black_berry_crate": "Ящик з чорними ягодами",
-  "item.cratedelight.green_berry_crate": "Ящик з зеленими ягодами",
-  "item.cratedelight.orange_berry_crate": "Ящик з помаранчевими ягодами",
-  "item.cratedelight.yellow_berry_crate": "Ящик з жовтими ягодами",
-  "item.cratedelight.purple_berry_crate": "Ящик з фіолетовими ягодами",
-
   "item.cratedelight.cookie_bag": "Сумка для Печива",
-
-  "item.cratedelight.diamond_apple_crate": "Ящик з Діамантовими Яблуками",
 
   "itemGroup.cratedelight": "Crate Delight"
 }

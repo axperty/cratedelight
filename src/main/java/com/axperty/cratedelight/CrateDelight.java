@@ -1,6 +1,6 @@
 package com.axperty.cratedelight;
 
-import com.axperty.cratedelight.item.ModCreativeTab;
+import com.axperty.cratedelight.registry.CreativeTabRegistry;
 import com.axperty.cratedelight.registry.BlockRegistry;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,7 +13,7 @@ public class CrateDelight implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.debug("[Crate Delight]: Registering blocks...");
-        ModCreativeTab.registerItemGroups();
+        CreativeTabRegistry.registerItemGroups();
         BlockRegistry.registerModBlocks();
         LOGGER.debug("[Crate Delight]: Blocks registered successfully!");
     }

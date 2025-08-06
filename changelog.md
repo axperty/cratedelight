@@ -4,11 +4,12 @@
 
 ### ✨ What's New:
 
-- Added support for Minecraft 1.21.2-1.21.3.
-
-### 🛠️ Bug Fixes:
-
-- Fixed a bug where placing the beetroot crate on a crafting table gave the player only one beetroot item.
+- Added Poisonous Potato Crate.
+- Added Brown Egg Crate.
+- Added Blue Egg Crate.
+- Added Bread Bag.
+- Added Pumpkin Slice Crate (for Farmer's Delight).
+- Potato Crates can now be smelted in a furnace to get 9 potato items.
 
 ***
 
