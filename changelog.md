@@ -4,12 +4,11 @@
 
 ### ✨ What's New:
 
-- Added Cookie Bag.
-
-### 📝 Translations:
-
-- Added translations for Turkish. These translations might contain typos or grammatical mistakes,
-  you can make changes and improvements [here](https://github.com/axperty/cratedelight/blob/1.21-neoforge/src/main/resources/assets/cratedelight/lang/tr_tr.json).
+- Added Poisonous Potato Crate.
+- Added Brown Egg Crate.
+- Added Blue Egg Crate.
+- Added Bread Bag.
+- Potato Crates can now be smelted in a furnace to get 9 potato items.
 
 ***
 

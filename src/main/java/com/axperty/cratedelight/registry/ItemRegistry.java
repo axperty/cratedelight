@@ -23,6 +23,11 @@ public class ItemRegistry {
             () -> new BlockItem(BlockRegistry.POTATO_CRATE.get(), new Item.Properties().setId(ITEMS.key("potato_crate")))
     );
 
+    // Poisonous Potato Crate
+    public static final RegistryObject<Item> POISONOUS_POTATO_CRATE_ITEM = ITEMS.register("poisonous_potato_crate",
+            () -> new BlockItem(BlockRegistry.POISONOUS_POTATO_CRATE.get(), new Item.Properties().setId(ITEMS.key("poisonous_potato_crate")))
+    );
+
     // Beetroot Crate
     public static final RegistryObject<Item> BEETROOT_CRATE_ITEM = ITEMS.register("beetroot_crate",
             () -> new BlockItem(BlockRegistry.BEETROOT_CRATE.get(), new Item.Properties().setId(ITEMS.key("beetroot_crate")))
@@ -76,6 +81,11 @@ public class ItemRegistry {
     // Golden Apple Crate
     public static final RegistryObject<Item> GOLDEN_APPLE_CRATE_ITEM = ITEMS.register("golden_apple_crate",
             () -> new BlockItem(BlockRegistry.GOLDEN_APPLE_CRATE.get(), new Item.Properties().setId(ITEMS.key("golden_apple_crate")))
+    );
+
+    // Bread Bag
+    public static final RegistryObject<Item> BREAD_BAG_ITEM = ITEMS.register("bread_bag",
+            () -> new BlockItem(BlockRegistry.BREAD_BAG.get(), new Item.Properties().setId(ITEMS.key("bread_bag")))
     );
 
     // Cocoa Beans Bag
