@@ -41,5 +41,11 @@
 
   "block.cratedelight.cookie_bag": "Bolsa de galletas",
 
+  "block.cratedelight.poisonous_potato_crate": "Cajón de patatas venenosas",
+  "block.cratedelight.brown_egg_crate": "Cajón de huevos marrones",
+  "block.cratedelight.blue_egg_crate": "Cajón de huevos azules",
+  "block.cratedelight.pumpkin_slice_crate": "Cajón de rodajas de calabaza",
+  "block.cratedelight.bread_bag": "Bolsa de pan",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

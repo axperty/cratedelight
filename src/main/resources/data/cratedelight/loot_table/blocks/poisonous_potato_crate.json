@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cratedelight:beetroot_crate"
+          "name": "cratedelight:poisonous_potato_crate"
         }
       ],
       "conditions": [

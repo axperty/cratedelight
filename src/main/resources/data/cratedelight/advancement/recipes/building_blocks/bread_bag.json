@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_beetroot": {
+    "has_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:beetroot"
+              "minecraft:bread"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelight:beetroot_crate"
+        "recipe": "cratedelight:bread_bag"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_beetroot",
+      "has_bread",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "cratedelight:beetroot_crate"
+      "cratedelight:bread_bag"
     ]
   },
   "sends_telemetry_event": false

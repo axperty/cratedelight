@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_beetroot": {
+    "has_poisonous_potato": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:beetroot"
+              "minecraft:poisonous_potato"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cratedelight:beetroot_crate"
+        "recipe": "cratedelight:poisonous_potato_crate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_beetroot",
+      "has_poisonous_potato",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "cratedelight:beetroot_crate"
+      "cratedelight:poisonous_potato_crate"
     ]
   },
   "sends_telemetry_event": false

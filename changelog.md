@@ -2,13 +2,13 @@
 
 ***
 
-### 🛠️ Important Changes:
+### ✨ What's New:
 
-- Stacked melons and stacked pumpkins have moved to a new mod called [Stacked Blocks](https://www.curseforge.com/minecraft/mc-mods/stacked-blocks), this mod includes even more blocks that can be compressed to save space and organize your items.
-
-### 🛠️ Bug Fixes:
-
-- Fixed a bug where placing the beetroot crate on the crafting table gave the player only one beetroot item.
+- Added Poisonous Potato Crate.
+- Added Brown Egg Crate.
+- Added Blue Egg Crate.
+- Added Bread Bag.
+- Potato Crates can now be smelted in a furnace to get 9 potato items.
 
 ***
 

@@ -1,8 +1,8 @@
 package com.axperty.cratedelight;
 
-import com.axperty.cratedelight.block.ModBlocks;
-import com.axperty.cratedelight.item.ModCreativeModTabs;
-import com.axperty.cratedelight.item.ModItems;
+import com.axperty.cratedelight.registry.BlockRegistry;
+import com.axperty.cratedelight.registry.CreativeTabRegistry;
+import com.axperty.cratedelight.registry.ItemRegistry;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,9 +18,9 @@ public class CrateDelight {
     public CrateDelight() {
         LOGGER.debug("[Crate Delight]: Registering blocks...");
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ModBlocks.register(modEventBus);
-        ModItems.register(modEventBus);
-        ModCreativeModTabs.register(modEventBus);
+        BlockRegistry.register(modEventBus);
+        ItemRegistry.register(modEventBus);
+        CreativeTabRegistry.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
         LOGGER.debug("[Crate Delight]: Blocks registered successfully!");
     }
