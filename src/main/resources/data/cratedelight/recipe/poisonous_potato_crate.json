@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:poisonous_potato"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "cratedelight:poisonous_potato_crate"
+  }
+}
