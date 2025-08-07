@@ -32,15 +32,7 @@
   "block.cratedelight.potato_crate": "馬鈴薯箱",
   "block.cratedelight.beetroot_crate": "甜菜根箱",
 
-  "block.cratedelight.black_berry_crate": "黑莓木箱",
-  "block.cratedelight.green_berry_crate": "綠莓木箱",
-  "block.cratedelight.orange_berry_crate": "橙莓木箱",
-  "block.cratedelight.yellow_berry_crate": "黃莓木箱",
-  "block.cratedelight.purple_berry_crate": "紫莓木箱",
-
   "block.cratedelight.cookie_bag": "餅乾袋",
-
-  "block.cratedelight.diamond_apple_crate": "鑽石蘋果箱",
 
   "itemGroup.cratedelight": "Crate Delight"
 }
