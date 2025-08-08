@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "cratedelight:bread_bag"
+  }
+}
