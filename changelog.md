@@ -4,12 +4,8 @@
 
 ### ✨ What's New:
 
-- Added Poisonous Potato Crate.
-- Added Brown Egg Crate.
-- Added Blue Egg Crate.
-- Added Bread Bag.
-- Added Pumpkin Slice Crate (for Farmer's Delight).
-- Potato Crates can now be smelted in a furnace to get 9 potato items.
+- Improved translations for Russian, thank you [Korben](https://github.com/mpustovoi)!
+- Potato crates from Farmer's Delight can now be smelted using the furnace.
 
 ***
 
