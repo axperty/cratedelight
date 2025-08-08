@@ -38,15 +38,7 @@
   "block.cratedelight.potato_crate": "Cassa di patate",
   "block.cratedelight.beetroot_crate": "Cassa di barbabietole",
 
-  "block.cratedelight.black_berry_crate": "Cassa di bacche nere",
-  "block.cratedelight.green_berry_crate": "Cassa di bacche verdi",
-  "block.cratedelight.orange_berry_crate": "Cassa di bacche arancioni",
-  "block.cratedelight.yellow_berry_crate": "Cassa di bacche gialle",
-  "block.cratedelight.purple_berry_crate": "Cassa di bacche viola",
-
   "block.cratedelight.cookie_bag": "Sacchetto di Biscotti",
-
-  "block.cratedelight.diamond_apple_crate": "Cassa di Mele di Diamante",
 
   "itemGroup.cratedelight": "Delizia della cassa"
 }

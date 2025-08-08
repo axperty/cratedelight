@@ -39,15 +39,7 @@
   "block.cratedelight.potato_crate": "Skrzynia ziemniaków",
   "block.cratedelight.beetroot_crate": "Skrzynia buraków",
 
-  "block.cratedelight.black_berry_crate": "Skrzynia z czarnymi jagodami",
-  "block.cratedelight.green_berry_crate": "Skrzynia z zielonymi jagodami",
-  "block.cratedelight.orange_berry_crate": "Skrzynia z pomarańczowymi jagodami",
-  "block.cratedelight.yellow_berry_crate": "Skrzynia z żółtymi jagodami",
-  "block.cratedelight.purple_berry_crate": "Skrzynia z fioletowymi jagodami",
-
   "block.cratedelight.cookie_bag": "Torba na Ciasteczka",
-
-  "block.cratedelight.diamond_apple_crate": "Skrzynia Diamentowych Jabłek",
 
   "itemGroup.cratedelight": "Crate Delight"
 }
