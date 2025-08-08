@@ -66,6 +66,10 @@ public class BlockRegistry {
     public static final RegistryObject<Block> BROWN_MUSHROOM_CRATE = registerBlock("brown_mushroom_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
+    // Pumpkin Slice Crate
+    public static final RegistryObject<Block> PUMPKIN_SLICE_CRATE = registerBlock("pumpkin_slice_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
     // Golden Carrot Crate
     public static final RegistryObject<Block> GOLDEN_CARROT_CRATE = registerBlock("golden_carrot_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));

@@ -1,0 +1,48 @@
+{
+  "type": "forge:conditional",
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "criteria": {
+          "has_pumpkin_slice": {
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "farmersdelight:pumpkin_slice"
+                  ]
+                }
+              ]
+            },
+            "trigger": "minecraft:inventory_changed"
+          },
+          "has_the_recipe": {
+            "conditions": {
+              "recipe": "cratedelight:pumpkin_slice_crate"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+          }
+        },
+        "requirements": [
+          [
+            "has_pumpkin_slice",
+            "has_the_recipe"
+          ]
+        ],
+        "rewards": {
+          "recipes": [
+            "cratedelight:pumpkin_slice_crate"
+          ]
+        },
+        "sends_telemetry_event": false
+      }
+    }
+  ]
+}

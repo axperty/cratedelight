@@ -33,6 +33,7 @@ public class CreativeTabRegistry {
                         pOutput.accept(BlockRegistry.COD_CRATE.get());
                         pOutput.accept(BlockRegistry.RED_MUSHROOM_CRATE.get());
                         pOutput.accept(BlockRegistry.BROWN_MUSHROOM_CRATE.get());
+                        pOutput.accept(BlockRegistry.PUMPKIN_SLICE_CRATE.get());
                         pOutput.accept(BlockRegistry.GOLDEN_CARROT_CRATE.get());
                         pOutput.accept(BlockRegistry.GOLDEN_APPLE_CRATE.get());
                         pOutput.accept(BlockRegistry.BREAD_BAG.get());
