@@ -42,10 +42,6 @@ public class BlockRegistry {
     public static final Block EGG_CRATE = registerBlock("egg_crate",
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
 
-    // Peanut Crate Registry
-    public static final Block PEANUT_CRATE = registerBlock("peanut_crate",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
-
     // Salmon Crate Registry
     public static final Block SALMON_CRATE = registerBlock("salmon_crate",
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
@@ -60,10 +56,6 @@ public class BlockRegistry {
 
     // Brown Mushroom Crate Registry
     public static final Block BROWN_MUSHROOM_CRATE = registerBlock("brown_mushroom_crate",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
-
-    // Pumpkin Slice Crate Registry
-    public static final Block PUMPKIN_SLICE_CRATE = registerBlock("pumpkin_slice_crate",
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
 
     // Golden Carrot Crate Registry
@@ -92,14 +84,6 @@ public class BlockRegistry {
 
     // Gunpowder Bag Registry
     public static final Block GUNPOWDER_BAG = registerBlock("gunpowder_bag",
-            new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-
-    // Salt Bag Registry
-    public static final Block SALT_BAG = registerBlock("salt_bag",
-            new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-
-    // Cinnamon Bag Registry
-    public static final Block GROUND_CINNAMON_BAG = registerBlock("ground_cinnamon_bag",
             new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
 
     private static Block registerBlock(String name, Block block) {

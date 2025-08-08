@@ -29,20 +29,10 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.BERRY_CRATE);
                         entries.add(BlockRegistry.GLOWBERRY_CRATE);
                         entries.add(BlockRegistry.EGG_CRATE);
-
-                        if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
-                            entries.add(BlockRegistry.PEANUT_CRATE);
-                        }
-
                         entries.add(BlockRegistry.SALMON_CRATE);
                         entries.add(BlockRegistry.COD_CRATE);
                         entries.add(BlockRegistry.RED_MUSHROOM_CRATE);
                         entries.add(BlockRegistry.BROWN_MUSHROOM_CRATE);
-
-                        if (FabricLoader.getInstance().isModLoaded("farmersdelight")) {
-                            entries.add(BlockRegistry.PUMPKIN_SLICE_CRATE);
-                        }
-
                         entries.add(BlockRegistry.GOLDEN_CARROT_CRATE);
                         entries.add(BlockRegistry.GOLDEN_APPLE_CRATE);
                         entries.add(BlockRegistry.BREAD_BAG);
@@ -50,11 +40,6 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.COCOABEANS_BAG);
                         entries.add(BlockRegistry.SUGAR_BAG);
                         entries.add(BlockRegistry.GUNPOWDER_BAG);
-
-                        if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
-                            entries.add(BlockRegistry.SALT_BAG);
-                            entries.add(BlockRegistry.GROUND_CINNAMON_BAG);
-                        }
                     })
                     .build());
 
