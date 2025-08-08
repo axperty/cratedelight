@@ -2,13 +2,12 @@
 
 ***
 
-### 🛠️ Important Changes:
+### ✨ What's New:
 
-- Stacked melons and stacked pumpkins have moved to a new mod called [Stacked Blocks](https://www.curseforge.com/minecraft/mc-mods/stacked-blocks), this mod includes even more blocks that can be compressed to save space and organize your items.
-
-### 🛠️ Bug Fixes:
-
-- Fixed a bug where the crates and bags took more time to break than usual.
+- Added Poisonous Potato Crate.
+- Added Bread Bag.
+- Added Pumpkin Slice Crate (for Farmer's Delight).
+- Potato Crates can now be smelted in a furnace to get 9 potato items.
 
 ***
 
