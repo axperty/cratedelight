@@ -2,9 +2,12 @@
 
 ***
 
-### 🛠️ Bug Fixes:
+### ✨ What's New:
 
-- Fixed a bug where Crate Delight caused Minecraft to crash unexpectedly when initializing the game.
+- Added Poisonous Potato Crate.
+- Added Bread Bag.
+- Added Pumpkin Slice Crate (for Farmer's Delight).
+- Potato Crates can now be smelted in a furnace to get 9 potato items.
 
 ***
 

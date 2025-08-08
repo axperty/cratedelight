@@ -1,4 +1,4 @@
-package com.axperty.cratedelight.block;
+package com.axperty.cratedelight.registry;
 
 import com.axperty.cratedelight.CrateDelight;
 import net.minecraft.world.level.block.*;
@@ -9,7 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class ModBlocks {
+public class BlockRegistry {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, CrateDelight.MOD_ID);
 
@@ -17,12 +17,16 @@ public class ModBlocks {
     public static final RegistryObject<Block> CARROT_CRATE = BLOCKS.register("carrot_crate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
 
+    // Beetroot Crate
+    public static final RegistryObject<Block> BEETROOT_CRATE = BLOCKS.register("beetroot_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+
     // Potato Crate
     public static final RegistryObject<Block> POTATO_CRATE = BLOCKS.register("potato_crate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
 
-    // Beetroot Crate
-    public static final RegistryObject<Block> BEETROOT_CRATE = BLOCKS.register("beetroot_crate",
+    // Poisonous Potato Crate
+    public static final RegistryObject<Block> POISONOUS_POTATO_CRATE = BLOCKS.register("poisonous_potato_crate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
 
     // Apple Crate
@@ -53,8 +57,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> RED_MUSHROOM_CRATE = BLOCKS.register("red_mushroom_crate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
 
-    // Cod Crate
+    // Brown Mushroom Crate
     public static final RegistryObject<Block> BROWN_MUSHROOM_CRATE = BLOCKS.register("brown_mushroom_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+
+    // Pumpkin Slice Crate
+    public static final RegistryObject<Block> PUMPKIN_SLICE_CRATE = BLOCKS.register("pumpkin_slice_crate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
 
     // Golden Carrot Crate
@@ -64,6 +72,14 @@ public class ModBlocks {
     // Golden Apple Crate
     public static final RegistryObject<Block> GOLDEN_APPLE_CRATE = BLOCKS.register("golden_apple_crate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+
+    // Bread Bag
+    public static final RegistryObject<Block> BREAD_BAG = BLOCKS.register("bread_bag",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL)));
+
+    // Cookie Bag
+    public static final RegistryObject<Block> COOKIE_BAG = BLOCKS.register("cookie_bag",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL)));
 
     // Cocoa Beans Bag
     public static final RegistryObject<Block> COCOABEANS_BAG = BLOCKS.register("cocoabeans_bag",
@@ -75,9 +91,5 @@ public class ModBlocks {
 
     // Gunpowder Bag
     public static final RegistryObject<Block> GUNPOWDER_BAG = BLOCKS.register("gunpowder_bag",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL)));
-
-    // Cookie Bag
-    public static final RegistryObject<Block> COOKIE_BAG = BLOCKS.register("cookie_bag",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL)));
 }

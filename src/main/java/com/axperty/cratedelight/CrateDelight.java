@@ -1,8 +1,8 @@
 package com.axperty.cratedelight;
 
 import com.mojang.logging.LogUtils;
-import com.axperty.cratedelight.block.ModBlocks;
-import com.axperty.cratedelight.item.ModItems;
+import com.axperty.cratedelight.registry.BlockRegistry;
+import com.axperty.cratedelight.registry.ItemRegistry;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -19,8 +19,8 @@ public class CrateDelight {
 
     public CrateDelight() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ModItems.ITEMS.register(modEventBus);
-        ModBlocks.BLOCKS.register(modEventBus);
+        ItemRegistry.ITEMS.register(modEventBus);
+        BlockRegistry.BLOCKS.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
     }
 
@@ -31,7 +31,7 @@ public class CrateDelight {
 
         @Override
         public ItemStack makeIcon() {
-            return ModItems.BERRY_CRATE.get().getDefaultInstance();
+            return ItemRegistry.BERRY_CRATE.get().getDefaultInstance();
         }
     }
 }

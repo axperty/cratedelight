@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "farmersdelight:pumpkin_slice"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "cratedelight:pumpkin_slice_crate"
+  }
+}
