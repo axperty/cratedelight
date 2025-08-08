@@ -16,7 +16,7 @@ public class CreativeTabRegistry {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CrateDelight.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> CRATEDELIGHT_TAB = CREATIVE_MODE_TABS.register("cratedelight_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(BlockRegistry.SALMON_CRATE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(BlockRegistry.BERRY_CRATE.get()))
                     .title(Component.translatable("itemGroup.cratedelight"))
                     .displayItems((pParameters, pOutput) -> {
 
