@@ -24,6 +24,7 @@ public class CreativeTabRegistry {
                             pOutput.accept(BlockRegistry.BEETROOT_CRATE.get());
                             pOutput.accept(BlockRegistry.POTATO_CRATE.get());
                         }
+
                         pOutput.accept(BlockRegistry.POISONOUS_POTATO_CRATE.get());
                         pOutput.accept(BlockRegistry.APPLE_CRATE.get());
                         pOutput.accept(BlockRegistry.BERRY_CRATE.get());
