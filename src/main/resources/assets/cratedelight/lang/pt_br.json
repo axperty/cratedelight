@@ -39,15 +39,7 @@
   "block.cratedelight.potato_crate": "Caixa de batata",
   "block.cratedelight.beetroot_crate": "Caixa de beterraba",
 
-  "block.cratedelight.black_berry_crate": "Caixa de Amoras Pretas",
-  "block.cratedelight.green_berry_crate": "Caixa de Amoras Verdes",
-  "block.cratedelight.orange_berry_crate": "Caixa de Amoras Laranjas",
-  "block.cratedelight.yellow_berry_crate": "Caixa de Amoras Amarelas",
-  "block.cratedelight.purple_berry_crate": "Caixa de Amoras Roxas",
-
   "block.cratedelight.cookie_bag": "Saco de Biscoitos",
-
-  "block.cratedelight.diamond_apple_crate": "Caixa de Maçãs de Diamante",
 
   "itemGroup.cratedelight": "Crate Delight"
 }

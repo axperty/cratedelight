@@ -39,15 +39,7 @@
   "block.cratedelight.potato_crate": "감자 상자",
   "block.cratedelight.beetroot_crate": "비트 상자",
 
-  "block.cratedelight.black_berry_crate": "검은 열매 상자",
-  "block.cratedelight.green_berry_crate": "녹색 열매 상자",
-  "block.cratedelight.orange_berry_crate": "주황 열매 상자",
-  "block.cratedelight.yellow_berry_crate": "노란 열매 상자",
-  "block.cratedelight.purple_berry_crate": "보라색 열매 상자",
-
   "block.cratedelight.cookie_bag": "쿠키 가방",
-
-  "block.cratedelight.diamond_apple_crate": "다이아몬드 사과 상자",
 
   "itemGroup.cratedelight": "Crate Delight"
 }
