@@ -4,7 +4,9 @@
 
 ### ✨ What's New:
 
-- This version of Crate Delight now works with Minecraft 1.20.5-1.20.6.
+- Added Poisonous Potato Crate.
+- Added Bread Bag.
+- Potato Crates can now be smelted in a furnace to get 9 potato items.
 
 ***
 
