@@ -2,11 +2,9 @@
 
 ***
 
-### ✨ What's New:
+### 🛠️ Minor Changes
 
-- Added Poisonous Potato Crate.
-- Added Bread Bag.
-- Potato Crates can now be smelted in a furnace to get 9 potato items.
+- Removed the option to place potato crates on furnaces, since furnaces only output a single item in this version.
 
 ***
 
