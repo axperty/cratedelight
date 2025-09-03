@@ -13,7 +13,7 @@
   "item.cratedelight.golden_apple_crate": "Ящик золотих яблук",
 
   "item.cratedelight.end_fish_crate": "Ящик сирої риби Енду",
-  "item.cratedelight.duck_egg_crate": "Ящик качиних яєць",
+  "item.cratedelight.duck_egg_crate": "Ящик яєць качки",
   "item.cratedelight.catfish_crate": "Ящик сирих сомів",
   "item.cratedelight.bass_crate": "Ящик сирих окунів",
   "item.cratedelight.peanut_crate": "Ящик арахісу",
@@ -22,24 +22,32 @@
   "item.cratedelight.powdered_obsidian_bag": "Мішок обсидіанового порошку",
   "item.cratedelight.cinder_flour_bag": "Мішок незерського борошна",
   "item.cratedelight.blueberry_crate": "Ящик чорниць",
-  "item.cratedelight.red_mushroom_crate": "Червоні скриньки з грибами",
-  "item.cratedelight.brown_mushroom_crate": "Коричневі скриньки з грибами",
+  "item.cratedelight.red_mushroom_crate": "Ящик червоних грибів",
+  "item.cratedelight.brown_mushroom_crate": "Ящик коричневих грибів",
 
-  "item.cratedelight.emu_egg_crate": "Ящик з яйцями ему",
-  "item.cratedelight.terrapin_egg_crate": "Ящик з черепашачими яйцями",
-  "item.cratedelight.crocodile_egg_crate": "Ящик з крокодилячими яйцями",
-  "item.cratedelight.caiman_egg_crate": "Ящик з яйцями каймана",
-  "item.cratedelight.platypus_egg_crate": "Ящик з яйцями качкодзьоба",
-  "item.cratedelight.banana_crate": "Ящик з бананами",
-  "item.cratedelight.golden_carrot_crate": "Ящик із золотими морквинами",
-  "item.cratedelight.kiwi_egg_crate": "Ящик з яйцями ківі",
-  "item.cratedelight.kiwifruit_crate": "Ящик з ківі",
+  "item.cratedelight.emu_egg_crate": "Ящик яєць ему",
+  "item.cratedelight.terrapin_egg_crate": "Ящик яєць черепахи",
+  "item.cratedelight.crocodile_egg_crate": "Ящик яєць крокодила",
+  "item.cratedelight.caiman_egg_crate": "Ящик яєць каймана",
+  "item.cratedelight.platypus_egg_crate": "Ящик яєць качкодзьоба",
+  "item.cratedelight.banana_crate": "Ящик бананів",
+  "item.cratedelight.golden_carrot_crate": "Ящик золотої моркви",
+  "item.cratedelight.kiwi_egg_crate": "Ящик яєць ківі",
+  "item.cratedelight.kiwifruit_crate": "Ящик ківі",
 
-  "item.cratedelight.carrot_crate": "Коробка моркви",
-  "item.cratedelight.potato_crate": "Коробка картоплі",
-  "item.cratedelight.beetroot_crate": "Коробка буряка",
+  "item.cratedelight.carrot_crate": "Ящик моркви",
+  "item.cratedelight.potato_crate": "Ящик картоплі",
+  "item.cratedelight.beetroot_crate": "Ящик буряка",
 
-  "item.cratedelight.cookie_bag": "Сумка для Печива",
+  "item.cratedelight.cookie_bag": "Мішок для печива",
 
-  "itemGroup.cratedelight": "Crate Delight"
+  "item.cratedelight.poisonous_potato_crate": "Ящик отруйної картоплі",
+  "item.cratedelight.brown_egg_crate": "Ящик коричневих яєць",
+  "item.cratedelight.blue_egg_crate": "Ящик блакитних яєць",
+  "item.cratedelight.pumpkin_slice_crate": "Ящик скибок гарбуза",
+  "item.cratedelight.bread_bag": "Мішок хліба",
+
+  "itemGroup.cratedelight": "Crate Delight",
+
+  "modmenu.descriptionTranslation.cratedelight": "Мод, що дадає мішки та ящики до гри"
 }
