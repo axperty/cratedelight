@@ -2,10 +2,15 @@
 
 ***
 
-### ✨ What's New:
+### 🛠️ Minor Changes:
 
-- Improved translations for Russian, thank you [Korben](https://github.com/mpustovoi)!
-- Potato crates from Farmer's Delight can now be smelted using the furnace.
+- Potato crates smelting recipe has been disabled as it doesn't work on certain versions, this caused the player to lose potatoes when placing them in the furnace.
+
+### 🌐 Translations:
+
+- Updated translations for Portuguese, thanks [Gabirobertz](https://github.com/demorogabrtz)!
+- Updated translations for Chinese, thanks [Number_Sir](https://github.com/NumberSir) and [taguima](https://github.com/22858)!
+- Updated translations for Ukrainian, thanks [Starman](https://github.com/StarmanMine142)!
 
 ***
 
