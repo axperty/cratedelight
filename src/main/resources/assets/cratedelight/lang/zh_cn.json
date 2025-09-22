@@ -5,7 +5,7 @@
   "block.cratedelight.egg_crate": "箱装鸡蛋",
   "block.cratedelight.salmon_crate": "箱装生鲑鱼",
   "block.cratedelight.cod_crate": "箱装生鳕鱼",
-  "block.cratedelight.cocoabeans_bag": "箱装可可豆袋",
+  "block.cratedelight.cocoabeans_bag": "袋装可可豆",
   "block.cratedelight.sugar_bag": "袋装糖",
   "block.cratedelight.salt_bag": "袋装盐",
   "block.cratedelight.gunpowder_bag": "袋装火药",
@@ -39,13 +39,7 @@
   "block.cratedelight.potato_crate": "箱装土豆",
   "block.cratedelight.beetroot_crate": "箱装甜菜根",
 
-  "block.cratedelight.cookie_bag": "袋装曲奇",
+  "block.cratedelight.cookie_bag": "袋装饼干",
 
-  "block.cratedelight.poisonous_potato_crate": "箱装毒马铃薯",
-  "block.cratedelight.brown_egg_crate": "棕色箱装鸡蛋",
-  "block.cratedelight.blue_egg_crate": "蓝色箱装鸡蛋",
-  "block.cratedelight.pumpkin_slice_crate": "箱装南瓜片",
-  "block.cratedelight.bread_bag": "袋装面包",
-
-  "itemGroup.cratedelight": "箱袋乐事"
+  "itemGroup.cratedelight": "装箱乐事"
 }
