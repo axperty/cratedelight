@@ -5,7 +5,7 @@ license="${mod_license}"
 
 [[mods]]
     modId="cratedelight"
-    version="25.08.12-1.19-forge"
+    version="25.09.22-1.19-forge"
     displayName="Crate Delight"
     authors="Axperty"
     description="A mod that adds crates and bags to the game."
