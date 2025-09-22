@@ -2,9 +2,15 @@
 
 ***
 
-### 🛠️ Minor Changes
+### 🛠️ Minor Changes:
 
-- Removed the option to place potato crates on furnaces, since furnaces only output a single item in this version.
+- Potato crates smelting recipe has been disabled as it doesn't work on certain versions, this caused the player to lose potatoes when placing them in the furnace.
+
+### 🌐 Translations:
+
+- Updated translations for Portuguese, thanks [Gabirobertz](https://github.com/demorogabrtz)!
+- Updated translations for Chinese, thanks [Number_Sir](https://github.com/NumberSir) and [taguima](https://github.com/22858)!
+- Updated translations for Ukrainian, thanks [Starman](https://github.com/StarmanMine142)!
 
 ***
 
