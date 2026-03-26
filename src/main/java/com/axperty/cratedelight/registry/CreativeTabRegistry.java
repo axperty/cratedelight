@@ -18,7 +18,7 @@ public class CreativeTabRegistry {
             .title(Component.translatable("itemGroup.cratedelight"))
             .icon(() -> ItemRegistry.BERRY_CRATE_ITEM.get().getDefaultInstance())
             .displayItems((parameters, pOutput) -> {
-                if (!ModList.get().isLoaded("farmersdelight")) {
+                if (!ModList.isLoaded("farmersdelight")) {
                     pOutput.accept(BlockRegistry.CARROT_CRATE.get());
                     pOutput.accept(BlockRegistry.BEETROOT_CRATE.get());
                     pOutput.accept(BlockRegistry.POTATO_CRATE.get());

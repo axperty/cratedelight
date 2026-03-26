@@ -1,25 +1,25 @@
 modLoader="javafml"
-loaderVersion="${loader_version_range}"
+loaderVersion="[62,)"
 license="MIT License"
 
 [[mods]]
 modId="cratedelight"
-version="25.12.11-1.21.11-forge"
+version="26.03.26+26.1-forge"
 displayName="Crate Delight"
 authors="Axperty"
-description='''A mod that adds crates and bags to the game.'''
+description='''A mod that adds more crates and bags to the game.'''
 logoFile="assets/cratedelight/logo.png"
 
 [[dependencies.cratedelight]]
 modId="forge"
 mandatory=true
-versionRange="${forge_version_range}"
+versionRange="[62,)"
 ordering="NONE"
 side="BOTH"
 
 [[dependencies.cratedelight]]
 modId="minecraft"
 mandatory=true
-versionRange="${minecraft_version_range}"
+versionRange="[26.1,26.2,)"
 ordering="NONE"
 side="BOTH"
