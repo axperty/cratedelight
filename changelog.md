@@ -1,8 +1,8 @@
-![Crate Delight](https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png)
+![Crate Delight](https://cdn.modrinth.com/data/9rlXSyLg/images/08301232d2f09004e6c6691604fac93d92cb462d.png)
 
 ***
 
-### ✨ What's New:
+### 🛠️ Minor Changes:
 
 - Added support for Minecraft 26.1.
 
