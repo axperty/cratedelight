@@ -8,7 +8,6 @@ import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.neoforge.common.NeoForge;
 
 @Mod(CrateDelight.MODID)
 public class CrateDelight
@@ -21,5 +20,6 @@ public class CrateDelight
         BlockRegistry.BLOCKS.register(modEventBus);
         ItemRegistry.ITEMS.register(modEventBus);
         CreativeTabRegistry.CREATIVE_MODE_TABS.register(modEventBus);
+        LOGGER.info("Crate Delight loaded");
     }
 }

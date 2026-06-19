@@ -64,6 +64,14 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> COD_CRATE = BLOCKS.registerBlock("cod_crate", Block::new,
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
 
+    // Pufferfish Crate
+    public static final DeferredBlock<Block> PUFFERFISH_CRATE = BLOCKS.registerBlock("pufferfish_crate", Block::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
+
+    // Tropical Fish Crate
+    public static final DeferredBlock<Block> TROPICAL_FISH_CRATE = BLOCKS.registerBlock("tropical_fish_crate", Block::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
+
     // Red Mushroom Crate
     public static final DeferredBlock<Block> RED_MUSHROOM_CRATE = BLOCKS.registerBlock("red_mushroom_crate", Block::new,
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
@@ -102,6 +110,10 @@ public class BlockRegistry {
 
     // Gunpowder Bag
     public static final DeferredBlock<Block> GUNPOWDER_BAG = BLOCKS.registerBlock("gunpowder_bag", Block::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
+
+    // Leaf Litter Bag
+    public static final DeferredBlock<Block> LEAF_LITTER_BAG = BLOCKS.registerBlock("leaf_litter_bag", Block::new,
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
 
     // Salt Bag (Expanded Delight)

@@ -31,6 +31,8 @@ This mod adds thirteen new type of blocks to the game that are useful to save st
 - Blue Egg Crate
 - Raw Salmon Crate
 - Raw Cod Crate
+- Putterfish Crate
+- Tropical Fish Crate
 - Red Mushroom Crate
 - Brown Mushroom Crate
 - Golden Carrot Crate
@@ -40,13 +42,4 @@ This mod adds thirteen new type of blocks to the game that are useful to save st
 - Cocoa Beans Bag
 - Sugar Bag
 - Gunpowder Bag
-
-It also adds crates and bags for the following mods:
-
-- Alex's Mobs
-- Create
-- Naturalist
-- Nutritious Feast
-- Jegm's Kiwis
-
-If you would like Crate Delight to have support for other mods, send your suggestions on [GitHub,](https://github.com/axperty/cratedelight/issues/new) or you can also join the [Discord server.](https://discord.gg/yweZ2agkDw)
+- Leaf Litter Bag

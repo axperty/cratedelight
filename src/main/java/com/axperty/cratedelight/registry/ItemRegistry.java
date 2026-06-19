@@ -48,6 +48,12 @@ public class ItemRegistry {
     // Cod Crate Item
     public static final DeferredItem<BlockItem> COD_CRATE_ITEM = ITEMS.registerSimpleBlockItem("cod_crate", BlockRegistry.COD_CRATE);
 
+    // Pufferfish Crate Item
+    public static final DeferredItem<BlockItem> PUFFERFISH_CRATE_ITEM = ITEMS.registerSimpleBlockItem("pufferfish_crate", BlockRegistry.PUFFERFISH_CRATE);
+
+    // Tropical Fish Crate Item
+    public static final DeferredItem<BlockItem> TROPICAL_FISH_CRATE_ITEM = ITEMS.registerSimpleBlockItem("tropical_fish_crate", BlockRegistry.TROPICAL_FISH_CRATE);
+
     // Red Mushroom Crate Item
     public static final DeferredItem<BlockItem> RED_MUSHROOM_CRATE_ITEM = ITEMS.registerSimpleBlockItem("red_mushroom_crate", BlockRegistry.RED_MUSHROOM_CRATE);
 
@@ -77,6 +83,9 @@ public class ItemRegistry {
 
     // Gunpowder Bag Item
     public static final DeferredItem<BlockItem> GUNPOWDER_BAG_ITEM = ITEMS.registerSimpleBlockItem("gunpowder_bag", BlockRegistry.GUNPOWDER_BAG);
+
+    // Leaf Litter Bag Item
+    public static final DeferredItem<BlockItem> LEAF_LITTER_BAG_ITEM = ITEMS.registerSimpleBlockItem("leaf_litter_bag", BlockRegistry.LEAF_LITTER_BAG);
 
     // Salt Bag Item
     public static final DeferredItem<BlockItem> SALT_BAG_ITEM = ITEMS.registerSimpleBlockItem("salt_bag", BlockRegistry.SALT_BAG);

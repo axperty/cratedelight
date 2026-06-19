@@ -47,5 +47,9 @@
   "block.cratedelight.pumpkin_slice_crate": "Pumpkin Slice Crate",
   "block.cratedelight.bread_bag": "Bread Bag",
 
+  "block.cratedelight.pufferfish_crate": "Pufferfish Crate",
+  "block.cratedelight.tropical_fish_crate": "Tropical Fish Crate",
+  "block.cratedelight.leaf_litter_bag": "Leaf Litter Bag",
+
   "itemGroup.cratedelight": "Crate Delight"
 }

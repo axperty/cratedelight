@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:leaf_litter"
+  },
+  "result": {
+    "count": 1,
+    "id": "cratedelight:leaf_litter_bag"
+  }
+}

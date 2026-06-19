@@ -47,5 +47,9 @@
   "block.cratedelight.pumpkin_slice_crate": "Cajón de rodajas de calabaza",
   "block.cratedelight.bread_bag": "Bolsa de pan",
 
+  "block.cratedelight.pufferfish_crate": "Cajón de peces globo",
+  "block.cratedelight.tropical_fish_crate": "Cajón de peces tropicales",
+  "block.cratedelight.leaf_litter_bag": "Cajón de hojas secas",
+
   "itemGroup.cratedelight": "Crate Delight"
 }
