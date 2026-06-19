@@ -6,7 +6,14 @@
 
 - Added Pufferfish Crate (thanks, [andrewdarkkk](https://github.com/andrewdarkkk)!)
 - Added Tropical Fish Crate (thanks, [andrewdarkkk](https://github.com/andrewdarkkk)!)
+
+<img width="500" alt="file" src="https://i.imgur.com/cyF1zfa.png" />
+
 - Added Leaf Litter Bag (thanks, EnricoPucci_II!)
+
+<img width="500" alt="file" src="https://i.imgur.com/SGbPIl3.png" />
+
+- Villagers with farmer and fisherman professions can now trade crates.
 
 ### 🌐 Translations:
 
