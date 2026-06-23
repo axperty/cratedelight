@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "cratedelight",
-  "version": "25.09.22-1.21.6-fabric",
-  "name": "Crate Delight",
-  "description": "A mod that adds crates and bags to the game.",
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
   "authors": [
-    "Axperty"
+    "${mod_authors}"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/members/axperty/projects"
+    "sources": "https://github.com/axperty/cratedelight"
   },
-  "license": "MIT",
-  "icon": "assets/cratedelight/logo.png",
+  "license": "${mod_license}",
+  "icon": "assets/${mod_id}/logo.png",
   "environment": "*",
   "entrypoints": {
     "main": [

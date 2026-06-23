@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "cratedelight:melon_seeds_bag"
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:melon_seeds"
+  }
+}
