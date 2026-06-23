@@ -41,5 +41,11 @@
 
   "item.cratedelight.cookie_bag": "袋装饼干",
 
+  "item.cratedelight.poisonous_potato_crate": "箱装毒土豆",
+  "item.cratedelight.brown_egg_crate": "箱装棕色鸡蛋",
+  "item.cratedelight.blue_egg_crate": "箱装蓝色鸡蛋",
+  "item.cratedelight.pumpkin_slice_crate": "箱装南瓜片",
+  "item.cratedelight.bread_bag": "袋装面包",
+
   "itemGroup.cratedelight": "装箱乐事"
 }

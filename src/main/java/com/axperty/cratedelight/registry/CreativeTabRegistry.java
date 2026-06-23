@@ -38,6 +38,8 @@ public class CreativeTabRegistry {
 
                         entries.accept(BlockRegistry.SALMON_CRATE);
                         entries.accept(BlockRegistry.COD_CRATE);
+                        entries.accept(BlockRegistry.PUFFERFISH_CRATE);
+                        entries.accept(BlockRegistry.TROPICAL_FISH_CRATE);
                         entries.accept(BlockRegistry.RED_MUSHROOM_CRATE);
                         entries.accept(BlockRegistry.BROWN_MUSHROOM_CRATE);
 
@@ -52,6 +54,11 @@ public class CreativeTabRegistry {
                         entries.accept(BlockRegistry.COCOABEANS_BAG);
                         entries.accept(BlockRegistry.SUGAR_BAG);
                         entries.accept(BlockRegistry.GUNPOWDER_BAG);
+                        entries.accept(BlockRegistry.LEAF_LITTER_BAG);
+                        entries.accept(BlockRegistry.WHEAT_SEEDS_BAG);
+                        entries.accept(BlockRegistry.PUMPKIN_SEEDS_BAG);
+                        entries.accept(BlockRegistry.MELON_SEEDS_BAG);
+                        entries.accept(BlockRegistry.BEETROOT_SEEDS_BAG);
 
                         if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
                             entries.accept(BlockRegistry.SALT_BAG);
@@ -60,7 +67,5 @@ public class CreativeTabRegistry {
                     })
                     .build());
 
-    public static void registerItemGroups() {
-        CrateDelight.LOGGER.info("Registering creative mode tab for " + CrateDelight.MODID);
-    }
+    public static void registerItemGroups() {}
 }
