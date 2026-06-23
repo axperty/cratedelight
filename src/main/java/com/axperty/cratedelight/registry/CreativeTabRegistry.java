@@ -57,6 +57,10 @@ public class CreativeTabRegistry {
                 output.accept(BlockRegistry.SUGAR_BAG.get());
                 output.accept(BlockRegistry.GUNPOWDER_BAG.get());
                 output.accept(BlockRegistry.LEAF_LITTER_BAG.get());
+                output.accept(BlockRegistry.WHEAT_SEEDS_BAG.get());
+                output.accept(BlockRegistry.PUMPKIN_SEEDS_BAG.get());
+                output.accept(BlockRegistry.MELON_SEEDS_BAG.get());
+                output.accept(BlockRegistry.BEETROOT_SEEDS_BAG.get());
 
                 if (ModList.get().isLoaded("expandeddelight")) {
                     output.accept(BlockRegistry.SALT_BAG.get());

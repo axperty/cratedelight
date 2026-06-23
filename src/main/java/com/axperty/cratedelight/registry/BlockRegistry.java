@@ -116,6 +116,22 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> LEAF_LITTER_BAG = BLOCKS.registerBlock("leaf_litter_bag", Block::new,
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
 
+    // Wheat Seeds Bag
+    public static final DeferredBlock<Block> WHEAT_SEEDS_BAG = BLOCKS.registerBlock("wheat_seeds_bag", Block::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
+
+    // Pumpkin Seeds Bag
+    public static final DeferredBlock<Block> PUMPKIN_SEEDS_BAG = BLOCKS.registerBlock("pumpkin_seeds_bag", Block::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
+
+    // Melon Seeds Bag
+    public static final DeferredBlock<Block> MELON_SEEDS_BAG = BLOCKS.registerBlock("melon_seeds_bag", Block::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
+
+    // Beetroot Seeds Bag
+    public static final DeferredBlock<Block> BEETROOT_SEEDS_BAG = BLOCKS.registerBlock("beetroot_seeds_bag", Block::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
+
     // Salt Bag (Expanded Delight)
     public static final DeferredBlock<Block> SALT_BAG = BLOCKS.registerBlock("salt_bag", Block::new,
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));

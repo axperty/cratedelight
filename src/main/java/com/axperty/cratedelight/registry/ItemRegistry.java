@@ -87,6 +87,18 @@ public class ItemRegistry {
     // Leaf Litter Bag Item
     public static final DeferredItem<BlockItem> LEAF_LITTER_BAG_ITEM = ITEMS.registerSimpleBlockItem("leaf_litter_bag", BlockRegistry.LEAF_LITTER_BAG);
 
+    // Wheat Seeds Bag Item
+    public static final DeferredItem<BlockItem> WHEAT_SEEDS_BAG_ITEM = ITEMS.registerSimpleBlockItem("wheat_seeds_bag", BlockRegistry.WHEAT_SEEDS_BAG);
+
+    // Pumpkin Seeds Bag Item
+    public static final DeferredItem<BlockItem> PUMPKIN_BAG_ITEM = ITEMS.registerSimpleBlockItem("pumpkin_seeds_bag", BlockRegistry.PUMPKIN_SEEDS_BAG);
+
+    // Melon Seeds Bag Item
+    public static final DeferredItem<BlockItem> MELON_SEEDS_BAG_ITEM = ITEMS.registerSimpleBlockItem("melon_seeds_bag", BlockRegistry.MELON_SEEDS_BAG);
+
+    // Beetroot Seeds Bag Item
+    public static final DeferredItem<BlockItem> BEETROOT_SEEDS_BAG_ITEM = ITEMS.registerSimpleBlockItem("beetroot_seeds_bag", BlockRegistry.BEETROOT_SEEDS_BAG);
+
     // Salt Bag Item
     public static final DeferredItem<BlockItem> SALT_BAG_ITEM = ITEMS.registerSimpleBlockItem("salt_bag", BlockRegistry.SALT_BAG);
 

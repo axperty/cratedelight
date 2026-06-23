@@ -11,9 +11,14 @@
 
 - Added Leaf Litter Bag (thanks, EnricoPucci_II!)
 
-<img width="500" alt="file" src="https://i.imgur.com/SGbPIl3.png" />
+<img width="500" alt="file" src="https://i.imgur.com/SESNCcV.png" />
 
-- Villagers with farmer and fisherman professions can now trade crates.
+- Added Wheat Seeds Bag.
+- Added Pumpkin Seeds Bag.
+- Added Melon Seeds Bag.
+- Added Beetroot Seeds Bag.
+
+<img width="500" alt="file" src="https://i.imgur.com/9qRnPh2.png" />
 
 ### 🌐 Translations:
 
