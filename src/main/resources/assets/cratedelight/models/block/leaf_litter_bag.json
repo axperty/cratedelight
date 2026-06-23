@@ -2,7 +2,7 @@
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "side": "cratedelight:block/rice_bag_side",
-    "bottom": "cratedelight:block/bag_bottom",
+    "bottom": "cratedelight:block/rice_bag_bottom",
     "top": "cratedelight:block/leaf_litter_bag_top"
   }
 }

@@ -4,9 +4,9 @@
     "down": "cratedelight:block/rice_bag_bottom",
     "east": "cratedelight:block/rice_bag_side",
     "north": "cratedelight:block/rice_bag_side_tied",
-    "particle": "cratedelight:block/pumpkin_seeds_bag_top_alt",
+    "particle": "cratedelight:block/pumpkin_seeds_bag_top",
     "south": "cratedelight:block/rice_bag_side_tied",
-    "up": "cratedelight:block/pumpkin_seeds_bag_top_alt",
+    "up": "cratedelight:block/pumpkin_seeds_bag_top",
     "west": "cratedelight:block/rice_bag_side"
   }
 }
