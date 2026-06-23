@@ -20,6 +20,8 @@
 
 <img width="500" alt="file" src="https://i.imgur.com/9qRnPh2.png" />
 
+### 🛠️ Minor Changes:
+
 - Improved Cocoa Beans Bag texture.
 
 ### 🌐 Translations:
