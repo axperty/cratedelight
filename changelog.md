@@ -18,7 +18,11 @@
 - Added Melon Seeds Bag.
 - Added Beetroot Seeds Bag.
 
-<img width="500" alt="file" src="https://i.imgur.com/AHuZKzf.png" />
+<img width="500" alt="file" src="https://i.imgur.com/9qRnPh2.png" />
+
+### 🛠️ Minor Changes:
+
+- Improved Cocoa Beans Bag texture.
 
 ### 🌐 Translations:
 
