@@ -33,11 +33,13 @@ public class BlockRegistry {
 
     public static final Block BLUE_EGG_CRATE = registerBlock("blue_egg_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
 
-    public static final Block PEANUT_CRATE = registerBlock("peanut_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
-
     public static final Block SALMON_CRATE = registerBlock("salmon_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
 
     public static final Block COD_CRATE = registerBlock("cod_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
+
+    public static final Block PUFFERFISH_CRATE = registerBlock("pufferfish_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
+
+    public static final Block TROPICAL_FISH_CRATE = registerBlock("tropical_fish_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
 
     public static final Block RED_MUSHROOM_CRATE = registerBlock("red_mushroom_crate", Block::new, Block.Settings.copy(Blocks.OAK_PLANKS));
 
@@ -59,9 +61,15 @@ public class BlockRegistry {
 
     public static final Block GUNPOWDER_BAG = registerBlock("gunpowder_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
 
-    public static final Block SALT_BAG = registerBlock("salt_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
+    public static final Block LEAF_LITTER_BAG = registerBlock("leaf_litter_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
 
-    public static final Block GROUND_CINNAMON_BAG = registerBlock("ground_cinnamon_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
+    public static final Block WHEAT_SEEDS_BAG = registerBlock("wheat_seeds_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
+
+    public static final Block PUMPKIN_SEEDS_BAG = registerBlock("pumpkin_seeds_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
+
+    public static final Block MELON_SEEDS_BAG = registerBlock("melon_seeds_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
+
+    public static final Block BEETROOT_SEEDS_BAG = registerBlock("beetroot_seeds_bag", Block::new, Block.Settings.copy(Blocks.WHITE_WOOL));
 
     private static Block registerBlock(String path, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
         final Identifier identifier = Identifier.of(CrateDelight.MODID, path);
