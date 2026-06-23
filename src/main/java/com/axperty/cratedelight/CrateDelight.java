@@ -18,5 +18,6 @@ public class CrateDelight {
         BlockRegistry.BLOCKS.register(modBusGroup);
         ItemRegistry.ITEMS.register(modBusGroup);
         CreativeTabRegistry.CREATIVE_MODE_TABS.register(modBusGroup);
+        LOGGER.info("Crate Delight loaded");
     }
 }

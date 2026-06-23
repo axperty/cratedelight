@@ -1,10 +1,39 @@
-![Crate Delight](https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png)
+![Crate Delight](https://cdn.modrinth.com/data/9rlXSyLg/images/08301232d2f09004e6c6691604fac93d92cb462d.png)
 
 ***
 
 ### ✨ What's New:
 
-- Added support for Minecraft 1.21.11.
+- Added Pufferfish Crate (thanks, [andrewdarkkk](https://github.com/andrewdarkkk)!)
+- Added Tropical Fish Crate (thanks, [andrewdarkkk](https://github.com/andrewdarkkk)!)
+
+<img width="500" alt="file" src="https://i.imgur.com/cyF1zfa.png" />
+
+- Added Leaf Litter Bag (thanks, EnricoPucci_II!)
+
+<img width="500" alt="file" src="https://i.imgur.com/SESNCcV.png" />
+
+- Added Wheat Seeds Bag.
+- Added Pumpkin Seeds Bag.
+- Added Melon Seeds Bag.
+- Added Beetroot Seeds Bag.
+
+<img width="500" alt="file" src="https://i.imgur.com/9qRnPh2.png" />
+
+### 🛠️ Minor Changes:
+
+- Improved Cocoa Beans Bag texture.
+- Uncrafting recipes for crates and bags now appear in the recipe book.
+
+### 🌐 Translations:
+
+- Added translations for Kazakh (thanks, [ninsent](https://github.com/ninsent)!)
+- Updated translations for Chinese (thanks, [Huang FTS427](https://github.com/FTS427/)!)
+- Updated translations for Korean (thanks, [Copy_TT](https://github.com/Copy-TT)!)
+
 ***
 
-Send your suggestions or report any issues on [GitHub](https://github.com/axperty/cratedelight/issues/new). Support Crate Delight by [creating your own server](https://url-shortener.curseforge.com/bn9fZ) or [donating on PayPal](https://paypal.me/kevgelhorn). 
+### 📝 Feedback and Support:
+
+- Found a bug or have suggestions? [Submit an issue on GitHub](https://github.com/axperty/cratedelight/issues/new).
+- Support this mod by [creating your own server](https://url-shortener.curseforge.com/bn9fZ) or [donating via PayPal](https://paypal.me/kevgelhorn).
