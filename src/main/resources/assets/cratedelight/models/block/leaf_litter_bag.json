@@ -1,8 +1,12 @@
 ﻿{
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "side": "cratedelight:block/rice_bag_side",
-    "bottom": "cratedelight:block/rice_bag_bottom",
-    "top": "cratedelight:block/leaf_litter_bag_top"
+    "down": "cratedelight:block/rice_bag_bottom",
+    "east": "cratedelight:block/rice_bag_side",
+    "north": "cratedelight:block/rice_bag_side_tied",
+    "particle": "cratedelight:block/leaf_litter_bag_top",
+    "south": "cratedelight:block/rice_bag_side_tied",
+    "up": "cratedelight:block/leaf_litter_bag_top",
+    "west": "cratedelight:block/rice_bag_side"
   }
 }
