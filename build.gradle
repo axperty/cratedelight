@@ -9,7 +9,7 @@ plugins {
 	id 'net.minecraftforge.gradle' version '[7.0.17,8)'
 }
 
-version = '26.03.26+26.1-forge'
+version = '26.07.01-26.1-forge'
 group = 'com.axperty.cratedelight'
 
 // Mojang ships Java 25 to end users in 26.1+, so your mod should target Java 25.

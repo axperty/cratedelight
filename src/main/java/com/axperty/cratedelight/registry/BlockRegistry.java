@@ -61,6 +61,14 @@ public class BlockRegistry {
     public static final RegistryObject<Block> COD_CRATE = BLOCKS.register("cod_crate",
             () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("cod_crate")).sound(SoundType.WOOD)));
 
+    // Pufferfish Crate
+    public static final RegistryObject<Block> PUFFERFISH_CRATE = BLOCKS.register("pufferfish_crate",
+            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("pufferfish_crate")).sound(SoundType.WOOD)));
+
+    // Tropical Fish Crate
+    public static final RegistryObject<Block> TROPICAL_FISH_CRATE = BLOCKS.register("tropical_fish_crate",
+            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("tropical_fish_crate")).sound(SoundType.WOOD)));
+
     // Red Mushroom Crate
     public static final RegistryObject<Block> RED_MUSHROOM_CRATE = BLOCKS.register("red_mushroom_crate",
             () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("red_mushroom_crate")).sound(SoundType.WOOD)));
@@ -96,4 +104,24 @@ public class BlockRegistry {
     // Gunpowder Bag
     public static final RegistryObject<Block> GUNPOWDER_BAG = BLOCKS.register("gunpowder_bag",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("gunpowder_bag")).sound(SoundType.WOOL)));
+
+    // Leaf Litter Bag
+    public static final RegistryObject<Block> LEAF_LITTER_BAG = BLOCKS.register("leaf_litter_bag",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("leaf_litter_bag")).sound(SoundType.WOOL)));
+
+    // Wheat Seeds Bag
+    public static final RegistryObject<Block> WHEAT_SEEDS_BAG = BLOCKS.register("wheat_seeds_bag",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("wheat_seeds_bag")).sound(SoundType.WOOL)));
+
+    // Pumpkin Seeds Bag
+    public static final RegistryObject<Block> PUMPKIN_SEEDS_BAG = BLOCKS.register("pumpkin_seeds_bag",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("pumpkin_seeds_bag")).sound(SoundType.WOOL)));
+
+    // Melon Seeds Bag
+    public static final RegistryObject<Block> MELON_SEEDS_BAG = BLOCKS.register("melon_seeds_bag",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("melon_seeds_bag")).sound(SoundType.WOOL)));
+
+    // Beetroot Seeds Bag
+    public static final RegistryObject<Block> BEETROOT_SEEDS_BAG = BLOCKS.register("beetroot_seeds_bag",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("beetroot_seeds_bag")).sound(SoundType.WOOL)));
 }

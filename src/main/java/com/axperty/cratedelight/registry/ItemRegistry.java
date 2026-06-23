@@ -81,6 +81,16 @@ public class ItemRegistry {
             () -> new BlockItem(BlockRegistry.COD_CRATE.get(), new Item.Properties().setId(ITEMS.key("cod_crate")))
     );
 
+    // Pufferfish Crate Item
+    public static final RegistryObject<Item> PUFFERFISH_CRATE_ITEM = ITEMS.register("pufferfish_crate",
+            () -> new BlockItem(BlockRegistry.PUFFERFISH_CRATE.get(), new Item.Properties().setId(ITEMS.key("pufferfish_crate")))
+    );
+
+    // Tropical Fish Crate Item
+    public static final RegistryObject<Item> TROPICAL_FISH_CRATE_ITEM = ITEMS.register("tropical_fish_crate",
+            () -> new BlockItem(BlockRegistry.TROPICAL_FISH_CRATE.get(), new Item.Properties().setId(ITEMS.key("tropical_fish_crate")))
+    );
+
     // Red Mushroom Crate Item
     public static final RegistryObject<Item> RED_MUSHROOM_CRATE_ITEM = ITEMS.register("red_mushroom_crate",
             () -> new BlockItem(BlockRegistry.RED_MUSHROOM_CRATE.get(), new Item.Properties().setId(ITEMS.key("red_mushroom_crate")))
@@ -124,5 +134,30 @@ public class ItemRegistry {
     // Gunpowder Bag Item
     public static final RegistryObject<Item> GUNPOWDER_BAG_ITEM = ITEMS.register("gunpowder_bag",
             () -> new BlockItem(BlockRegistry.GUNPOWDER_BAG.get(), new Item.Properties().setId(ITEMS.key("gunpowder_bag")))
+    );
+
+    // Leaf Litter Bag Item
+    public static final RegistryObject<Item> LEAF_LITTER_BAG_ITEM = ITEMS.register("leaf_litter_bag",
+            () -> new BlockItem(BlockRegistry.LEAF_LITTER_BAG.get(), new Item.Properties().setId(ITEMS.key("leaf_litter_bag")))
+    );
+
+    // Wheat Seeds Bag Item
+    public static final RegistryObject<Item> WHEAT_SEEDS_BAG_ITEM = ITEMS.register("wheat_seeds_bag",
+            () -> new BlockItem(BlockRegistry.WHEAT_SEEDS_BAG.get(), new Item.Properties().setId(ITEMS.key("wheat_seeds_bag")))
+    );
+
+    // Pumpkin Seeds Bag Item
+    public static final RegistryObject<Item> PUMPKIN_SEEDS_BAG_ITEM = ITEMS.register("pumpkin_seeds_bag",
+            () -> new BlockItem(BlockRegistry.PUMPKIN_SEEDS_BAG.get(), new Item.Properties().setId(ITEMS.key("pumpkin_seeds_bag")))
+    );
+
+    // Melon Seeds Bag Item
+    public static final RegistryObject<Item> MELON_SEEDS_BAG_ITEM = ITEMS.register("melon_seeds_bag",
+            () -> new BlockItem(BlockRegistry.MELON_SEEDS_BAG.get(), new Item.Properties().setId(ITEMS.key("melon_seeds_bag")))
+    );
+
+    // Beetroot Seeds Bag Item
+    public static final RegistryObject<Item> BEETROOT_SEEDS_BAG_ITEM = ITEMS.register("beetroot_seeds_bag",
+            () -> new BlockItem(BlockRegistry.BEETROOT_SEEDS_BAG.get(), new Item.Properties().setId(ITEMS.key("beetroot_seeds_bag")))
     );
 }

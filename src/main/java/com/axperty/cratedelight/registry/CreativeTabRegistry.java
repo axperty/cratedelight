@@ -17,29 +17,37 @@ public class CreativeTabRegistry {
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .title(Component.translatable("itemGroup.cratedelight"))
             .icon(() -> ItemRegistry.BERRY_CRATE_ITEM.get().getDefaultInstance())
-            .displayItems((parameters, pOutput) -> {
+            .displayItems((parameters, output) -> {
+
                 if (!ModList.isLoaded("farmersdelight")) {
-                    pOutput.accept(BlockRegistry.CARROT_CRATE.get());
-                    pOutput.accept(BlockRegistry.BEETROOT_CRATE.get());
-                    pOutput.accept(BlockRegistry.POTATO_CRATE.get());
+                    output.accept(BlockRegistry.CARROT_CRATE.get());
+                    output.accept(BlockRegistry.BEETROOT_CRATE.get());
+                    output.accept(BlockRegistry.POTATO_CRATE.get());
                 }
-                pOutput.accept(BlockRegistry.POISONOUS_POTATO_CRATE.get());
-                pOutput.accept(BlockRegistry.APPLE_CRATE.get());
-                pOutput.accept(BlockRegistry.BERRY_CRATE.get());
-                pOutput.accept(BlockRegistry.GLOWBERRY_CRATE.get());
-                pOutput.accept(BlockRegistry.EGG_CRATE.get());
-                pOutput.accept(BlockRegistry.BROWN_EGG_CRATE.get());
-                pOutput.accept(BlockRegistry.BLUE_EGG_CRATE.get());
-                pOutput.accept(BlockRegistry.SALMON_CRATE.get());
-                pOutput.accept(BlockRegistry.COD_CRATE.get());
-                pOutput.accept(BlockRegistry.RED_MUSHROOM_CRATE.get());
-                pOutput.accept(BlockRegistry.BROWN_MUSHROOM_CRATE.get());
-                pOutput.accept(BlockRegistry.GOLDEN_CARROT_CRATE.get());
-                pOutput.accept(BlockRegistry.GOLDEN_APPLE_CRATE.get());
-                pOutput.accept(BlockRegistry.BREAD_BAG.get());
-                pOutput.accept(BlockRegistry.COOKIE_BAG.get());
-                pOutput.accept(BlockRegistry.COCOABEANS_BAG.get());
-                pOutput.accept(BlockRegistry.SUGAR_BAG.get());
-                pOutput.accept(BlockRegistry.GUNPOWDER_BAG.get());
+                output.accept(BlockRegistry.POISONOUS_POTATO_CRATE.get());
+                output.accept(BlockRegistry.APPLE_CRATE.get());
+                output.accept(BlockRegistry.BERRY_CRATE.get());
+                output.accept(BlockRegistry.GLOWBERRY_CRATE.get());
+                output.accept(BlockRegistry.EGG_CRATE.get());
+                output.accept(BlockRegistry.BROWN_EGG_CRATE.get());
+                output.accept(BlockRegistry.BLUE_EGG_CRATE.get());
+                output.accept(BlockRegistry.SALMON_CRATE.get());
+                output.accept(BlockRegistry.COD_CRATE.get());
+                output.accept(BlockRegistry.PUFFERFISH_CRATE.get());
+                output.accept(BlockRegistry.TROPICAL_FISH_CRATE.get());
+                output.accept(BlockRegistry.RED_MUSHROOM_CRATE.get());
+                output.accept(BlockRegistry.BROWN_MUSHROOM_CRATE.get());
+                output.accept(BlockRegistry.GOLDEN_CARROT_CRATE.get());
+                output.accept(BlockRegistry.GOLDEN_APPLE_CRATE.get());
+                output.accept(BlockRegistry.BREAD_BAG.get());
+                output.accept(BlockRegistry.COOKIE_BAG.get());
+                output.accept(BlockRegistry.COCOABEANS_BAG.get());
+                output.accept(BlockRegistry.SUGAR_BAG.get());
+                output.accept(BlockRegistry.GUNPOWDER_BAG.get());
+                output.accept(BlockRegistry.LEAF_LITTER_BAG.get());
+                output.accept(BlockRegistry.WHEAT_SEEDS_BAG.get());
+                output.accept(BlockRegistry.PUMPKIN_SEEDS_BAG.get());
+                output.accept(BlockRegistry.MELON_SEEDS_BAG.get());
+                output.accept(BlockRegistry.BEETROOT_SEEDS_BAG.get());
             }).build());
 }

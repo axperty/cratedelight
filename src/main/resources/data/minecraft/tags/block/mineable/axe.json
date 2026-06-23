@@ -1,4 +1,4 @@
-{
+﻿{
   "replace": false,
   "values": [
     "cratedelight:carrot_crate",
@@ -16,6 +16,8 @@
     "cratedelight:golden_carrot_crate",
     "cratedelight:poisonous_potato_crate",
     "cratedelight:brown_egg_crate",
-    "cratedelight:blue_egg_crate"
+    "cratedelight:blue_egg_crate",
+    "cratedelight:pufferfish_crate",
+    "cratedelight:tropical_fish_crate"
   ]
 }
