@@ -23,6 +23,7 @@
 ### 🛠️ Minor Changes:
 
 - Improved Cocoa Beans Bag texture.
+- Uncrafting recipes for crates and bags now appear in the recipe book.
 
 ### 🌐 Translations:
 

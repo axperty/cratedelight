@@ -39,9 +39,6 @@ public class ItemRegistry {
     // Blue Egg Crate Item
     public static final DeferredItem<BlockItem> BLUE_EGG_CRATE_ITEM = ITEMS.registerSimpleBlockItem("blue_egg_crate", BlockRegistry.BLUE_EGG_CRATE);
 
-    // Peanut Egg Crate Item
-    public static final DeferredItem<BlockItem> PEANUT_CRATE_ITEM = ITEMS.registerSimpleBlockItem("peanut_crate", BlockRegistry.PEANUT_CRATE);
-
     // Salmon Crate Item
     public static final DeferredItem<BlockItem> SALMON_CRATE_ITEM = ITEMS.registerSimpleBlockItem("salmon_crate", BlockRegistry.SALMON_CRATE);
 
@@ -98,10 +95,4 @@ public class ItemRegistry {
 
     // Beetroot Seeds Bag Item
     public static final DeferredItem<BlockItem> BEETROOT_SEEDS_BAG_ITEM = ITEMS.registerSimpleBlockItem("beetroot_seeds_bag", BlockRegistry.BEETROOT_SEEDS_BAG);
-
-    // Salt Bag Item
-    public static final DeferredItem<BlockItem> SALT_BAG_ITEM = ITEMS.registerSimpleBlockItem("salt_bag", BlockRegistry.SALT_BAG);
-
-    // Ground Cinnamon Bag Item
-    public static final DeferredItem<BlockItem> GROUND_CINNAMON_BAG_ITEM = ITEMS.registerSimpleBlockItem("ground_cinnamon_bag", BlockRegistry.GROUND_CINNAMON_BAG);
 }

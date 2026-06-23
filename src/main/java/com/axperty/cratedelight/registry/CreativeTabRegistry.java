@@ -38,10 +38,6 @@ public class CreativeTabRegistry {
                 output.accept(BlockRegistry.PUFFERFISH_CRATE.get());
                 output.accept(BlockRegistry.TROPICAL_FISH_CRATE.get());
 
-                if (ModList.get().isLoaded("expandeddelight")) {
-                    output.accept(BlockRegistry.PEANUT_CRATE.get());
-                }
-
                 output.accept(BlockRegistry.RED_MUSHROOM_CRATE.get());
                 output.accept(BlockRegistry.BROWN_MUSHROOM_CRATE.get());
 
@@ -61,10 +57,5 @@ public class CreativeTabRegistry {
                 output.accept(BlockRegistry.PUMPKIN_SEEDS_BAG.get());
                 output.accept(BlockRegistry.MELON_SEEDS_BAG.get());
                 output.accept(BlockRegistry.BEETROOT_SEEDS_BAG.get());
-
-                if (ModList.get().isLoaded("expandeddelight")) {
-                    output.accept(BlockRegistry.SALT_BAG.get());
-                    output.accept(BlockRegistry.GROUND_CINNAMON_BAG.get());
-                }
             }).build());
 }

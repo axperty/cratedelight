@@ -52,10 +52,6 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> BLUE_EGG_CRATE = BLOCKS.registerBlock("blue_egg_crate", Block::new,
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
 
-    // Peanut Crate (Expanded Delight)
-    public static final DeferredBlock<Block> PEANUT_CRATE = BLOCKS.registerBlock("peanut_crate", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
-
     // Salmon Crate
     public static final DeferredBlock<Block> SALMON_CRATE = BLOCKS.registerBlock("salmon_crate", Block::new,
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
@@ -130,13 +126,5 @@ public class BlockRegistry {
 
     // Beetroot Seeds Bag
     public static final DeferredBlock<Block> BEETROOT_SEEDS_BAG = BLOCKS.registerBlock("beetroot_seeds_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
-
-    // Salt Bag (Expanded Delight)
-    public static final DeferredBlock<Block> SALT_BAG = BLOCKS.registerBlock("salt_bag", Block::new,
-            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
-
-    // Ground Cinnamon Bag (Expanded Delight)
-    public static final DeferredBlock<Block> GROUND_CINNAMON_BAG = BLOCKS.registerBlock("ground_cinnamon_bag", Block::new,
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
 }
