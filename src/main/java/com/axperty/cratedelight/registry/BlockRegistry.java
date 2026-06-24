@@ -1,7 +1,5 @@
 package com.axperty.cratedelight.registry;
 
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
@@ -10,8 +8,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
-import java.util.function.Supplier;
 
 import static com.axperty.cratedelight.CrateDelight.MODID;
 
@@ -58,6 +54,14 @@ public class BlockRegistry {
     public static final RegistryObject<Block> COD_CRATE = BLOCKS.register("cod_crate",
             () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("cod_crate")).sound(SoundType.WOOD)));
 
+    // Pufferfish Crate
+    public static final RegistryObject<Block> PUFFERFISH_CRATE = BLOCKS.register("pufferfish_crate",
+            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("pufferfish_crate")).sound(SoundType.WOOD)));
+
+    // Tropical Fish Crate
+    public static final RegistryObject<Block> TROPICAL_FISH_CRATE = BLOCKS.register("tropical_fish_crate",
+            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("tropical_fish_crate")).sound(SoundType.WOOD)));
+
     // Red Mushroom Crate
     public static final RegistryObject<Block> RED_MUSHROOM_CRATE = BLOCKS.register("red_mushroom_crate",
             () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).setId(BLOCKS.key("red_mushroom_crate")).sound(SoundType.WOOD)));
@@ -78,6 +82,10 @@ public class BlockRegistry {
     public static final RegistryObject<Block> BREAD_BAG = BLOCKS.register("bread_bag",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("bread_bag")).sound(SoundType.WOOL)));
 
+    // Cookie Bag
+    public static final RegistryObject<Block> COOKIE_BAG = BLOCKS.register("cookie_bag",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("cookie_bag")).sound(SoundType.WOOL)));
+
     // Cocoa Beans Bag
     public static final RegistryObject<Block> COCOABEANS_BAG = BLOCKS.register("cocoabeans_bag",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("cocoabeans_bag")).sound(SoundType.WOOL)));
@@ -90,9 +98,21 @@ public class BlockRegistry {
     public static final RegistryObject<Block> GUNPOWDER_BAG = BLOCKS.register("gunpowder_bag",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("gunpowder_bag")).sound(SoundType.WOOL)));
 
-    // Cookie Bag
-    public static final RegistryObject<Block> COOKIE_BAG = BLOCKS.register("cookie_bag",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("cookie_bag")).sound(SoundType.WOOL)));
+    // Wheat Seeds Bag
+    public static final RegistryObject<Block> WHEAT_SEEDS_BAG = BLOCKS.register("wheat_seeds_bag",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("wheat_seeds_bag")).sound(SoundType.WOOL)));
+
+    // Pumpkin Seeds Bag
+    public static final RegistryObject<Block> PUMPKIN_SEEDS_BAG = BLOCKS.register("pumpkin_seeds_bag",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("pumpkin_seeds_bag")).sound(SoundType.WOOL)));
+
+    // Melon Seeds Bag
+    public static final RegistryObject<Block> MELON_SEEDS_BAG = BLOCKS.register("melon_seeds_bag",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("melon_seeds_bag")).sound(SoundType.WOOL)));
+
+    // Beetroot Seeds Bag
+    public static final RegistryObject<Block> BEETROOT_SEEDS_BAG = BLOCKS.register("beetroot_seeds_bag",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).setId(BLOCKS.key("beetroot_seeds_bag")).sound(SoundType.WOOL)));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

@@ -35,28 +35,11 @@ public class CrateDelight {
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public CrateDelight(FMLJavaModLoadingContext context) {
-        IEventBus modEventBus = context.getModEventBus();
-        modEventBus.addListener(this::commonSetup);
-        BlockRegistry.register(modEventBus);
-        ItemRegistry.register(modEventBus);
-        CreativeTabRegistry.register(modEventBus);
+        var modBusGroup = context.getModEventBus();
+        BlockRegistry.BLOCKS.register(modBusGroup);
+        ItemRegistry.ITEMS.register(modBusGroup);
+        CreativeTabRegistry.CREATIVE_MODE_TABS.register(modBusGroup);
         MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    private void commonSetup(final FMLCommonSetupEvent event) {
-
-    }
-
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {
-
-    }
-
-    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
-
-        }
+        LOGGER.info("Crate Delight loaded");
     }
 }
