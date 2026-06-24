@@ -16,12 +16,11 @@ public class CrateDelight {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public CrateDelight() {
-        LOGGER.debug("[Crate Delight]: Registering blocks...");
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        BlockRegistry.register(modEventBus);
-        ItemRegistry.register(modEventBus);
-        CreativeTabRegistry.register(modEventBus);
+        BlockRegistry.BLOCKS.register(modEventBus);
+        ItemRegistry.ITEMS.register(modEventBus);
+        CreativeTabRegistry.CREATIVE_MODE_TABS.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
-        LOGGER.debug("[Crate Delight]: Blocks registered successfully!");
+        LOGGER.info("Crate Delight loaded");
     }
 }

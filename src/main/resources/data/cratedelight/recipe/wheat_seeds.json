@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cratedelight:wheat_seeds_bag"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:wheat_seeds"
+  }
+}

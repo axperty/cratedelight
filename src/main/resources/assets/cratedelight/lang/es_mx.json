@@ -36,16 +36,24 @@
   "block.cratedelight.kiwifruit_crate": "Cajón de fruta de Kiwi",
 
   "block.cratedelight.carrot_crate": "Cajón de zanahorias",
-  "block.cratedelight.potato_crate": "Cajón de patatas",
+  "block.cratedelight.potato_crate": "Cajón de papas",
   "block.cratedelight.beetroot_crate": "Cajón de remolacha",
 
   "block.cratedelight.cookie_bag": "Bolsa de galletas",
 
-  "block.cratedelight.poisonous_potato_crate": "Cajón de patatas venenosas",
+  "block.cratedelight.poisonous_potato_crate": "Cajón de papas venenosas",
   "block.cratedelight.brown_egg_crate": "Cajón de huevos marrones",
   "block.cratedelight.blue_egg_crate": "Cajón de huevos azules",
   "block.cratedelight.pumpkin_slice_crate": "Cajón de rodajas de calabaza",
   "block.cratedelight.bread_bag": "Bolsa de pan",
 
-  "creativetab.cratedelight_tab": "Crate Delight"
+  "block.cratedelight.pufferfish_crate": "Cajón de peces globo",
+  "block.cratedelight.tropical_fish_crate": "Cajón de peces tropicales",
+  "block.cratedelight.leaf_litter_bag": "Cajón de hojas secas",
+  "block.cratedelight.wheat_seeds_bag": "Bolsa de semillas de trigo",
+  "block.cratedelight.pumpkin_seeds_bag": "Bolsa de semillas de zapallo",
+  "block.cratedelight.melon_seeds_bag": "Bolsa de semillas de sandía",
+  "block.cratedelight.beetroot_seeds_bag": "Bolsa de semillas de remolacha",
+
+  "itemGroup.cratedelight": "Crate Delight"
 }
