@@ -32,12 +32,10 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.BROWN_EGG_CRATE);
                         entries.add(BlockRegistry.BLUE_EGG_CRATE);
 
-                        if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
-                            entries.add(BlockRegistry.PEANUT_CRATE);
-                        }
-
                         entries.add(BlockRegistry.SALMON_CRATE);
                         entries.add(BlockRegistry.COD_CRATE);
+                        entries.add(BlockRegistry.PUFFERFISH_CRATE);
+                        entries.add(BlockRegistry.TROPICAL_FISH_CRATE);
                         entries.add(BlockRegistry.RED_MUSHROOM_CRATE);
                         entries.add(BlockRegistry.BROWN_MUSHROOM_CRATE);
 
@@ -52,15 +50,13 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.COCOABEANS_BAG);
                         entries.add(BlockRegistry.SUGAR_BAG);
                         entries.add(BlockRegistry.GUNPOWDER_BAG);
-
-                        if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
-                            entries.add(BlockRegistry.SALT_BAG);
-                            entries.add(BlockRegistry.GROUND_CINNAMON_BAG);
-                        }
+                        entries.add(BlockRegistry.LEAF_LITTER_BAG);
+                        entries.add(BlockRegistry.WHEAT_SEEDS_BAG);
+                        entries.add(BlockRegistry.PUMPKIN_SEEDS_BAG);
+                        entries.add(BlockRegistry.MELON_SEEDS_BAG);
+                        entries.add(BlockRegistry.BEETROOT_SEEDS_BAG);
                     })
                     .build());
 
-    public static void registerItemGroups() {
-        CrateDelight.LOGGER.info("Registering Item Groups for " + CrateDelight.MODID);
-    }
+    public static void registerItemGroups() {}
 }

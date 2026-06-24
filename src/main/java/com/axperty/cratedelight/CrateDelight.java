@@ -14,5 +14,6 @@ public class CrateDelight implements ModInitializer {
     public void onInitialize() {
         CreativeTabRegistry.registerItemGroups();
         BlockRegistry.registerModBlocks();
+        LOGGER.info("Crate Delight loaded");
     }
 }
