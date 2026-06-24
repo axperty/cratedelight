@@ -35,14 +35,17 @@ public class ItemRegistry {
     // Egg Crate Item
     public static final DeferredItem<BlockItem> EGG_CRATE_ITEM = ITEMS.registerSimpleBlockItem("egg_crate", BlockRegistry.EGG_CRATE);
 
-    // Peanut Egg Crate Item
-    public static final DeferredItem<BlockItem> PEANUT_CRATE_ITEM = ITEMS.registerSimpleBlockItem("peanut_crate", BlockRegistry.PEANUT_CRATE);
-
     // Salmon Crate Item
     public static final DeferredItem<BlockItem> SALMON_CRATE_ITEM = ITEMS.registerSimpleBlockItem("salmon_crate", BlockRegistry.SALMON_CRATE);
 
     // Cod Crate Item
     public static final DeferredItem<BlockItem> COD_CRATE_ITEM = ITEMS.registerSimpleBlockItem("cod_crate", BlockRegistry.COD_CRATE);
+
+    // Pufferfish Crate Item
+    public static final DeferredItem<BlockItem> PUFFERFISH_CRATE_ITEM = ITEMS.registerSimpleBlockItem("pufferfish_crate", BlockRegistry.PUFFERFISH_CRATE);
+
+    // Tropical Fish Crate Item
+    public static final DeferredItem<BlockItem> TROPICAL_FISH_CRATE_ITEM = ITEMS.registerSimpleBlockItem("tropical_fish_crate", BlockRegistry.TROPICAL_FISH_CRATE);
 
     // Red Mushroom Crate Item
     public static final DeferredItem<BlockItem> RED_MUSHROOM_CRATE_ITEM = ITEMS.registerSimpleBlockItem("red_mushroom_crate", BlockRegistry.RED_MUSHROOM_CRATE);
@@ -74,9 +77,15 @@ public class ItemRegistry {
     // Gunpowder Bag Item
     public static final DeferredItem<BlockItem> GUNPOWDER_BAG_ITEM = ITEMS.registerSimpleBlockItem("gunpowder_bag", BlockRegistry.GUNPOWDER_BAG);
 
-    // Salt Bag Item
-    public static final DeferredItem<BlockItem> SALT_BAG_ITEM = ITEMS.registerSimpleBlockItem("salt_bag", BlockRegistry.SALT_BAG);
+    // Wheat Seeds Bag Item
+    public static final DeferredItem<BlockItem> WHEAT_SEEDS_BAG_ITEM = ITEMS.registerSimpleBlockItem("wheat_seeds_bag", BlockRegistry.WHEAT_SEEDS_BAG);
 
-    // Ground Cinnamon Bag Item
-    public static final DeferredItem<BlockItem> GROUND_CINNAMON_BAG_ITEM = ITEMS.registerSimpleBlockItem("ground_cinnamon_bag", BlockRegistry.GROUND_CINNAMON_BAG);
+    // Pumpkin Seeds Bag Item
+    public static final DeferredItem<BlockItem> PUMPKIN_BAG_ITEM = ITEMS.registerSimpleBlockItem("pumpkin_seeds_bag", BlockRegistry.PUMPKIN_SEEDS_BAG);
+
+    // Melon Seeds Bag Item
+    public static final DeferredItem<BlockItem> MELON_SEEDS_BAG_ITEM = ITEMS.registerSimpleBlockItem("melon_seeds_bag", BlockRegistry.MELON_SEEDS_BAG);
+
+    // Beetroot Seeds Bag Item
+    public static final DeferredItem<BlockItem> BEETROOT_SEEDS_BAG_ITEM = ITEMS.registerSimpleBlockItem("beetroot_seeds_bag", BlockRegistry.BEETROOT_SEEDS_BAG);
 }
