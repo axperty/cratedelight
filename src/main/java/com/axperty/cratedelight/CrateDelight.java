@@ -20,5 +20,6 @@ public class CrateDelight {
         ItemRegistry.ITEMS.register(modBusGroup);
         CreativeTabRegistry.CREATIVE_MODE_TABS.register(modBusGroup);
         MinecraftForge.EVENT_BUS.register(this);
+        LOGGER.info("Crate Delight loaded");
     }
 }
