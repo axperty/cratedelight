@@ -7,11 +7,10 @@ license="${mod_license}"
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
-displayURL = "https://www.curseforge.com/members/axperty/projects"
-logoFile="logo.png"
-logoBlur = false
 authors="${mod_authors}"
-description="A mod that adds crates and bags to the game."
+displayURL = "https://github.com/axperty/cratedelight"
+logoFile="assets/${mod_id}/logo.png"
+description="${mod_description}"
 
 [[dependencies.${mod_id}]]
 modId="neoforge"

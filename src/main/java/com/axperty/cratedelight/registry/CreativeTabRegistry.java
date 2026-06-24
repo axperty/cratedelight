@@ -31,6 +31,8 @@ public class CreativeTabRegistry {
                 output.accept(BlockRegistry.EGG_CRATE.get());
                 output.accept(BlockRegistry.SALMON_CRATE.get());
                 output.accept(BlockRegistry.COD_CRATE.get());
+                output.accept(BlockRegistry.PUFFERFISH_CRATE.get());
+                output.accept(BlockRegistry.TROPICAL_FISH_CRATE.get());
 
                 if (ModList.get().isLoaded("expandeddelight")) {
                     output.accept(BlockRegistry.PEANUT_CRATE.get());
@@ -50,6 +52,10 @@ public class CreativeTabRegistry {
                 output.accept(BlockRegistry.COCOABEANS_BAG.get());
                 output.accept(BlockRegistry.SUGAR_BAG.get());
                 output.accept(BlockRegistry.GUNPOWDER_BAG.get());
+                output.accept(BlockRegistry.WHEAT_SEEDS_BAG.get());
+                output.accept(BlockRegistry.PUMPKIN_SEEDS_BAG.get());
+                output.accept(BlockRegistry.MELON_SEEDS_BAG.get());
+                output.accept(BlockRegistry.BEETROOT_SEEDS_BAG.get());
 
                 if (ModList.get().isLoaded("expandeddelight")) {
                     output.accept(BlockRegistry.SALT_BAG.get());
