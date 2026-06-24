@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cratedelight:pufferfish_crate"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:pufferfish"
+  }
+}
