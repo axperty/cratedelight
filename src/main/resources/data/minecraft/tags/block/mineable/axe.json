@@ -14,8 +14,9 @@
     "cratedelight:red_mushroom_crate",
     "cratedelight:brown_mushroom_crate",
     "cratedelight:golden_carrot_crate",
-    "cratedelight:peanut_crate",
     "cratedelight:poisonous_potato_crate",
-    "cratedelight:pumpkin_slice_crate"
+    "cratedelight:pumpkin_slice_crate",
+    "cratedelight:pufferfish_crate",
+    "cratedelight:tropical_fish_crate"
   ]
 }
