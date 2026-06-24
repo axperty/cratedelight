@@ -17,9 +17,10 @@ public class CrateDelight {
 
     public CrateDelight() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        BlockRegistry.register(modEventBus);
-        ItemRegistry.register(modEventBus);
-        CreativeTabRegistry.register(modEventBus);
+        BlockRegistry.BLOCKS.register(modEventBus);
+        ItemRegistry.ITEMS.register(modEventBus);
+        CreativeTabRegistry.CREATIVE_MODE_TABS.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
+        LOGGER.info("Crate Delight loaded");
     }
 }
