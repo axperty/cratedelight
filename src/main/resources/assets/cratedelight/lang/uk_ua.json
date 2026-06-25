@@ -47,7 +47,7 @@
   "block.cratedelight.pumpkin_slice_crate": "Ящик скибок гарбуза",
   "block.cratedelight.bread_bag": "Мішок хліба",
 
-  "itemGroup.cratedelight": "Crate Delight",
+  "itemGroup.cratedelight.title": "Crate Delight",
 
   "modmenu.descriptionTranslation.cratedelight": "Мод, що дадає мішки та ящики до гри"
 }

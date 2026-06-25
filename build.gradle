@@ -22,12 +22,21 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 }
 
-processResources {
-	inputs.property "version", project.version
+def expandProps = [
+        "mod_version": project.mod_version,
+        "mod_id": project.mod_id,
+        "mod_name": project.mod_name,
+        "mod_description": project.mod_description,
+        "mod_authors": project.mod_authors,
+        "mod_license": project.mod_license
+]
 
-	filesMatching("fabric.mod.json") {
-		expand "version": project.version
-	}
+processResources {
+    inputs.properties(expandProps)
+
+    filesMatching("fabric.mod.json") {
+        expand(expandProps)
+    }
 }
 
 tasks.withType(JavaCompile).configureEach {
@@ -54,56 +63,5 @@ publishing {
 
 	repositories {
 
-	}
-}
-
-var env = System.getenv()
-var modLoader = name
-
-var changelogFile = rootProject.file("changelog.md")
-var changelogText = changelogFile.exists() ? changelogFile.text : ""
-
-if (env.MODRINTH_TOKEN) {
-	modrinth {
-		projectId = modrinth_project_id
-		versionName = "Crate Delight ${mod_version.split("-")[1]} - ${minecraft_version}"
-		uploadFile = tasks.remapJar
-		gameVersions = [minecraft_version]
-		loaders = ["fabric"]
-		changelog = changelogText
-		versionNumber = mod_version
-		versionType = "release"
-
-		dependencies {
-			required.project "fabric-api"
-			required.project "farmers-delight-fabric"
-			optional.project "more-delight"
-			optional.project "storage-delight"
-		}
-	}
-}
-
-if (env.CURSEFORGE_TOKEN) {
-	curseforge {
-		apiKey = env.CURSEFORGE_TOKEN
-		project {
-			id = project_id
-			changelog = changelogText
-			changelogType = 'markdown'
-			releaseType = 'release'
-			addGameVersion minecraft_version
-			addGameVersion "Fabric"
-
-			mainArtifact(tasks.remapJar) {
-				displayName = "Crate Delight ${mod_version.split("-")[1]} - ${minecraft_version}"
-			}
-
-			relations {
-				requiredDependency "fabric-api"
-				requiredDependency "farmers-delight-fabric"
-				optionalDependency "more-delight-fabric"
-				optionalDependency "storage-delight-fabric"
-			}
-		}
 	}
 }

@@ -47,5 +47,5 @@
   "block.cratedelight.pumpkin_slice_crate": "Ящик с ломтиками тыквы",
   "block.cratedelight.bread_bag": "Мешок с хлебом",
 
-  "itemGroup.cratedelight": "Ящичные Изыски"
+  "itemGroup.cratedelight.title": "Ящичные Изыски"
 }
