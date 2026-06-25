@@ -32,10 +32,6 @@ public class CreativeTabRegistry {
                         entries.accept(BlockRegistry.BROWN_EGG_CRATE);
                         entries.accept(BlockRegistry.BLUE_EGG_CRATE);
 
-                        if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
-                            entries.accept(BlockRegistry.PEANUT_CRATE);
-                        }
-
                         entries.accept(BlockRegistry.SALMON_CRATE);
                         entries.accept(BlockRegistry.COD_CRATE);
                         entries.accept(BlockRegistry.PUFFERFISH_CRATE);
@@ -59,11 +55,6 @@ public class CreativeTabRegistry {
                         entries.accept(BlockRegistry.PUMPKIN_SEEDS_BAG);
                         entries.accept(BlockRegistry.MELON_SEEDS_BAG);
                         entries.accept(BlockRegistry.BEETROOT_SEEDS_BAG);
-
-                        if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
-                            entries.accept(BlockRegistry.SALT_BAG);
-                            entries.accept(BlockRegistry.GROUND_CINNAMON_BAG);
-                        }
                     })
                     .build());
 
