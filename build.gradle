@@ -8,7 +8,7 @@ plugins {
 
 version = mod_version
 group = 'com.axperty.cratedelight'
-archivesBaseName = modid
+archivesBaseName = mod_id
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 

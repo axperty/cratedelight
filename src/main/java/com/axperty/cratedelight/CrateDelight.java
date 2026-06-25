@@ -14,24 +14,12 @@ import org.slf4j.Logger;
 @Mod(CrateDelight.MOD_ID)
 public class CrateDelight {
     public static final String MOD_ID = "cratedelight";
-    public static final CreativeModeTab ITEM_GROUP = new VCItemGroup(CrateDelight.MOD_ID);
     private static final Logger LOGGER = LogUtils.getLogger();
-
     public CrateDelight() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ItemRegistry.ITEMS.register(modEventBus);
         BlockRegistry.BLOCKS.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    public static class VCItemGroup extends CreativeModeTab {
-        public VCItemGroup(String label) {
-            super(label);
-        }
-
-        @Override
-        public ItemStack makeIcon() {
-            return ItemRegistry.BERRY_CRATE.get().getDefaultInstance();
-        }
+        LOGGER.info("Crate Delight loaded");
     }
 }

@@ -39,15 +39,21 @@
   "block.cratedelight.potato_crate": "Potato Crate",
   "block.cratedelight.beetroot_crate": "Beetroot Crate",
 
-  "block.cratedelight.black_berry_crate": "Black Berry Crate",
-  "block.cratedelight.green_berry_crate": "Green Berry Crate",
-  "block.cratedelight.orange_berry_crate": "Orange Berry Crate",
-  "block.cratedelight.yellow_berry_crate": "Yellow Berry Crate",
-  "block.cratedelight.purple_berry_crate": "Purple Berry Crate",
-
   "block.cratedelight.cookie_bag": "Cookie Bag",
 
-  "block.cratedelight.diamond_apple_crate": "Diamond Apple Crate",
+  "block.cratedelight.poisonous_potato_crate": "Poisonous Potato Crate",
+  "block.cratedelight.brown_egg_crate": "Brown Egg Crate",
+  "block.cratedelight.blue_egg_crate": "Blue Egg Crate",
+  "block.cratedelight.pumpkin_slice_crate": "Pumpkin Slice Crate",
+  "block.cratedelight.bread_bag": "Bread Bag",
+
+  "block.cratedelight.pufferfish_crate": "Pufferfish Crate",
+  "block.cratedelight.tropical_fish_crate": "Tropical Fish Crate",
+  "block.cratedelight.leaf_litter_bag": "Leaf Litter Bag",
+  "block.cratedelight.wheat_seeds_bag": "Wheat Seeds Bag",
+  "block.cratedelight.pumpkin_seeds_bag": "Pumpkin Seeds Bag",
+  "block.cratedelight.melon_seeds_bag": "Melon Seeds Bag",
+  "block.cratedelight.beetroot_seeds_bag": "Beetroot Seeds Bag",
 
   "itemGroup.cratedelight": "Crate Delight"
 }
