@@ -84,7 +84,5 @@ public class BlockRegistry {
         return Items.register(registryKey, factory, settings);
     }
 
-    public static void registerModBlocks() {
-        CrateDelight.LOGGER.info("Registering mod blocks for " + CrateDelight.MODID);
-    }
+    public static void registerModBlocks() {}
 }

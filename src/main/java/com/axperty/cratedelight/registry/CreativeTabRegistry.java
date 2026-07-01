@@ -58,7 +58,5 @@ public class CreativeTabRegistry {
                     })
                     .build());
 
-    public static void registerItemGroups() {
-        CrateDelight.LOGGER.info("Registering Item Groups for " + CrateDelight.MODID);
-    }
+    public static void registerItemGroups() {}
 }
