@@ -47,5 +47,13 @@
   "item.cratedelight.pumpkin_slice_crate": "Ящик с ломтиками тыквы",
   "item.cratedelight.bread_bag": "Мешок с хлебом",
 
+  "item.cratedelight.pufferfish_crate": "Ящик с иглобрюхом",
+  "item.cratedelight.tropical_fish_crate": "Ящик с тропической рыбой",
+  "item.cratedelight.leaf_litter_bag": "Мешок с сухими листьями",
+  "item.cratedelight.wheat_seeds_bag": "Мешок с семенами пшеницы",
+  "item.cratedelight.pumpkin_seeds_bag": "Мешок с семенами тыквы",
+  "item.cratedelight.melon_seeds_bag": "Мешок с семенами арбуза",
+  "item.cratedelight.beetroot_seeds_bag": "Мешок с семенами свёклы",
+
   "itemGroup.cratedelight": "Ящичные Изыски"
 }
