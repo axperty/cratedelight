@@ -2,30 +2,9 @@
 
 ***
 
-### ✨ What's New:
+### 🛠️ Bug Fixes:
 
-- Added Pufferfish Crate (thanks, [andrewdarkkk](https://github.com/andrewdarkkk)!)
-- Added Tropical Fish Crate (thanks, [andrewdarkkk](https://github.com/andrewdarkkk)!)
-
-<img width="500" alt="file" src="https://i.imgur.com/cyF1zfa.png" />
-
-- Added Wheat Seeds Bag.
-- Added Pumpkin Seeds Bag.
-- Added Melon Seeds Bag.
-- Added Beetroot Seeds Bag.
-
-<img width="500" alt="file" src="https://i.imgur.com/9qRnPh2.png" />
-
-### 🛠️ Minor Changes:
-
-- Improved Cocoa Beans Bag texture.
-- Uncrafting recipes for crates and bags now appear in the recipe book.
-
-### 🌐 Translations:
-
-- Added translations for Kazakh (thanks, [ninsent](https://github.com/ninsent)!)
-- Updated translations for Chinese (thanks, [Huang FTS427](https://github.com/FTS427/)!)
-- Updated translations for Korean (thanks, [Copy_TT](https://github.com/Copy-TT)!)
+- Fixed a bug where the brown mushroom crate wouldn't display a texture when placed.
 
 ***
 
