@@ -14,7 +14,7 @@ Choose a language below to view the translation file:
 | English | New Zealand | [en_nz.json](https://github.com/axperty/cratedelight/tree/26.2-neoforge/src/main/resources/assets/cratedelight/lang/en_nz.json) |
 | English | United States | [en_us.json](https://github.com/axperty/cratedelight/tree/26.2-neoforge/src/main/resources/assets/cratedelight/lang/en_us.json) |
 | English | South Africa | [en_za.json](https://github.com/axperty/cratedelight/tree/26.2-neoforge/src/main/resources/assets/cratedelight/lang/en_za.json) |
-| Esperanto | Uruguay | [eo_uy.json](https://github.com/axperty/cratedelight/tree/26.2-neoforge/src/main/resources/assets/cratedelight/lang/eo_uy.json) |
+| Esperanto | N/A | [eo_uy.json](https://github.com/axperty/cratedelight/tree/26.2-neoforge/src/main/resources/assets/cratedelight/lang/eo_uy.json) |
 | Spanish | Argentina | [es_ar.json](https://github.com/axperty/cratedelight/tree/26.2-neoforge/src/main/resources/assets/cratedelight/lang/es_ar.json) |
 | Spanish | Chile | [es_cl.json](https://github.com/axperty/cratedelight/tree/26.2-neoforge/src/main/resources/assets/cratedelight/lang/es_cl.json) |
 | Spanish | Ecuador | [es_ec.json](https://github.com/axperty/cratedelight/tree/26.2-neoforge/src/main/resources/assets/cratedelight/lang/es_ec.json) |
