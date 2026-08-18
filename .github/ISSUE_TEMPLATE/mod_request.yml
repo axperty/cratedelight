@@ -1,0 +1,27 @@
+name: Mod Request
+description: Suggest a new mod to be included in Farming Experience.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to suggest a mod! Please fill out the form below to help us understand why you want a new mod in Farming Experience.
+  - type: textarea
+    id: mod_name
+    attributes:
+      label: What mod would you like to be on Farming Experience?
+      description: Provide the mod name.
+      placeholder: |
+        Example:
+        Farmer's Delight
+    validations:
+      required: true
+  - type: textarea
+    id: why_mod
+    attributes:
+      label: In what way would this mod improve the player's experience?
+      description: A description of how this mod would add features that players would enjoy having when playing this modpack.
+      placeholder: |
+        Example:
+        It would add an expansion on foods, ingredients, crops, recipes, and a whole new way to cook, while not altering the vanilla Minecraft style.
+    validations:
+      required: true

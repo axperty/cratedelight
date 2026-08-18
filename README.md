@@ -9,37 +9,4 @@
 
 ### Overview
 
-Crate Delight is a mod for Farmer's Delight that adds more crates and bags to the game, letting the player save more storage and decorate their farm.
-
-### Contributing
-
-Your contributions to this project allows Crate Delight to be improved to deliver a better gameplay experience for all players. Feel free to submit your code suggestions, bug reports, texture improvements, or translations.
-
-### Features
-
-This mod adds thirteen new type of blocks to the game that are useful to save storage, new blocks are constantly added with updates:
-
-- Carrot Crate
-- Beetroot Crate
-- Potato Crate
-- Poisonous Potato Crate
-- Apple Crate
-- Berry Crate
-- Glow Berry Crate
-- Egg Crate
-- Brown Egg Crate
-- Blue Egg Crate
-- Raw Salmon Crate
-- Raw Cod Crate
-- Putterfish Crate
-- Tropical Fish Crate
-- Red Mushroom Crate
-- Brown Mushroom Crate
-- Golden Carrot Crate
-- Golden Apple Crate
-- Bread Bag
-- Cookie Bag
-- Cocoa Beans Bag
-- Sugar Bag
-- Gunpowder Bag
-- Leaf Litter Bag
+This branch contains the source code for the [axperty.github.io/cratedelight](https://axperty.github.io/cratedelight) website.
