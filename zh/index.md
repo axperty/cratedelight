@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Download on CurseForge
-      link: https://www.curseforge.com/minecraft/mc-mods/crate-delight
+      link: https://www.curseforge.com/minecraft/mc-mods/crate-delight-forge
     - theme: brand
       text: Download on Modrinth
       link: https://modrinth.com/mod/crate-delight
