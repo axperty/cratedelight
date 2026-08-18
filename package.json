@@ -1,6 +1,6 @@
 {
   "name": "cratedelight",
-  "version": "26.08.17",
+  "version": "26.08.18",
   "description": "Crate Delight is a Minecraft mod that adds useful crates and bags that will save you storage and look great.",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,10 @@
   "author": "Axperty",
   "license": "MIT",
   "type": "module",
+  "bugs": {
+    "url": "https://github.com/axperty/cratedelight/issues"
+  },
+  "homepage": "https://github.com/axperty/cratedelight#readme",
   "devDependencies": {
     "vitepress": "^1.6.4",
     "vitepress-plugin-tabs": "^0.9.1",
