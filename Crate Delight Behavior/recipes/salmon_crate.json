@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cratedelight:salmon_crate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:salmon"
+			}
+		},
+		"unlock": [
+			{
+				"item": "cratedelight:salmon_crate"
+			}
+		],
+		"result": {
+			"item": "cratedelight:salmon_crate"
+		}
+	}
+}

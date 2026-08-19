@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cratedelight:apple_crate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:apple"
+			}
+		},
+		"unlock": [
+			{
+				"item": "cratedelight:apple_crate"
+			}
+		],
+		"result": {
+			"item": "cratedelight:apple_crate"
+		}
+	}
+}

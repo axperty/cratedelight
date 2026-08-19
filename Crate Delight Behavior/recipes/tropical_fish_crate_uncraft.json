@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cratedelight:tropical_fish_crate_uncraft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "cratedelight:tropical_fish_crate"
+			}
+		],
+		"unlock": [
+			{
+				"item": "cratedelight:tropical_fish_crate"
+			}
+		],
+		"result": {
+			"item": "minecraft:tropical_fish",
+			"count": 9
+		}
+	}
+}

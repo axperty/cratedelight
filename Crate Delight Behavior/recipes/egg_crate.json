@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cratedelight:egg_crate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:egg"
+			}
+		},
+		"unlock": [
+			{
+				"item": "cratedelight:egg_crate"
+			}
+		],
+		"result": {
+			"item": "cratedelight:egg_crate"
+		}
+	}
+}

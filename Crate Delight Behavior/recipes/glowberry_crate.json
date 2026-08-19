@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cratedelight:glowberry_crate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:glow_berries"
+			}
+		},
+		"unlock": [
+			{
+				"item": "cratedelight:glowberry_crate"
+			}
+		],
+		"result": {
+			"item": "cratedelight:glowberry_crate"
+		}
+	}
+}

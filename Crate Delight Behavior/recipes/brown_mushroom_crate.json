@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cratedelight:brown_mushroom_crate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:brown_mushroom"
+			}
+		},
+		"unlock": [
+			{
+				"item": "cratedelight:brown_mushroom_crate"
+			}
+		],
+		"result": {
+			"item": "cratedelight:brown_mushroom_crate"
+		}
+	}
+}

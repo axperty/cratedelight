@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cratedelight:pufferfish_crate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:pufferfish"
+			}
+		},
+		"unlock": [
+			{
+				"item": "cratedelight:pufferfish_crate"
+			}
+		],
+		"result": {
+			"item": "cratedelight:pufferfish_crate"
+		}
+	}
+}

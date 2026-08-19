@@ -1,0 +1,92 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"apple_crate": {
+			"textures": "textures/blocks/apple_crate"
+		},
+		"carrot_crate": {
+			"textures": "textures/blocks/carrot_crate"
+		},
+		"beetroot_crate": {
+			"textures": "textures/blocks/beetroot_crate"
+		},
+		"potato_crate": {
+			"textures": "textures/blocks/potato_crate"
+		},
+		"poisonous_potato_crate": {
+			"textures": "textures/blocks/poisonous_potato_crate"
+		},
+		"berry_crate": {
+			"textures": "textures/blocks/berry_crate"
+		},
+		"glowberry_crate": {
+			"textures": "textures/blocks/glowberry_crate"
+		},
+		"egg_crate": {
+			"textures": "textures/blocks/egg_crate"
+		},
+		"brown_egg_crate": {
+			"textures": "textures/blocks/brown_egg_crate"
+		},
+		"blue_egg_crate": {
+			"textures": "textures/blocks/blue_egg_crate"
+		},
+		"salmon_crate": {
+			"textures": "textures/blocks/salmon_crate"
+		},
+		"cod_crate": {
+			"textures": "textures/blocks/cod_crate"
+		},
+		"pufferfish_crate": {
+			"textures": "textures/blocks/pufferfish_crate"
+		},
+		"tropical_fish_crate": {
+			"textures": "textures/blocks/tropical_fish_crate"
+		},
+		"red_mushroom_crate": {
+			"textures": "textures/blocks/red_mushroom_crate"
+		},
+		"brown_mushroom_crate": {
+			"textures": "textures/blocks/brown_mushroom_crate"
+		},
+		"golden_carrot_crate": {
+			"textures": "textures/blocks/golden_carrot_crate"
+		},
+		"golden_apple_crate": {
+			"textures": "textures/blocks/golden_apple_crate"
+		},
+		"bread_bag": {
+			"textures": "textures/blocks/bread_bag"
+		},
+		"cookie_bag": {
+			"textures": "textures/blocks/cookie_bag"
+		},
+		"cocoabeans_bag": {
+			"textures": "textures/blocks/cocoabeans_bag"
+		},
+		"sugar_bag": {
+			"textures": "textures/blocks/sugar_bag"
+		},
+		"gunpowder_bag": {
+			"textures": "textures/blocks/gunpowder_bag"
+		},
+		"leaf_litter_bag": {
+			"textures": "textures/blocks/leaf_litter_bag"
+		},
+		"wheat_seeds_bag": {
+			"textures": "textures/blocks/wheat_seeds_bag"
+		},
+		"pumpkin_seeds_bag": {
+			"textures": "textures/blocks/pumpkin_seeds_bag"
+		},
+		"melon_seeds_bag": {
+			"textures": "textures/blocks/melon_seeds_bag"
+		},
+		"beetroot_seeds_bag": {
+			"textures": "textures/blocks/beetroot_seeds_bag"
+		}
+	}
+}

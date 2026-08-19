@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cratedelight:pumpkin_seeds_bag"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:pumpkin_seeds"
+			}
+		},
+		"unlock": [
+			{
+				"item": "cratedelight:pumpkin_seeds_bag"
+			}
+		],
+		"result": {
+			"item": "cratedelight:pumpkin_seeds_bag"
+		}
+	}
+}

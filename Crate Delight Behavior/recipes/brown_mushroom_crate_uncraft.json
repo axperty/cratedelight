@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cratedelight:brown_mushroom_crate_uncraft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "cratedelight:brown_mushroom_crate"
+			}
+		],
+		"unlock": [
+			{
+				"item": "cratedelight:brown_mushroom_crate"
+			}
+		],
+		"result": {
+			"item": "minecraft:brown_mushroom",
+			"count": 9
+		}
+	}
+}

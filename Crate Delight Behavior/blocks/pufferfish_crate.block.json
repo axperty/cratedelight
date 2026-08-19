@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cratedelight:pufferfish_crate",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 15
+			},
+			"minecraft:flammable": {
+				"destroy_chance_modifier": 20,
+				"catch_chance_modifier": 5
+			},
+			"minecraft:geometry": "geometry.pufferfish_crate",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pufferfish_crate",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:map_color": "#5f4a2b",
+			"tag:minecraft:is_axe_item_destructible": {},
+			"tag:minecraft:is_hoe_item_destructible": {}
+		}
+	}
+}

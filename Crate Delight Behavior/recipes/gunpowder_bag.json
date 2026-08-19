@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cratedelight:gunpowder_bag"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:gunpowder"
+			}
+		},
+		"unlock": [
+			{
+				"item": "cratedelight:gunpowder_bag"
+			}
+		],
+		"result": {
+			"item": "cratedelight:gunpowder_bag"
+		}
+	}
+}

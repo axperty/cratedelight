@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Crate Delight",
+		"description": "Crate Delight Resource Pack",
+		"uuid": "99b7fec0-d22b-9073-a992-96729838f844",
+		"version": [
+			26,
+			8,
+			19
+		],
+		"min_engine_version": [
+			1,
+			16,
+			0
+		]
+	},
+	"metadata": {
+		"authors": [
+			"Axperty"
+		]
+	},
+	"modules": [
+		{
+			"description": "Crate Delight",
+			"type": "resources",
+			"uuid": "30ec2c03-30e6-f813-12c2-f2c904fecf22",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "79b31aa6-7518-4daa-7a01-192500f10bd8",
+			"version": [
+				26,
+				8,
+				19
+			]
+		}
+	]
+}

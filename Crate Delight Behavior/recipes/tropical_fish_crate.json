@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cratedelight:tropical_fish_crate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:tropical_fish"
+			}
+		},
+		"unlock": [
+			{
+				"item": "cratedelight:tropical_fish_crate"
+			}
+		],
+		"result": {
+			"item": "cratedelight:tropical_fish_crate"
+		}
+	}
+}

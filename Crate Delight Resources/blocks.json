@@ -1,0 +1,87 @@
+{
+	"format_version": "1.21.0",
+	"cratedelight:carrot_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:beetroot_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:potato_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:poisonous_potato_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:apple_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:berry_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:glowberry_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:egg_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:brown_egg_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:blue_egg_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:salmon_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:cod_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:pufferfish_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:tropical_fish_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:red_mushroom_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:brown_mushroom_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:golden_carrot_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:golden_apple_crate": {
+		"sound": "wood"
+	},
+	"cratedelight:bread_bag": {
+		"sound": "cloth"
+	},
+	"cratedelight:cookie_bag": {
+		"sound": "cloth"
+	},
+	"cratedelight:cocoabeans_bag": {
+		"sound": "cloth"
+	},
+	"cratedelight:sugar_bag": {
+		"sound": "cloth"
+	},
+	"cratedelight:gunpowder_bag": {
+		"sound": "cloth"
+	},
+	"cratedelight:leaf_litter_bag": {
+		"sound": "cloth"
+	},
+	"cratedelight:wheat_seeds_bag": {
+		"sound": "cloth"
+	},
+	"cratedelight:pumpkin_seeds_bag": {
+		"sound": "cloth"
+	},
+	"cratedelight:melon_seeds_bag": {
+		"sound": "cloth"
+	},
+	"cratedelight:beetroot_seeds_bag": {
+		"sound": "cloth"
+	}
+}

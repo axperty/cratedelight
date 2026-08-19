@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cratedelight:cod_crate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:cod"
+			}
+		},
+		"unlock": [
+			{
+				"item": "cratedelight:cod_crate"
+			}
+		],
+		"result": {
+			"item": "cratedelight:cod_crate"
+		}
+	}
+}

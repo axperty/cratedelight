@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cratedelight:berry_crate_uncraft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "cratedelight:berry_crate"
+			}
+		],
+		"unlock": [
+			{
+				"item": "cratedelight:berry_crate"
+			}
+		],
+		"result": {
+			"item": "minecraft:sweet_berries",
+			"count": 9
+		}
+	}
+}
