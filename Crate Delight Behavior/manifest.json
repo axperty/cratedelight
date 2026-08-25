@@ -7,18 +7,19 @@
 		"version": [
 			26,
 			8,
-			19
+			25
 		],
 		"min_engine_version": [
 			1,
-			16,
+			26,
 			0
 		]
 	},
 	"metadata": {
 		"authors": [
 			"Axperty"
-		]
+		],
+		"product_type": "addon"
 	},
 	"modules": [
 		{
@@ -38,7 +39,7 @@
 			"version": [
 				26,
 				8,
-				19
+				25
 			]
 		}
 	]
