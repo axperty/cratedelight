@@ -9,4 +9,4 @@
 
 ### Overview
 
-This branch contains the source code for the [axperty.github.io/cratedelight](https://axperty.github.io/cratedelight) website.
+This branch contains the source code for the [axperty.com/cratedelight](https://axperty.com/cratedelight) website.

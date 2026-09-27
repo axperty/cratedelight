@@ -72,7 +72,7 @@ export default defineConfig({
   title: "Crate Delight",
   description: "Crate Delight is a Minecraft mod that adds useful crates and bags that will save you storage and look great.",
   head: [
-    ['link', { rel: 'icon', href: '/cratedelight/assets/cratedelight_icon.png' }],
+    ['link', { rel: 'icon', href: '/cratedelight/assets/cratedelight_icon_hero.png' }],
     ['meta', { name: 'theme-color', content: '#b38b59' }],
     ['meta', { property: 'og:title', content: 'Crate Delight' }],
     ['meta', { property: 'og:description', content: 'Crate Delight is a Minecraft mod that adds useful crates and bags that will save you storage and look great.' }],
@@ -89,6 +89,34 @@ export default defineConfig({
       label: 'English',
       lang: 'en'
     },
+    ja: {
+      label: 'Japanese',
+      lang: 'ja',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/ja/' },
+          { text: 'Wiki', link: '/ja/wiki/about' },
+          { text: 'Donate', link: 'ja/donate' }
+        ],
+        sidebar: {
+          '/ja/wiki/': getSidebar('/ja')
+        }
+      }
+    },
+    es: {
+      label: 'Spanish',
+      lang: 'es',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/es/' },
+          { text: 'Wiki', link: '/es/wiki/about' },
+          { text: 'Donate', link: 'es/donate' }
+        ],
+        sidebar: {
+          '/es/wiki/': getSidebar('/es')
+        }
+      }
+    },
     zh: {
       label: 'Chinese',
       lang: 'zh',
@@ -96,10 +124,38 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/zh/' },
           { text: 'Wiki', link: '/zh/wiki/about' },
-          { text: 'News & Updates', link: '/zh/posts/' }
+          { text: 'Donate', link: 'zh/donate' }
         ],
         sidebar: {
           '/zh/wiki/': getSidebar('/zh')
+        }
+      }
+    },
+    ko: {
+      label: 'Korean',
+      lang: 'ko',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/ko/' },
+          { text: 'Wiki', link: '/ko/wiki/about' },
+          { text: 'Donate', link: 'ko/donate' }
+        ],
+        sidebar: {
+          '/ko/wiki/': getSidebar('/ko')
+        }
+      }
+    },
+    ru: {
+      label: 'Russian',
+      lang: 'ru',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/ru/' },
+          { text: 'Wiki', link: '/ru/wiki/about' },
+          { text: 'Donate', link: 'ru/donate' }
+        ],
+        sidebar: {
+          '/ru/wiki/': getSidebar('/ru')
         }
       }
     }
@@ -109,22 +165,23 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-    logo: '/assets/cratedelight_icon.png',
+    logo: '/assets/cratedelight_icon_hero.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Wiki', link: '/wiki/about' },
-      { text: 'News & Updates', link: '/posts/' }
+      { text: 'Donate', link: '/donate' }
     ],
     sidebar: {
       '/wiki/': getSidebar('')
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/axperty/cratedelight' },
-      { icon: 'discord', link: 'https://discord.gg/e2BQx4bbsU' }
+      { icon: 'discord', link: 'https://discord.gg/e2BQx4bbsU' },
+      { icon: 'youtube', link: 'https://www.youtube.com/@axperty' }
     ],
     footer: {
-      message: 'Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft. All other trademarks and logos are property of their respective owners.',
-      copyright: 'Copyright © 2026 Axperty.'
+      message: '<a href="/cratedelight/privacy">Privacy Policy</a><br/> Crate Delight is licensed under the <a href="https://github.com/axperty/cratedelight/blob/26.2-neoforge/LICENSE" target="_blank" rel="noopener">MIT License</a>.<br/> Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.<br/> All other trademarks and logos are property of their respective owners.',
+      copyright: 'Copyright © 2026 Axperty. Website source code is under the MIT License.'
     }
   }
 })
